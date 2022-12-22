@@ -1,4 +1,5 @@
 <script>
+	import ArrowLeft from '@inqling/svelte-icons/solid/arrow-left.svelte';
 	export let data;
 	const { content, author, date: rawDate, image, title } = data;
 
@@ -9,12 +10,11 @@
 </script>
 
 <article class="p-10 md:p-20">
-	<a style="font-stretch: 150%;" class="text-base" href="/blog"><span class="text-amber-700 dark:text-amber-200">&larr;</span> Blog</a>
+	<a style="font-stretch: 150%; font-weight: 280;" class="text-base flex items-center gap-2 mb-6" href="/blog"><ArrowLeft class="text-amber-700 dark:text-amber-200 w-5 h-5" /> Svi članci</a>
 
 	<div class="flex flex-col md:grid grid-cols-2 grid-rows-[1.75fr_2fr] max-w-screen-xl mx-auto md:mb-32">
 		<div class="col-[1_/_span_2] row-[1_/_span_2] -rotate-2 md:-rotate-6 relative max-w-screen-lg">
-			<img class="relative aspect-video dark:saturate-50 dark:brightness-50 object-cover w-full border-[12px] border-white rounded-2xl shadow-md after:content-['_'] after:bg-gradient-to-tr after:from-white/0 after:to-white/100 after:w-full after:h-full after:absolute after:inset-0 after:z-10" src={image} alt={title}>
-			
+			<img class="relative aspect-[3/2] md:aspect-video dark:saturate-50 dark:brightness-50 object-cover w-full border-[12px] border-white rounded-2xl shadow-md after:content-['_'] after:bg-gradient-to-tr after:from-white/0 after:to-white/100 after:w-full after:h-full after:absolute after:inset-0 after:z-10" src={image} alt={title}>
 		</div>
 	
 		<div class="col-[1_/_span_2] row-[2] drop-shadow-2xl justify-self-end max-md:px-6 max-md:-my-10 max-md:pb-32 md:translate-y-20 rotate-1">
