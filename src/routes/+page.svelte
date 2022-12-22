@@ -1,0 +1,167 @@
+<script>
+	import LargeSocialIcon from '$lib/components/LargeSocialIcon.svelte';
+	import { getRandomInt } from '$lib/utils/index';
+	import { onMount } from 'svelte';
+
+	export let data;
+
+	const socialLinks = [
+		{
+			type: 'mail',
+			label: 'Mail',
+			url: 'mailto:stak@foi.hr',
+			text: 'stak@foi.hr',
+		},
+		{
+			type: 'facebook',
+			label: 'Facebook',
+			url: 'https://facebook.com',
+			text: 'facebook.com/foi.stak',
+		},
+		{
+			type: 'twitter',
+			label: 'Twitter',
+			url: 'https://twitter.com',
+			text: '@SRedakcija',
+		},
+		{
+			type: 'instagram',
+			label: 'Instagram',
+			url: 'https://instagram.com',
+			text: '@stak_redakcija',
+		},
+		{
+			type: 'youtube',
+			label: 'YouTube',
+			url: 'https://www.youtube.com/channel/UC-wqKxxGZIlbZIw7iroJi0Q',
+			text: '@stakredakcija6769',
+		},
+		{
+			type: 'issuu',
+			label: 'ISSUU',
+			url: 'https://issuu.com',
+			text: 'issuu.com/foi.stak',
+		},
+	];
+
+	let isMobile = true;
+
+	onMount(() => {
+		isMobile = window.innerWidth < 800;
+	});
+
+	import members from './clanovi.json';
+</script>
+
+<h1 class="wide-title text-9xl font-headline tracking-tighter m-10 md:m-20 mb-0 md:mb-0 text-red-600 dark:text-red-300">Bok!</h1>
+
+<section id="frisko-z-bloga" class="m-10 md:m-20 mb-20 md:mb-40">
+	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Iz našeg pera</h2>
+
+	<ul class="flex flex-wrap justify-center gap-20 px-0 pt-10 xl:pt-20 mx-auto max-w-[100rem]">
+		{#each data.posts as { path, meta: { title, image, date } }, i}
+			{@const formattedDate = new Intl.DateTimeFormat('hr-HR', { dateStyle: 'long' }).format(new Date(date))}
+			{@const randomRot = getRandomInt(-40, 30) / 10}
+			
+			<li>
+				<a href={path} class="flex relative group max-w-md 2xl:max-w-2xl">
+					<div class="grid grid-cols-1 grid-rows-1 drop-shadow-2xl" style:transform={`rotate(${randomRot}deg)`}>
+						<img class="rounded-xl border-8 border-white dark:border-neutral-600 w-[80vw] aspect-video row-start-1 row-end-1 col-start-1 col-end-1 object-cover dark:brightness-75" src={image} alt={title} />
+						<div class="rounded-xl border-8 border-white dark:border-neutral-600 bg-gradient-to-tr from-white/0 to-white/10 bg-blend-overlay shadow-inner w-full h-full row-start-1 row-end-1 col-start-1 col-end-1">&nbsp;</div>
+					</div>
+	
+					<div class="absolute -bottom-12 -left-14 m-8 drop-shadow-xl z-10">
+						<div class="paper-bg torn-paper-4 py-4 px-8 flex flex-col" style:border-radius={`${getRandomInt(16, 32)}px`} style:transform={`rotate(${randomRot + getRandomInt(-1, 1)}deg)`}>
+							<h2 class="post-title text-lg 2xl:text-2xl transition-var-font">{title}</h2>
+							<span class="text-xs text-slate-600 dark:text-slate-300">{formattedDate}</span>
+						</div>
+					</div>
+				</a>
+			</li>
+		{/each}
+	</ul>
+</section>
+
+<section id="o-nama" class="m-10 md:m-20 mb-0 md:mb-0">
+	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">O nama</h2>
+
+	<div class="flex flex-col lg:flex-row gap-14 lg:gap-20 xl:mx-auto my-20 lg:my-24 w-[80vw] xl:w-max">
+		<img
+			class="border-8 aspect-video border-white dark:border-black shadow-xl shadow-zinc-400 dark:shadow-black/50 rounded object-cover max-w-sm xl:max-w-lg rotate-6"
+			src="/images/o-nama/the-crew.jpg"
+			alt="Grupa fotografa s fotoaparatima"
+		/>
+
+		<div class="flex flex-col gap-4 items-start justify-center max-w-md text-justify">
+			<p>
+				Studentski časopis Fakulteta organizacije i informatike u Varaždinu nazvan ST@K - <b>ST</b>udentska <b>AK</b>tivnost nastao je kao pokret studenata s ciljem povećanja broja aktivnosti na
+				Fakultetu te uspostavljanja dijaloga između studenata Fakulteta i drugih entiteta koji sačinjavaju studentski život.
+			</p>
+
+			<p>
+				St@k trenutno broji tridesetak aktivnih članova podijeljenih u nekoliko sekcija: <i>community manageri</i>, dizajneri, film crew, fotografi, lektori, novinari i web <i>developeri</i>.
+			</p>
+
+			<p>
+				Osim što mu je glavni zadatak izrada semestralnog časopisa, St@k je uveo velik broj <i>online</i> aktivnosti kako bi više animirao studente FOI-ja, poput raznih
+				<a href="/natjecanja">natjecanja</a> i radionica (za članove redakcije i sve zainteresirane).
+			</p>
+		</div>
+	</div>
+
+	<div class="flex flex-col lg:flex-row-reverse gap-14 lg:gap-20 xl:mx-auto my-20 lg:my-24 w-[80vw] xl:w-max">
+		<img
+			class="border-8 aspect-[3/2] border-white dark:border-black shadow-xl shadow-zinc-400 dark:shadow-black/50 rounded object-cover max-w-sm xl:max-w-lg -rotate-6"
+			src="/images/o-nama/the-crew-2.jpg"
+			alt="Grupa fotografa s fotoaparatima"
+		/>
+
+		<div class="flex flex-col gap-4 items-start justify-center max-w-md text-justify">
+			<p>
+				Zbrojivši sve, St@k se može opisati kao dobrovoljna udruga koja uključuje studente svih smjerova FOI-ja s nultim pragom tolerancije na bilo koji oblik diskriminacije. Cilj Redakcije je dati
+				prostor svojim članovima da se profesionalno usavrše, izraze i pridonesu kvaliteti svojeg studiranja kroz brojne aktivnosti koje St@k priređuje te u konačnici prošire svoje horizonte i
+				olakšaju si put prema pronalasku karijere koja ih čeka nakon studija.
+			</p>
+		</div>
+	</div>
+</section>
+
+<section id="meet-the-crew" class="m-10 md:m-20 mb-0 md:mb-0">
+	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Meet the crew</h2>
+
+	<div class="flex flex-wrap gap-x-24 gap-y-16 justify-center pt-8">
+		{#each members as { name, role, bio, photoUrl, imgRot: mobileImgRot, txtRot: mobileTxtRot, trOrigX: mobileTrOrigX, trOrigY: mobileTrOrigY, trX: mobileTrX, trY: mobileTrY, rot: mobileRot, bgCutout: mobileBgCutout, borderRadius: mobileBorderRadius }, i (i)}
+			{@const imgRot = isMobile ? mobileImgRot : getRandomInt(-4, 4)}
+			{@const txtRot = isMobile ? mobileTxtRot : getRandomInt(-1, 1)}
+			{@const trOrigX = isMobile ? mobileTrOrigX : getRandomInt(0, 100)}
+			{@const trOrigY = isMobile ? mobileTrOrigY : getRandomInt(0, 100)}
+			{@const trX = isMobile ? mobileTrX : getRandomInt(-8, 8)}
+			{@const trY = isMobile ? mobileTrY : getRandomInt(-8, 8)}
+			{@const rot = isMobile ? mobileRot : getRandomInt(-5, 5)}
+			{@const bgCutout = isMobile ? mobileBgCutout : getRandomInt(3, 11)}
+			{@const borderRadius = isMobile ? mobileBorderRadius : getRandomInt(80, 150) / 100}
+
+			<div class="relative" style:transform={`translateX(${trX}px) translateY(${trY}px) rotate(${rot}deg)`} style:transform-origin={`${trOrigX}% ${trOrigY}%`}>
+				<img class="bg-black w-20 h-24 rounded object-cover absolute z-10 -left-9 top-4 shadow shadow-zinc-900/25" src={photoUrl} alt={name} style:transform={`rotate(${imgRot}deg)`} />
+				<div class="bg-gradient-to-tr from-white/0 to-white/40 bg-blend-lighten w-20 h-24 rounded shadow-inner shadow-black/10 absolute z-20 -left-9 top-4" style:transform={`rotate(${imgRot}deg)`} />
+				<div class="drop-shadow w-96 h-full">
+					<div class="torn-paper-xl-{bgCutout} polaroid-bg-2 p-8" style:border-radius={`${borderRadius}rem`}>
+						<p class="ml-8 font-handwriting text-2xl text-zinc-800 dark:text-red-300 leading-tight tracking-tight" style:transform={`rotate(${txtRot}deg)`}>{@html name}</p>
+						<p class="ml-8 text-sm font-headline text-zinc-500 dark:text-zinc-400" style:transform={`rotate(${txtRot}deg)`}>{@html role}</p>
+						<p class="text-xs mt-7 text-zinc-800 dark:text-red-50 text-justify">{bio}</p>
+					</div>
+				</div>
+			</div>
+		{/each}
+	</div>
+</section>
+
+<section id="kontakt" class="m-10 md:m-20">
+	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Kontakt</h2>
+
+	<div class="flex flex-wrap items-center justify-center gap-4 max-w-2xl mx-auto">
+		{#each socialLinks as data}
+			<LargeSocialIcon {data} />
+		{/each}
+	</div>
+</section>
