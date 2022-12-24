@@ -9,23 +9,35 @@
 	$: currentRoute = data.currentRoute;
 
 	let theme = 'default';
+	let title = 'Dobrodošli';
+	let showTitle = true;
 
 	$: {
 		if (currentRoute.includes('/blog')) {
 			theme = 'blog';
+			showTitle = false;
+
+			console.log(currentRoute);
+			if (currentRoute.endsWith('/blog')) {
+				title = 'Blog';
+				showTitle = true;
+			}
 		} else if (currentRoute.includes('/casopisi')) {
 			theme = 'magazine';
+			title = 'Časopisi'
 		} else if (currentRoute.includes('/natjecanja')) {
 			theme = 'competitive';
+			title = 'Natjecanja';
 		} else if (currentRoute.includes('/o-nama')) {
 			theme = 'about';
+			title = 'O nama';
 		} else {
 			theme = 'default';
 		}
 	}
 </script>
 
-<main
+<div
 	class="transition-colors"
 	class:theme-default={theme === 'default'}
 	class:halftone-bg={theme === 'default'}
@@ -48,8 +60,15 @@
 			<slot />
 		</div>
 	{/key}
+
 	<Footer {theme} />
-</main>
+</div>
+
+<svelte:head>
+	{#if showTitle}
+		<title>{title} - St@k</title>
+	{/if}
+</svelte:head>
 
 <style global lang="postcss">
 	.theme-default {

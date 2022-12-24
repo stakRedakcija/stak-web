@@ -5,6 +5,10 @@
 
 </script>
 
+<svelte:head>
+	<title>Blog - St@k</title>
+</svelte:head>
+
 <h1 class="wide-title text-9xl font-headline tracking-tighter m-10 md:m-20 mb-0 md:mb-0 text-yellow-900 dark:text-yellow-200">Blog</h1>
 
 <ul class="flex flex-wrap justify-center gap-20 mx-auto px-10 md:px-20 pt-20 pb-40 max-w-[100rem]">

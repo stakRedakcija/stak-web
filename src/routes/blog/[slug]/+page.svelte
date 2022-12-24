@@ -7,6 +7,10 @@
 	const date = new Intl.DateTimeFormat('hr-HR', { dateStyle: 'long' }).format(dateData);
 </script>
 
+<svelte:head>
+	<title>{title.replace(/(<([^>]+)>)/gi, '')} - St@k</title>
+</svelte:head>
+
 <article class="p-10 md:p-20">
 	<a style="font-stretch: 150%; font-weight: 280;" class="text-base flex items-center gap-2 mb-6" href="/blog"><ArrowLeft class="text-amber-700 dark:text-amber-200 w-5 h-5" /> Svi članci</a>
 
