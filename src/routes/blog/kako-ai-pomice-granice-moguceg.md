@@ -4,10 +4,9 @@ author: Erik Đuranec
 date: 2022-06-22
 image: /clanci-slike/2022/kako-ai-pomice-granice-moguceg.jpg
 layout: blog
-featured: true
+featured: false
 categories:
-  - 'numbers'
-  - 'odd'
+  - 'kolumna'
 ---
 
 Što je to protein? Zašto se protein voli savijati? Kakve veze ima umjetna inteligencija sa savijanjem proteina? Ovo su samo neka od važnih pitanja, ali postoji još jedno važnije pitanje: „Kome je palo na pamet osmisliti olimpijadu u savijanju proteina?” Za to su krivci John Moult, Jan Pedersen, Richard Judson i Krzysztof Fidelis.

@@ -4,7 +4,9 @@ author: Andreas Leja
 date: 2022-05-28
 image: /clanci-slike/2022/tipovi-osobnosti-po-disc-modelu.jpg
 layout: blog
-featured: true
+featured: false
+categories:
+  - 'kolumna'
 ---
 
 Iako mi neki govore da nije u redu svrstavati ljude u okvire, volim istraživati razne načine tipizacije osobnosti drugih ljudi. Tako potičemo razumijevanje prema drugima i otvoreniji smo prema različitostima. Jednim takvim sustavom pozabavit ćemo se u ovom članku, a riječ je o DISC sustavu osobnosti.

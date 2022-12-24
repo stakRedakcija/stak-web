@@ -21,7 +21,7 @@
 
 				<div class="absolute -bottom-12 -left-14 m-8 drop-shadow-xl z-10">
 					<div class="paper-bg torn-paper-4 py-4 px-8 flex flex-col" style:border-radius={`${getRandomInt(16, 32)}px`} style:transform={`rotate(${randomRot + getRandomInt(-1, 1)}deg)`}>
-						<h2 class="post-title text-lg 2xl:text-2xl transition-var-font">{title}</h2>
+						<h2 class="post-title text-lg 2xl:text-2xl transition-var-font">{@html title}</h2>
 						<span class="text-xs text-slate-600 dark:text-slate-300">{formattedDate}</span>
 					</div>
 				</div>

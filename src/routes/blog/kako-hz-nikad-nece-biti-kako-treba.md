@@ -4,10 +4,9 @@ author: Ana Horvat
 date: 2022-06-16
 image: /clanci-slike/2022/kako-hz-nikad-nece-biti-kako-treba.jpg
 layout: blog
-featured: true
-categories: 
-  - "numbers"
-  - "even"
+featured: false
+categories:
+  - 'kolumna'
 ---
 
 Na prvoj postaji Putovanja koje nikad ne prestaje ukrcavate se na premijski vlak Hrvatskih željeznica. Očekuje vas nezaboravno putovanje kroz kratku povijest nastanka hrvatske željezničke infrastrukture te ćete zasigurno saznati nešto novo, stoga krenimo.

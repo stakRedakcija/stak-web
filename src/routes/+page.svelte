@@ -72,7 +72,7 @@
 	
 					<div class="absolute -bottom-12 -left-14 m-8 drop-shadow-xl z-10">
 						<div class="paper-bg torn-paper-4 py-4 px-8 flex flex-col" style:border-radius={`${getRandomInt(16, 32)}px`} style:transform={`rotate(${randomRot + getRandomInt(-1, 1)}deg)`}>
-							<h2 class="post-title text-lg 2xl:text-2xl transition-var-font">{title}</h2>
+							<h2 class="post-title text-lg 2xl:text-2xl transition-var-font">{@html title}</h2>
 							<span class="text-xs text-slate-600 dark:text-slate-300">{formattedDate}</span>
 						</div>
 					</div>
@@ -148,7 +148,7 @@
 					<div class="torn-paper-xl-{bgCutout} polaroid-bg-2 p-8" style:border-radius={`${borderRadius}rem`}>
 						<p class="ml-8 font-handwriting text-2xl text-zinc-800 dark:text-red-300 leading-tight tracking-tight" style:transform={`rotate(${txtRot}deg)`}>{@html name}</p>
 						<p class="ml-8 text-sm font-headline text-zinc-500 dark:text-zinc-400" style:transform={`rotate(${txtRot}deg)`}>{@html role}</p>
-						<p class="text-xs mt-7 text-zinc-800 dark:text-red-50 text-justify">{bio}</p>
+						<p class="text-xs mt-7 text-zinc-800 dark:text-red-50 text-justify">{@html bio}</p>
 					</div>
 				</div>
 			</div>
