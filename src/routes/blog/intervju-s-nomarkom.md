@@ -1,6 +1,6 @@
 ---
 title: Intervju s Nomarkom
-author: Klara Lupoglavac
+author: Juraj Belajec
 date: 2022-12-20
 image: /clanci-slike/2022/intervju-s-nomarkom.jpg
 imageSource: '<a href="https://www.instagram.com/markno.si/">@markno.si</a>, Instagram'
@@ -56,4 +56,4 @@ Ima ih mnogo, ali jedna koju ću definitivno zapamtiti je fan koji ima jednu Nom
 
 ## Imaš li neke nove najave ili nešto za podijeliti s čitateljima?
 
-Sljedeći _Minecraft Rave_ održat će se 26. 12. na aseben _Minecraft_ serveru gdje ću predstaviti svoj novi EP koji će sadržavati remikseve starije nostalgične glazbe kao što je _Stereo Love_. Stvarni Nebesa _Rave_ održat će se u Ljubljani 21. siječnja 2023. godine. Htio bih se zahvaliti svima iz asebena, Cappedniku i Frodu. Također bih se htio zahvaliti Ružnom Pačetu, zbilja se nadam da će uskoro objaviti nešto nove glazbe. Ružno Pače me jako nadahnuo i potaknuo me da objavljujem svoju glazbu, da je najvažnije da se zabavim. To je više-manje to. Zahvaljujem svima koji čitaju ovaj intervju i svim mojim fanovima, hvala vam što ste mi podrška.
+Sljedeći _Minecraft Rave_ održat će se 30. prosinca na aseben _Minecraft_ serveru gdje ću predstaviti svoj novi EP koji će sadržavati remikseve starije nostalgične glazbe kao što je _Stereo Love_. Stvarni Nebesa _Rave_ održat će se u Ljubljani 21. siječnja 2023. godine. Htio bih se zahvaliti svima iz asebena, Cappedniku i Frodu. Također bih se htio zahvaliti Ružnom Pačetu, zbilja se nadam da će uskoro objaviti nešto nove glazbe. Ružno Pače me jako nadahnuo i potaknuo me da objavljujem svoju glazbu, da je najvažnije da se zabavim. To je više-manje to. Zahvaljujem svima koji čitaju ovaj intervju i svim mojim fanovima, hvala vam što ste mi podrška.
