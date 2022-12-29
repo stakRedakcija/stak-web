@@ -110,7 +110,7 @@
 			</p>
 
 			<p>
-				St@k trenutno broji tridesetak aktivnih članova podijeljenih u nekoliko sekcija: <i>community manageri</i>, dizajneri, film crew, fotografi, lektori, novinari i web <i>developeri</i>.
+				St@k trenutno broji tridesetak aktivnih članova podijeljenih u nekoliko sekcija: community manageri, dizajneri, film crew, fotografi, lektori, novinari i web developeri.
 			</p>
 
 			<p>
