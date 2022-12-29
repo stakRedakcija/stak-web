@@ -60,6 +60,10 @@
 	import members from './clanovi.json';
 </script>
 
+<svelte:head>
+	<title>Dobrodošli - St@k</title>
+</svelte:head>
+
 <h1 class="wide-title text-9xl font-headline tracking-tighter m-10 md:m-20 mb-0 md:mb-0 text-red-600 dark:text-red-300">Dobrodošli u svijet St@ka!</h1>
 
 <section id="frisko-z-bloga" class="m-10 md:m-20 mb-20 md:mb-40">

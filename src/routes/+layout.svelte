@@ -52,10 +52,6 @@
 	<Footer {theme} />
 </div>
 
-<svelte:head>
-	<title>Dobrodošli - St@k</title>
-</svelte:head>
-
 <style global lang="postcss">
 	.theme-default {
 		@apply text-slate-900 dark:text-white bg-red-100 dark:bg-black/90;
