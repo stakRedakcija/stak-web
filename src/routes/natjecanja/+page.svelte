@@ -8,7 +8,7 @@
 	<picture>
 		<source srcset="/images/natjecanja/skljoc-izvan-okvira.webp" type="image/webp">
 		<img
-			class="border-8 border-b-[64px] aspect-[4.5/5] border-white dark:border-black shadow-xl shadow-zinc-400 dark:shadow-black/50 rounded object-cover max-w-sm -rotate-3"
+			class="border-8 border-b-[64px] w-full aspect-[4.5/5] border-white dark:border-black shadow-xl shadow-zinc-400 dark:shadow-black/50 rounded object-cover max-w-sm -rotate-3"
 			src="/images/natjecanja/skljoc-izvan-okvira.jpg"
 			alt="Grupa fotografa s fotoaparatima"
 		/>

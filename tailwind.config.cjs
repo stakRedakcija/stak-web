@@ -18,7 +18,7 @@ const config = {
 		extend: {
 			transitionProperty: {
 				'default-plus-var-font': 'color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, font-variation-settings',
-				'var-font': 'font-variation-settings',
+				'var-font': 'font-variation-settings, color',
 			}
 		},
 	},
