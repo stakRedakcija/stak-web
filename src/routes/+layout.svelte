@@ -26,7 +26,7 @@
 </script>
 
 <div
-	class="transition-colors"
+	class="transition-colors overflow-x-hidden"
 	class:theme-default={theme === 'default'}
 	class:halftone-bg={theme === 'default'}
 	class:bg-blend-luminosity={theme === 'default'}

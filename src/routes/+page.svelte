@@ -64,9 +64,9 @@
 	<title>Dobrodošli - St@k</title>
 </svelte:head>
 
-<h1 class="wide-title text-9xl font-headline tracking-tighter m-10 md:m-20 mb-0 md:mb-0 text-red-600 dark:text-red-300">Dobrodošli u svijet St@ka!</h1>
+<h1 class="wide-title text-9xl font-headline tracking-tighter mx-10 mt-5 md:mx-20 md:mt-20 text-red-600 dark:text-red-300">Dobro&shy;došli u svijet St@ka!</h1>
 
-<section id="frisko-z-bloga" class="m-10 md:m-20 mb-20 md:mb-40">
+<section id="frisko-z-bloga" class="mx-10 mt-20 md:m-20 mb-20 md:mb-40">
 	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Iz našeg pera</h2>
 
 	<ul class="flex flex-wrap justify-center gap-20 px-0 pt-10 xl:pt-20 mx-auto max-w-[100rem]">
@@ -93,7 +93,7 @@
 	</ul>
 </section>
 
-<section id="o-nama" class="m-10 md:m-20 mb-0 md:mb-0">
+<section id="o-nama" class="mx-10 mt-20 md:m-20 mb-0 md:mb-0">
 	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">O nama</h2>
 
 	<div class="flex flex-col lg:flex-row gap-14 lg:gap-20 xl:mx-auto my-20 lg:my-24 w-[80vw] xl:w-max">
@@ -144,8 +144,8 @@
 </section>
 
 
-<section id="podcast" class="m-10 md:m-20 mb-0 md:mb-0">
-	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Podcast@FOI</h2>
+<section id="podcast" class="mx-10 mt-20 md:m-20 mb-0 md:mb-0">
+	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Podcast<wbr />@FOI</h2>
 
 	
 	<div class="flex flex-wrap items-center xl:justify-center gap-10 xl:mx-auto max-w-lg">
@@ -154,10 +154,10 @@
 	</div>	
 </section>
 
-<section id="meet-the-crew" class="m-10 md:m-20 mb-0 md:mb-0">
+<section id="meet-the-crew" class="mx-10 mt-20 md:m-20 mb-0">
 	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Meet the crew</h2>
 
-	<div class="flex flex-wrap gap-x-24 gap-y-16 justify-center pt-8">
+	<div class="flex flex-wrap gap-x-24 gap-y-16 justify-center pt-4 md:pt-8">
 		{#each members as { name, role, bio, photoUrl, photoUrlWebp, imgRot: mobileImgRot, txtRot: mobileTxtRot, trOrigX: mobileTrOrigX, trOrigY: mobileTrOrigY, trX: mobileTrX, trY: mobileTrY, rot: mobileRot, bgCutout: mobileBgCutout, borderRadius: mobileBorderRadius }, i (i)}
 			{@const imgRot = isMobile ? mobileImgRot : getRandomInt(-4, 4)}
 			{@const txtRot = isMobile ? mobileTxtRot : getRandomInt(-1, 1)}
@@ -172,14 +172,14 @@
 			<div class="relative" style:transform={`translateX(${trX}px) translateY(${trY}px) rotate(${rot}deg)`} style:transform-origin={`${trOrigX}% ${trOrigY}%`}>
 				<picture>
 					<source srcset={photoUrlWebp} type="image/webp">
-					<img class="bg-black w-20 h-24 rounded object-cover absolute z-10 -left-9 top-4 shadow shadow-zinc-900/25" src={photoUrl} alt={name} style:transform={`rotate(${imgRot}deg)`} />
+					<img class="bg-black w-20 h-24 rounded object-cover absolute z-10 -left-2 top-2.5 sm:-left-9 sm:top-4 shadow shadow-zinc-900/25" src={photoUrl} alt={name} style:transform={`rotate(${imgRot}deg)`} />
 				</picture>
-				<div class="bg-gradient-to-tr from-white/0 to-white/40 bg-blend-lighten w-20 h-24 rounded shadow-inner shadow-black/10 absolute z-20 -left-9 top-4" style:transform={`rotate(${imgRot}deg)`} />
-				<div class="drop-shadow w-96 h-full">
+				<div class="bg-gradient-to-tr from-white/0 to-white/40 bg-blend-lighten w-20 h-24 rounded shadow-inner shadow-black/10 absolute z-20 -left-2 top-2.5 sm:-left-9 sm:top-4" style:transform={`rotate(${imgRot}deg)`} />
+				<div class="drop-shadow w-80 sm:w-96 h-full">
 					<div class="torn-paper-xl-{bgCutout} polaroid-bg-2 p-8" style:border-radius={`${borderRadius}rem`}>
-						<p class="ml-8 font-handwriting text-2xl text-zinc-800 dark:text-red-300 leading-tight tracking-tight" style:transform={`rotate(${txtRot}deg)`}>{@html name}</p>
-						<p class="ml-8 text-sm font-headline text-zinc-500 dark:text-zinc-400" style:transform={`rotate(${txtRot}deg)`}>{@html role}</p>
-						<p class="text-xs mt-7 text-zinc-800 dark:text-red-50 text-justify">{@html bio}</p>
+						<p class="ml-14 sm:ml-8 font-handwriting text-2xl text-zinc-800 dark:text-red-300 leading-tight tracking-tight" style:transform={`rotate(${txtRot}deg)`}>{@html name}</p>
+						<p class="ml-14 sm:ml-8 text-sm font-headline text-zinc-500 dark:text-zinc-400" style:transform={`rotate(${txtRot}deg)`}>{@html role}</p>
+						<p class="text-xs mt-9 sm:mt-7 text-zinc-800 dark:text-red-50 text-justify">{@html bio}</p>
 					</div>
 				</div>
 			</div>
@@ -187,10 +187,10 @@
 	</div>
 </section>
 
-<section id="kontakt" class="m-10 md:m-20">
+<section id="kontakt" class="mx-10 my-20 md:m-20">
 	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Kontakt</h2>
 
-	<div class="flex flex-wrap items-center justify-center gap-4 max-w-2xl mx-auto">
+	<div class="flex flex-wrap items-center md:justify-center gap-4 max-w-2xl mx-auto">
 		{#each socialLinks as data}
 			<LargeSocialIcon {data} />
 		{/each}
