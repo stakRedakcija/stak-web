@@ -44,7 +44,7 @@
 	<Navbar {theme} hasThemeToggle={!currentRoute.includes('/casopisi')} />
 
 	{#key data.currentRoute}
-		<div in:fly={{ duration: 500, delay: 500, x: -100 }} out:fly={{ duration: 500, x: 100 }}>
+		<div class="max-sm:mt-40" in:fly={{ duration: 500, delay: 500, x: -100 }} out:fly={{ duration: 500, x: 100 }}>
 			<slot />
 		</div>
 	{/key}

@@ -42,7 +42,7 @@
 		<a class="stretchy-footer-link" class:active={currentUrl.startsWith('/natjecanja')} href="/natjecanja">Natjecanja</a>
 	</nav>
 
-	<div class="md:ml-auto flex flex-wrap items-center justify-end gap-x-6 gap-y-1 md:gap-1 w-max md:w-48 lg:w-max">
+	<div class="md:ml-auto flex flex-wrap items-center justify-end gap-x-4 md:gap-x-6 gap-y-1 md:gap-1 w-max md:w-48 lg:w-max">
 		{#each Object.entries(socialLinks) as [type, url]}
 			<SocialIcon {type} {url} {theme} />
 		{/each}
