@@ -10,9 +10,14 @@
 	export let data;
 
 	const { type, label, url, text } = data;
+
+	const additionalProps = type === 'mail' ? {} : {
+		target: '_blank',
+		rel: 'noreferrer',
+	};
 </script>
 
-<a class="group drop-shadow-sm" href={url}>
+<a class="group drop-shadow-sm" href={url} {...additionalProps}>
 	<div
 		class="flex items-center gap-4 bg-red-300 dark:bg-red-900 ys-bg bg-blend-overlay dark:bg-blend-hard-light px-4 py-2 shadow-inner shadow-red-200 group-hover:shadow-red-300 dark:shadow-black dark:group-hover:shadow-red-900/60 transition torn-paper-xl-{getRandomInt(
 			3,

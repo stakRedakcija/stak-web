@@ -15,19 +15,19 @@
 		{
 			type: 'facebook',
 			label: 'Facebook',
-			url: 'https://facebook.com',
+			url: 'https://facebook.com/foi.stak',
 			text: 'facebook.com/foi.stak',
 		},
 		{
 			type: 'twitter',
 			label: 'Twitter',
-			url: 'https://twitter.com',
+			url: 'https://twitter.com/@SRedakcija',
 			text: '@SRedakcija',
 		},
 		{
 			type: 'instagram',
 			label: 'Instagram',
-			url: 'https://instagram.com',
+			url: 'https://instagram.com/stak_redakcija',
 			text: '@stak_redakcija',
 		},
 		{
@@ -39,7 +39,7 @@
 		{
 			type: 'issuu',
 			label: 'ISSUU',
-			url: 'https://issuu.com',
+			url: 'https://issuu.com/foi.stak',
 			text: 'issuu.com/foi.stak',
 		},
 	];
