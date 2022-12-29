@@ -44,6 +44,13 @@
 		},
 	];
 
+	const podcastContactInfo = {
+			type: 'youtube',
+			label: 'Gledaj na YouTubeu',
+			url: 'https://www.youtube.com/channel/UC-wqKxxGZIlbZIw7iroJi0Q',
+			text: '@stakredakcija6769',
+		};
+
 	let isMobile = true;
 
 	onMount(() => {
@@ -124,6 +131,17 @@
 			</p>
 		</div>
 	</div>
+</section>
+
+
+<section id="podcast" class="m-10 md:m-20 mb-0 md:mb-0">
+	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Podcast@FOI</h2>
+
+	
+	<div class="flex flex-wrap items-center xl:justify-center gap-10 xl:mx-auto max-w-lg">
+		<p class="xl:text-center">U razgovoru s vašim omiljenim profesorima saznajte više o tome što rade na Fakultetu, u slobodno vrijeme i koliko su vješti u rješavanju izazova!</p>
+		<LargeSocialIcon data={podcastContactInfo} />
+	</div>	
 </section>
 
 <section id="meet-the-crew" class="m-10 md:m-20 mb-0 md:mb-0">
