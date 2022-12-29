@@ -60,7 +60,7 @@
 	import members from './clanovi.json';
 </script>
 
-<h1 class="wide-title text-9xl font-headline tracking-tighter m-10 md:m-20 mb-0 md:mb-0 text-red-600 dark:text-red-300">Bok!</h1>
+<h1 class="wide-title text-9xl font-headline tracking-tighter m-10 md:m-20 mb-0 md:mb-0 text-red-600 dark:text-red-300">Dobrodošli u svijet St@ka!</h1>
 
 <section id="frisko-z-bloga" class="m-10 md:m-20 mb-20 md:mb-40">
 	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Iz našeg pera</h2>
