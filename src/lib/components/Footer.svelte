@@ -20,7 +20,7 @@
 <footer class:dark={theme === 'magazine'} class="footer-theme-{theme} p-5 md:p-10 lg:px-20 gap-5 xl:gap-8 bg-gradient-to-br border-t transition flex max-md:flex-col items-center">
 	<a
 		href="/"
-		class="max-md:mx-auto my-auto flex items-center self-start md:justify-self-start gap-4 px-3 py-2 bg-white dark:bg-black/50 border-[3px] border-slate-900 dark:border-black text-red-500 dark:text-red-500 shadow shadow-slate-900 dark:shadow-black rounded-lg boxy-box transition select-none"
+		class="max-md:mx-auto my-auto flex items-center self-start md:justify-self-start gap-4 px-3 py-2 bg-white dark:bg-zinc-900 border-[3px] border-slate-900 dark:border-zinc-400 text-red-500 dark:text-red-500 shadow shadow-slate-900 dark:shadow-zinc-400 rounded-lg boxy-box transition select-none"
 	>
 		<StakLogo class="w-20 h-min sm:w-24" />
 
