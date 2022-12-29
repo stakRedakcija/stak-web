@@ -97,11 +97,14 @@
 	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">O nama</h2>
 
 	<div class="flex flex-col lg:flex-row gap-14 lg:gap-20 xl:mx-auto my-20 lg:my-24 w-[80vw] xl:w-max">
-		<img
-			class="border-8 aspect-video border-white dark:border-black shadow-xl shadow-zinc-400 dark:shadow-black/50 rounded object-cover max-w-sm xl:max-w-lg rotate-6"
-			src="/images/o-nama/the-crew.jpg"
-			alt="Grupa fotografa s fotoaparatima"
-		/>
+		<picture>
+			<source srcset="/images/o-nama/the-crew.webp" type="image/webp">
+			<img
+				class="border-8 aspect-video border-white dark:border-black shadow-xl shadow-zinc-400 dark:shadow-black/50 rounded object-cover max-w-sm xl:max-w-lg rotate-6"
+				src="/images/o-nama/the-crew.jpg"
+				alt="Grupa fotografa s fotoaparatima"
+			/>
+		</picture>
 
 		<div class="flex flex-col gap-4 items-start justify-center max-w-md text-justify">
 			<p>
@@ -121,11 +124,14 @@
 	</div>
 
 	<div class="flex flex-col lg:flex-row-reverse gap-14 lg:gap-20 xl:mx-auto my-20 lg:my-24 w-[80vw] xl:w-max">
-		<img
-			class="border-8 aspect-[3/2] border-white dark:border-black shadow-xl shadow-zinc-400 dark:shadow-black/50 rounded object-cover max-w-sm xl:max-w-lg -rotate-6"
-			src="/images/o-nama/the-crew-2.jpg"
-			alt="Grupa fotografa s fotoaparatima"
-		/>
+		<picture>
+			<source srcset="/images/o-nama/the-crew-2.webp" type="image/webp">
+			<img
+				class="border-8 aspect-[3/2] border-white dark:border-black shadow-xl shadow-zinc-400 dark:shadow-black/50 rounded object-cover max-w-sm xl:max-w-lg -rotate-6"
+				src="/images/o-nama/the-crew-2.jpg"
+				alt="Grupa fotografa s fotoaparatima"
+			/>
+		</picture>
 
 		<div class="flex flex-col gap-4 items-start justify-center max-w-md text-justify">
 			<p>

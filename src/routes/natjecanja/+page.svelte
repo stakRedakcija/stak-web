@@ -5,11 +5,14 @@
 <h1 class="wide-title text-9xl font-headline tracking-tighter m-10 md:m-20 mb-0 md:mb-0 text-violet-600 dark:text-violet-200">Natjecanja</h1>
 
 <section class="flex flex-col lg:flex-row mx-10 md:mx-20 gap-14 lg:gap-20 xl:mx-auto my-20 lg:my-32 w-[80vw] xl:w-max">
-	<img
-		class="border-8 border-b-[64px] aspect-[4.5/5] border-white dark:border-black shadow-xl shadow-zinc-400 dark:shadow-black/50 rounded object-cover max-w-sm -rotate-3"
-		src="/images/natjecanja/skljoc-izvan-okvira.jpg"
-		alt="Grupa fotografa s fotoaparatima"
-	/>
+	<picture>
+		<source srcset="/images/natjecanja/skljoc-izvan-okvira.webp" type="image/webp">
+		<img
+			class="border-8 border-b-[64px] aspect-[4.5/5] border-white dark:border-black shadow-xl shadow-zinc-400 dark:shadow-black/50 rounded object-cover max-w-sm -rotate-3"
+			src="/images/natjecanja/skljoc-izvan-okvira.jpg"
+			alt="Grupa fotografa s fotoaparatima"
+		/>
+	</picture>	
 
 	<div class="flex flex-col gap-4 items-start justify-center max-w-md max-lg:ml-auto text-justify">
 		<h2 class="font-headline text-5xl font-semibold text-violet-500 dark:text-violet-200 tracking-tighter">Škljoc izvan okvira</h2>
@@ -32,11 +35,14 @@
 </section>
 
 <section class="flex flex-col lg:flex-row mx-10 md:mx-20 gap-14 lg:gap-20 xl:mx-auto my-20 lg:my-32 w-[80vw] xl:w-max">
-	<img
-		class="border-8 border-white dark:border-black shadow-xl shadow-zinc-400 dark:shadow-black/50 rounded-lg object-cover w-full max-w-md rotate-6 max-lg:ml-auto"
-		src="/images/natjecanja/2-1-0-kodiraj.jpg"
-		alt="Grupa fotografa s fotoaparatima"
-	/>
+	<picture>
+		<source srcset="/images/natjecanja/2-1-0-kodiraj.webp" type="image/webp">
+		<img
+			class="border-8 border-white dark:border-black shadow-xl shadow-zinc-400 dark:shadow-black/50 rounded-lg object-cover w-full max-w-md rotate-6 max-lg:ml-auto"
+			src="/images/natjecanja/2-1-0-kodiraj.jpg"
+			alt="Grupa fotografa s fotoaparatima"
+		/>
+	</picture>
 
 	<div class="flex flex-col gap-4 items-start justify-center max-w-md text-justify">
 		<h2 class="font-headline text-5xl font-semibold text-violet-500 dark:text-violet-200 tracking-tighter">2, 1, 0, kodiraj!</h2>
