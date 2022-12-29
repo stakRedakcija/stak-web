@@ -20,14 +20,14 @@
 			natjecatelju.
 		</p>
 
-		<a
+		<!-- <a
 			class="px-6 py-2 rounded-lg mt-8 flex shadow-md text-lg font-headline font-semibold bg-violet-100 dark:bg-black hover:bg-violet-700 dark:hover:bg-violet-400 text-violet-700 hover:text-violet-50 dark:hover:text-black hover:shadow-lg shadow-zinc-200 dark:shadow-black/50 hover:shadow-violet-400 dark:hover:shadow-violet-900 transition"
 			href="#"
 			target="_blank"
 			rel="noreferrer"
 		>
 			Prijavi se
-		</a>
+		</a> -->
 	</div>
 </section>
 
@@ -47,13 +47,13 @@
 			natjecatelju.
 		</p>
 
-		<a
+		<!-- <a
 			class="px-6 py-2 rounded-lg mt-8 flex shadow-md text-lg font-headline font-semibold bg-violet-100 dark:bg-black hover:bg-violet-700 dark:hover:bg-violet-400 text-violet-700 hover:text-violet-50 dark:hover:text-black hover:shadow-lg shadow-zinc-200 dark:shadow-black/50 hover:shadow-violet-400 dark:hover:shadow-violet-900 transition"
 			href="#"
 			target="_blank"
 			rel="noreferrer"
 		>
 			Prijavi se
-		</a>
+		</a> -->
 	</div>
 </section>
