@@ -69,7 +69,7 @@
 <section id="frisko-z-bloga" class="mx-10 mt-20 md:m-20 mb-20 md:mb-40">
 	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Iz našeg pera</h2>
 
-	<ul class="flex flex-wrap justify-center gap-20 px-0 pt-10 xl:pt-20 mx-auto max-w-[100rem]">
+	<ul class="flex flex-wrap justify-center gap-10 md:gap-14 lg:gap-20 px-0 pt-10 xl:pt-20 mx-auto max-w-[100rem]">
 		{#each data.posts as { path, meta: { title, image, date } }, i}
 			{@const formattedDate = new Intl.DateTimeFormat('hr-HR', { dateStyle: 'long' }).format(new Date(date))}
 			{@const randomRot = getRandomInt(-40, 30) / 10}
