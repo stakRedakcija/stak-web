@@ -24,7 +24,7 @@
 				</div>
 
 				<div class="-mt-8 -ml-6 lg:-mt-14 lg:-ml-8 mr-auto drop-shadow-xl z-10 max-w-[90%]">
-					<div class="paper-bg torn-paper-4 py-4 px-8 flex flex-col" style:border-radius={`${getRandomInt(16, 32)}px`} style:transform={`rotate(${randomRot + getRandomInt(-1, 1)}deg)`}>
+					<div class="paper-bg torn-paper-4 py-4 px-8 flex flex-col gap-1" style:border-radius={`${getRandomInt(16, 32)}px`} style:transform={`rotate(${randomRot + getRandomInt(-1, 1)}deg)`}>
 						<h2 class="group-hover:text-yellow-900 dark:group-hover:text-yellow-200 post-title text-lg 2xl:text-2xl transition-colors">{@html title}</h2>
 						<span class="text-xs text-slate-600 dark:text-slate-300 group-hover:text-yellow-600 dark:group-hover:text-yellow-100 transition-colors">{formattedDate}</span>
 					</div>
