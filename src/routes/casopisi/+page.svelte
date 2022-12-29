@@ -4,6 +4,10 @@
 	const { title: firstMagTitle, time: firstMagTime, summary: firstMagSummary, coverImageUrl: firstMagCoverImageUrl, url: firstMagUrl } = magazines[0];
 </script>
 
+<svelte:head>
+	<title>Časopisi - St@k</title>
+</svelte:head>
+
 <h1 class="wide-title text-9xl font-headline tracking-tighter m-10 md:m-20 mb-0 md:mb-0">Časopisi</h1>
 
 <div class="w-full flex max-xl:flex-col gap-40 p-10 md:p-20">

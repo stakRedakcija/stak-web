@@ -9,28 +9,16 @@
 	$: currentRoute = data.currentRoute;
 
 	let theme = 'default';
-	let title = 'Dobrodošli';
-	let showTitle = true;
 
 	$: {
 		if (currentRoute.includes('/blog')) {
 			theme = 'blog';
-			showTitle = false;
-
-			console.log(currentRoute);
-			if (currentRoute.endsWith('/blog')) {
-				title = 'Blog';
-				showTitle = true;
-			}
 		} else if (currentRoute.includes('/casopisi')) {
 			theme = 'magazine';
-			title = 'Časopisi'
 		} else if (currentRoute.includes('/natjecanja')) {
 			theme = 'competitive';
-			title = 'Natjecanja';
 		} else if (currentRoute.includes('/o-nama')) {
 			theme = 'about';
-			title = 'O nama';
 		} else {
 			theme = 'default';
 		}
@@ -65,9 +53,7 @@
 </div>
 
 <svelte:head>
-	{#if showTitle}
-		<title>{title} - St@k</title>
-	{/if}
+	<title>Dobrodošli - St@k</title>
 </svelte:head>
 
 <style global lang="postcss">

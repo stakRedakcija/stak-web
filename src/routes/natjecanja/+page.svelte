@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Natjecanja - St@k</title>
+</svelte:head>
+
 <h1 class="wide-title text-9xl font-headline tracking-tighter m-10 md:m-20 mb-0 md:mb-0 text-violet-600 dark:text-violet-200">Natjecanja</h1>
 
 <section class="flex flex-col lg:flex-row mx-10 md:mx-20 gap-14 lg:gap-20 xl:mx-auto my-20 lg:my-32 w-[80vw] xl:w-max">
