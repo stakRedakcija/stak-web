@@ -46,11 +46,15 @@
 
 	<div class="flex flex-col gap-4 items-start justify-center max-w-md text-justify">
 		<h2 class="font-headline text-5xl font-semibold text-violet-500 dark:text-violet-200 tracking-tighter">2, 1, 0, kodiraj!</h2>
-		<p>Škljoc izvan okvira fotografsko je natjecanje u kojemu se mogu okušati svi. Sve što je potrebno je posjedovati bilo koji oblik kamere i tonu kreativnosti.</p>
+		<p>
+			Programersko natjecanje simboličnog naziva 2, 1, 0 kodiraj! jedan je od načina na koji bilo 
+			koji student FOI-ja može pokazati svoju kreativnost programerskog razmišljanja izvan okvira
+			predmeta koje sluša u sklopu nastave.
+		</p>
 
 		<p>
-			Svaki tjedan tijekom trajanja natjecanja St@k objavljuje novi zadatak. Tematike su različite, ali vjerujemo da je svaka zanimljiva na svoj način te dopušta potpunu kreativnu slobodu
-			natjecatelju.
+			Zadatci koje zadaje St@k različite su težine, ali uz malo truda moguće ih je riješiti i pritom
+			naučiti nešto novo ili poboljšati već stečeno znanje programiranja.
 		</p>
 
 		<!-- <a
