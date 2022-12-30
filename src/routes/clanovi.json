@@ -430,5 +430,21 @@
 		"rot": 5,
 		"bgCutout": 11,
 		"borderRadius": 1.32
+	},
+	{
+		"name": "Antonija Munjeković",
+		"role": "lektor",
+		"bio": "Volim učiti strane jezike, putovati i ispravljati pogreške u tekstu. Sve radim u zadnji trenutak, a u slobodno vrijeme spavam, bojam ili gledam serije.",
+		"photoUrl": "/clanovi/antonija-munjekovic.jpg",
+		"photoUrlWebp": "/clanovi/antonija-munjekovic.webp",
+		"imgRot": 2,
+		"txtRot": 0,
+		"trOrigX": 33,
+		"trOrigY": 66,
+		"trX": 3,
+		"trY": 5,
+		"rot": -1,
+		"bgCutout": 7,
+		"borderRadius": 1.23
 	}
 ]
