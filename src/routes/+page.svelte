@@ -119,6 +119,7 @@
 				class="border-8 aspect-video border-white dark:border-black shadow-xl shadow-zinc-400 dark:shadow-black/50 rounded object-cover w-full max-w-sm md:max-w-md lg:max-w-xl rotate-6 md:ml-auto"
 				src="/images/o-nama/the-crew.jpg"
 				alt="Grupa fotografa s fotoaparatima"
+				loading="lazy"
 			/>
 		</picture>
 	</div>
@@ -138,6 +139,7 @@
 				class="border-8 aspect-[3/2] border-white dark:border-black shadow-xl shadow-zinc-400 dark:shadow-black/50 rounded object-cover w-full max-w-sm md:max-w-md lg:max-w-xl -rotate-6 md:ml-auto"
 				src="/images/o-nama/the-crew-2.jpg"
 				alt="Grupa fotografa s fotoaparatima"
+				loading="lazy"
 			/>
 		</picture>
 	</div>
@@ -172,7 +174,7 @@
 			<div class="relative" style:transform={`translateX(${trX}px) translateY(${trY}px) rotate(${rot}deg)`} style:transform-origin={`${trOrigX}% ${trOrigY}%`}>
 				<picture>
 					<source srcset={photoUrlWebp} type="image/webp">
-					<img class="bg-black w-20 h-24 rounded object-cover absolute z-10 -left-2 top-2.5 sm:-left-9 sm:top-4 shadow shadow-zinc-900/25" src={photoUrl} alt={name} style:transform={`rotate(${imgRot}deg)`} />
+					<img class="bg-black w-20 h-24 rounded object-cover absolute z-10 -left-2 top-2.5 sm:-left-9 sm:top-4 shadow shadow-zinc-900/25" src={photoUrl} alt={name} style:transform={`rotate(${imgRot}deg)`} loading="lazy" />
 				</picture>
 				<div class="bg-gradient-to-tr from-white/0 to-white/40 bg-blend-lighten w-20 h-24 rounded shadow-inner shadow-black/10 absolute z-20 -left-2 top-2.5 sm:-left-9 sm:top-4" style:transform={`rotate(${imgRot}deg)`} />
 				<div class="drop-shadow w-80 sm:w-96 h-full">
