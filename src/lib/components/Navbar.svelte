@@ -39,7 +39,7 @@
 
 <nav class="{scrollY > 48 ? `navbar-${theme} max-sm:backdrop-blur-xl` : ''} navbar-fade flex justify-between p-10 max-sm:pb-24 max-sm:fixed max-sm:top-0 max-sm:left-0 max-sm:right-0 max-sm:z-40 transition">
 	<a class="logo-{theme} md:fixed top-6 md:border-b pb-1.5 pl-0.5 pr-8 -left-5 md:-rotate-90" href="/">
-		<StakLogo class="h-10 w-min" />
+		<StakLogo class="h-10 w-[4.75rem]" />
 	</a>
 
 	<ul class="hidden sm:flex items-center text-base md:ml-12 py-1 gap-8">
