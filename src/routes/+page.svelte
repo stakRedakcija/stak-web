@@ -152,7 +152,7 @@
 	</div>
 </section>
 
-<section id="podcast" class="mx-10 mt-20 md:m-20 mb-0 md:mb-0">
+<section id="dva-jedan-nula-kodiraj" class="mx-10 mt-20 md:m-20 mb-0 md:mb-0">
 	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">2, 1, 0, kodiraj!</h2>
 
 	<div class="flex flex-wrap items-center xl:justify-center gap-10 xl:mx-auto max-w-lg">
