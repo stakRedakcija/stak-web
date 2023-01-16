@@ -7,11 +7,16 @@
 	import Instagram from '@inqling/svelte-icons/brand/instagram.svelte';
 	import YouTube from '@inqling/svelte-icons/brand/youtube.svelte';
 	import Issuu from '@inqling/svelte-icons/brand/issuu.svelte';
+	import GlobeAlt from '@inqling/svelte-icons/solid/globe-alt.svelte';
+	import Link from '@inqling/svelte-icons/solid/link.svelte';
+	import ArrowTopRightOnSquare from '@inqling/svelte-icons/solid/arrow-top-right-on-square.svelte';
 	export let data;
 
 	const { type, label, url, text } = data;
 
-	const additionalProps = type === 'mail' ? {} : {
+	const internalLinkTypes = ['mail', 'web', 'link', 'externalLink'];
+
+	const additionalProps = internalLinkTypes.includes(type) ? {} : {
 		target: '_blank',
 		rel: 'noreferrer',
 	};
@@ -37,6 +42,12 @@
 			<YouTube class="social-icon-lg" />
 		{:else if type === 'issuu'}
 			<Issuu class="social-icon-lg" />
+		{:else if type === 'web'}
+			<GlobeAlt class="social-icon-lg" />
+		{:else if type === 'link'}
+			<Link class="social-icon-lg" />
+		{:else if type === 'externalLink'}
+			<ArrowTopRightOnSquare class="social-icon-lg" />
 		{/if}
 
 		<div>
