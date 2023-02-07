@@ -28,7 +28,7 @@
 	</div>
 
 
-	<div class="article-content mx-auto prose prose-headings:max-w-[56ch] prose-p:max-w-[56ch] text-prose text-justify text-zinc-900 dark:text-white dark:prose-invert">
+	<div class="article-content mx-auto prose prose-headings:max-w-[56ch] prose-p:max-w-[56ch] text-prose text-justify text-zinc-900 dark:text-white dark:prose-invert prose-blockquote:not-italic prose-blockquote:font-handwriting prose-blockquote:border-amber-600 dark:prose-blockquote:border-amber-900">
 		<svelte:component this={content} />
 		<span class="mt-8 inline-block select-none text-sm text-current opacity-[0.15] dark:opacity-10">Naslovna fotografija: {@html imageSource}</span>
 	</div>
