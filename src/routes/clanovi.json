@@ -272,22 +272,6 @@
 		"borderRadius": 0.85
 	},
 	{
-		"name": "Tea Jelavić",
-		"role": "dizajner",
-		"bio": "Volim estetiku, sve što je lijepo i vizualno privlačno. Osim toga, volim sve što vole mladi.",
-		"photoUrl": "/clanovi/tea-jelavic.png",
-		"photoUrlWebp": "/clanovi/tea-jelavic.webp",
-		"imgRot": -3,
-		"txtRot": 1,
-		"trOrigX": 63,
-		"trOrigY": 91,
-		"trX": 4,
-		"trY": -2,
-		"rot": -3,
-		"bgCutout": 6,
-		"borderRadius": 1.07
-	},
-	{
 		"name": "Juraj Belajec",
 		"role": "novinar",
 		"bio": "Veliki fan opskurne glazbe, <i>art</i> filmova i <i>indie</i> videoigrica. Što su stvari čudnije, to mi više  zapnu za oko i zapale interes. Svoje pronalaske i interese volim podijeliti sa svojim prijateljima ili bilo kime tko je voljan slušati pa sam postao član St@ka kako bih podijelio svoje pronalaske 😄",
