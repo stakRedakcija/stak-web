@@ -41,7 +41,7 @@
 			Prijavi se
 		</a> -->
 
-		<p class="text-md font-semibold">Natjecanje je završilo, hvala svima koji su se prijavili!</p>
+		<a href="/blog/zavrsila-je-peta-sezona-natjecanja-dva-jedan-nula-kodiraj" class="text-md font-semibold underline underline-offset-4 decoration-dotted decoration-violet-600 dark:decoration-violet-300 hover:text-violet-600 dark:hover:text-violet-300 hover:decoration-solid transition-colors">Natjecanje je završilo, hvala svima koji su se prijavili!</a>
 	</div>
 </section>
 
