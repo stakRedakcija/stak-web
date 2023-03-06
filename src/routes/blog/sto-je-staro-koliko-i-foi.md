@@ -5,7 +5,7 @@ date: 2022-12-18
 image: /clanci-slike/2022/sto-je-staro-koliko-i-foi.jpg
 imageSource: '<a href="https://foi.hr">foi.hr</a> / St@k'
 layout: blog
-featured: true
+featured: false
 categories:
   - 'fun'
 ---

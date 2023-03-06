@@ -5,7 +5,7 @@ date: 2022-12-19
 image: /clanci-slike/2022/kako-bi-digitalne-videoigre-mogle-potpuno-dominirati-fizickim-formatima-za-samo-nekoliko-godina.jpg
 imageSource: '<a href="https://unsplash.com/@villxsmil">Luis Villasmil</a>, <a href="https://unsplash.com/photos/ITFwHdPEED0">Unsplash</a>'
 layout: blog
-featured: true
+featured: false
 categories:
   - 'kolumna'
 ---
