@@ -711,5 +711,34 @@ b {
 	line-height: 1.35 !important;
 }
 
+/* Tabs */
+
+.svelte-tabs__tab-list {
+	border: none !important;
+}
+
+.svelte-tabs__tab:not(.svelte-tabs__selected),
+.dark .svelte-tabs__tab:not(.svelte-tabs__selected) {
+	color: currentColor !important;
+}
+
+.svelte-tabs__tab.svelte-tabs__selected {
+	border-color: #78350F !important;
+	color: #78350F !important;
+}
+
+.dark .svelte-tabs__tab.svelte-tabs__selected {
+	border-color: #FEF3C7 !important;
+	color: #FEF3C7 !important;
+}
+
+.svelte-tabs__tab:focus {
+	outline: none !important;
+}
+
+.svelte-tabs__tab:focus-visible {
+	outline: auto !important;
+}
+
 @tailwind components;
 @tailwind utilities;
