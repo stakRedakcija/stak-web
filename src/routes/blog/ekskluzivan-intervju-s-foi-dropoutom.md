@@ -5,7 +5,7 @@ date: 2022-12-21
 image: /clanci-slike/2022/ekskluzivan-intervju-s-foi-dropoutom.jpg
 imageSource: '<a href="https://unsplash.com/@resolvxd">Malik Earnest</a>, <a href="https://unsplash.com/photos/xgxzqRpK0UE">Unsplash</a>'
 layout: blog
-featured: true
+featured: false
 categories:
   - 'intervju'
 ---

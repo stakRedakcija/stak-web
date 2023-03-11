@@ -5,7 +5,7 @@ date: 2023-03-06
 image: /clanci-slike/2023/postani-dio-stak-tima.jpg
 imageSource: St@k
 layout: blog
-featured: true
+featured: false
 categories:
   - 'stak'
 ---

@@ -5,7 +5,7 @@ date: 2023-02-05
 image: /clanci-slike/2023/dva-jedan-nula/naslovna.jpg
 imageSource: 'St@k'
 layout: blog
-featured: true
+featured: false
 categories:
   - 'natjecanja'
 ---
