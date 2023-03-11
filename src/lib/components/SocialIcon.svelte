@@ -1,10 +1,6 @@
 <script>
-	import Envelope from '@inqling/svelte-icons/solid/envelope.svelte';
-	import Facebook from '@inqling/svelte-icons/brand/facebook.svelte';
-	import Twitter from '@inqling/svelte-icons/brand/twitter.svelte';
-	import Instagram from '@inqling/svelte-icons/brand/instagram.svelte';
-	import YouTube from '@inqling/svelte-icons/brand/youtube.svelte';
-	import Issuu from '@inqling/svelte-icons/brand/issuu.svelte';
+	import { Envelope } from "@inqling/svelte-icons/heroicon-24-solid";
+	import { Facebook, Twitter, Instagram, Youtube as YouTube, Issuu } from "@inqling/svelte-icons/simple-icons";
 
 	export let type;
 	export let url;

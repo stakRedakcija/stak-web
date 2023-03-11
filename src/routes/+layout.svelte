@@ -1,5 +1,4 @@
 <script>
-	export const prerender = true;
 	import '../app.postcss';
 	import Footer from '$lib/components/Footer.svelte';
 	import { fly } from 'svelte/transition';

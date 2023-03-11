@@ -1,15 +1,9 @@
 <script>
 	import { getRandomInt } from '$lib/utils/index';
 
-	import Envelope from '@inqling/svelte-icons/solid/envelope.svelte';
-	import Facebook from '@inqling/svelte-icons/brand/facebook.svelte';
-	import Twitter from '@inqling/svelte-icons/brand/twitter.svelte';
-	import Instagram from '@inqling/svelte-icons/brand/instagram.svelte';
-	import YouTube from '@inqling/svelte-icons/brand/youtube.svelte';
-	import Issuu from '@inqling/svelte-icons/brand/issuu.svelte';
-	import GlobeAlt from '@inqling/svelte-icons/solid/globe-alt.svelte';
-	import Link from '@inqling/svelte-icons/solid/link.svelte';
-	import ArrowTopRightOnSquare from '@inqling/svelte-icons/solid/arrow-top-right-on-square.svelte';
+	import { Facebook, Twitter, Instagram, Youtube as YouTube, Issuu} from "@inqling/svelte-icons/simple-icons";
+	import { Envelope, ArrowTopRightOnSquare, GlobeAlt, Link } from "@inqling/svelte-icons/heroicon-24-solid";
+
 	export let data;
 
 	const { type, label, url, text } = data;

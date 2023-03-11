@@ -1,35 +1,35 @@
 {
-  "name": "stak-web",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "dev": "vite dev",
-    "build": "vite build",
-    "preview": "vite preview",
-    "lint": "eslint ."
-  },
-  "devDependencies": {
-    "@sveltejs/adapter-auto": "next",
-    "@sveltejs/adapter-netlify": "^1.0.0-next.84",
-    "@sveltejs/kit": "^1.0.0-next.588",
-    "@tailwindcss/forms": "^0.5.2",
-    "@tailwindcss/typography": "^0.5.3",
-    "autoprefixer": "^10.4.7",
-    "eslint": "^8.16.0",
-    "eslint-plugin-svelte3": "^4.0.0",
-    "mdsvex": "^0.10.6",
-    "postcss": "^8.4.14",
-    "postcss-load-config": "^4.0.1",
-    "svelte": "^3.44.0",
-    "svelte-preprocess": "^4.10.7",
-    "tailwindcss": "^3.1.5",
-    "vite": "^4.0.0"
-  },
-  "type": "module",
-  "dependencies": {
-    "@inqling/svelte-icons": "^2.2.0",
-    "netlify-cli": "^12.4.0",
-    "tailwind-scrollbar-hide": "^1.1.7",
-    "tailwindcss-fluid-type": "^2.0.3"
-  }
+	"name": "stak-web",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "eslint ."
+	},
+	"devDependencies": {
+    "@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-netlify": "^2.0.6",
+		"@sveltejs/kit": "^1.11.0",
+		"@tailwindcss/forms": "^0.5.3",
+		"@tailwindcss/typography": "^0.5.9",
+		"autoprefixer": "^10.4.14",
+		"eslint": "^8.36.0",
+		"eslint-plugin-svelte3": "^4.0.0",
+		"mdsvex": "^0.10.6",
+		"postcss": "^8.4.21",
+		"postcss-load-config": "^4.0.1",
+		"svelte": "^3.56.0",
+		"svelte-preprocess": "^5.0.1",
+		"tailwindcss": "^3.2.7",
+		"vite": "^4.1.4"
+	},
+	"type": "module",
+	"dependencies": {
+    "@inqling/svelte-icons": "^3.1.0",
+		"netlify-cli": "^13.1.2",
+		"tailwind-scrollbar-hide": "^1.1.7",
+		"tailwindcss-fluid-type": "^2.0.3"
+	}
 }

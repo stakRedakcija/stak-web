@@ -1,5 +1,5 @@
 <script>
-	import ArrowDown from '@inqling/svelte-icons/solid/arrow-down.svelte';
+	import { ArrowLeft } from "@inqling/svelte-icons/heroicon-24-solid";
 	import { slide } from 'svelte/transition';
 
 	let t1Visible = false;

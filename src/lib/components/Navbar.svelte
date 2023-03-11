@@ -1,9 +1,7 @@
 <script>
 	import StakLogo from "./StakLogo.svelte";
-	import Sun from "@inqling/svelte-icons/solid/sun.svelte";
-	import Moon from "@inqling/svelte-icons/solid/moon.svelte";
-	import Bars3 from "@inqling/svelte-icons/solid/bars-3.svelte";
-	import XMark from "@inqling/svelte-icons/solid/x-mark.svelte";
+	import { Sun, Moon, Bars3, XMark } from "@inqling/svelte-icons/heroicon-24-solid";
+
 	import { page } from "$app/stores";
 	import { slide, fly } from "svelte/transition";
 	import SocialIcon from './SocialIcon.svelte';

@@ -3,7 +3,6 @@ export async function load({ params }) {
 	const { title, date } = post.metadata
 	const content = post.default
 
-	console.log(post.metadata);
 	return {
 		...post.metadata,
 		content,

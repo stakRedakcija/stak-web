@@ -1,5 +1,5 @@
 <script>
-	import ArrowLeft from '@inqling/svelte-icons/solid/arrow-left.svelte';
+	import { ArrowLeft } from "@inqling/svelte-icons/heroicon-24-solid";
 	export let data;
 	const { content, author, date: rawDate, image, title, imageSource } = data;
 
