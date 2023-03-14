@@ -5,7 +5,7 @@ date: 2022-12-20
 image: /clanci-slike/2022/intervju-s-nomarkom.jpg
 imageSource: '<a href="https://www.instagram.com/markno.si/">@markno.si</a>, Instagram'
 layout: blog
-featured: true
+featured: false
 categories:
 	- 'intervju'
 ---
@@ -116,7 +116,7 @@ I was trying to do this forever; every concert I had was just a foothold for thi
 
 ## What is your favourite thing that happened to you because of your music career? (fan interaction, someone you met, concert, rave, etc.)
 
-There are a bunch, but the one that sticks out is a fan with one Nomark tattoo and two aseben tattoos. One of those tattoos is a huge aseben logo on his hand; it was crazy to see that for the first time. There was also a guy that met his girlfriend through my music, which was extremely special to me. Another one was Yung Bude, a rapper from Croatia; he said that I’m his number-one artist and that he loves my music. But it’s mostly a lot of small things like that that go beyond music. What really gets to me is when I realize that my music had a real impact on people, that I had a positive effect on people without me even knowing. It’s an unexplainable feeling that keeps me grounded when my music starts growing and I start losing myself in the numbers. Numbers don’t really matter, what matters is the interactions I have with people I meet through my music.
+There are a bunch, but the one that sticks out is a fan with one Nomark tattoo and two aseben tattoos. One of those tattoos is a huge aseben logo on his hand; it was crazy to see that for the first time. There was also a guy that met his girlfriend through my music, which was extremely special to me. Another one was Yung Bude, a rapper from Croatia; he said that I'm his most listened artist on Spotify and that he loves my music. But it’s mostly a lot of small things like that that go beyond music. What really gets to me is when I realize that my music had a real impact on people, that I had a positive effect on people without me even knowing. It’s an unexplainable feeling that keeps me grounded when my music starts growing and I start losing myself in the numbers. Numbers don’t really matter, what matters is the interactions I have with people I meet through my music.
 
 	</TabPanel>
 </Tabs>
