@@ -1,5 +1,5 @@
 <script>
-	import { ArrowDown } from "@inqling/svelte-icons/heroicon-24-solid";
+	import { ArrowDown, ArrowLeft } from "@inqling/svelte-icons/heroicon-24-solid";
 	import { slide } from 'svelte/transition';
 
 	let t1Visible = false;
@@ -10,6 +10,8 @@
 <svelte:head>
 	<title>2, 1, 0, kodiraj! / Natjecanja - St@k</title>
 </svelte:head>
+
+<a style="font-stretch: 150%; font-weight: 280;" class="text-base flex items-center gap-2 mt-10 mb-6 mx-10 md:mx-20" href="/natjecanja"><ArrowLeft class="text-violet-700 dark:text-violet-200 w-5 h-5" /> Natjecanja</a>
 
 <h1 class="wide-title text-9xl font-headline tracking-tighter m-10 md:m-20 mb-0 md:mb-0 text-violet-600 dark:text-violet-200">2, 1, 0 kodiraj!</h1>
 
