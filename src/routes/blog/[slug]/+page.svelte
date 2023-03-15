@@ -16,7 +16,7 @@
 
 	<div class="grid grid-cols-1 grid-rows-[auto_auto] gap-0 max-w-screen-xl mx-auto mb-20">
 		<div class="col-[1] row-[1] translate-x-3 -rotate-2 md:-rotate-6 max-w-screen-lg -mb-20">
-			<img class="aspect-[3/2] dark:saturate-50 dark:brightness-50 object-cover w-full border-[12px] border-white rounded-2xl shadow-md after:content-['_'] after:bg-gradient-to-tr after:from-white/0 after:to-white/100 after:w-full after:h-full after:absolute after:inset-0 after:z-10" src={image} alt={title}>
+			<img class="aspect-video dark:saturate-50 dark:brightness-50 object-cover w-full border-[12px] border-white rounded-2xl shadow-md after:content-['_'] after:bg-gradient-to-tr after:from-white/0 after:to-white/100 after:w-full after:h-full after:absolute after:inset-0 after:z-10" src={image} alt={title}>
 		</div>
 	
 		<div class="col-[1] row-[2] drop-shadow-2xl md:px-6 xl:px-0 md:translate-x-8 xl:translate-x-0 rotate-1 justify-self-end">
