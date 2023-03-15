@@ -5,7 +5,7 @@ date: 2023-03-09
 image: /clanci-slike/2023/slavenska-mitologija-radanje-svijeta-i-prvi-bogovi.jpg
 imageSource: '<a href="https://meettheslavs.com/slavic-paganism/">Web</a>'
 layout: blog
-featured: true
+featured: false
 categories:
 	- 'fun'
 ---
