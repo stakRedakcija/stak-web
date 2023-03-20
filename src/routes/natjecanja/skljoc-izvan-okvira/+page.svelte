@@ -2,8 +2,8 @@
 	import { ArrowDown, ArrowLeft } from "@inqling/svelte-icons/heroicon-24-solid";
 	import { slide } from 'svelte/transition';
 
-	let t1Visible = true;
-	let t2Visible = false;
+	let t1Visible = false;
+	let t2Visible = true;
 	let t3Visible = false;
 </script>
 
@@ -63,22 +63,22 @@
 	<button
 		class="flex justify-between items-center gap-10 mb-4 w-full transition-colors hover:text-violet-600 dark:hover:text-violet-300 {t1Visible ? 'text-violet-700 dark:text-violet-400' : ''}"
 		on:click={() => {
-			// t1Visible = !t1Visible;
+			t1Visible = !t1Visible;
 			t2Visible = false;
 			t3Visible = false;
 		}}
 	>
 		<h3 class="font-headline text-xl font-semibold text-current ">Prvi zadatak</h3>
 
-		<!-- <div class="w-8 h-8 flex items-center justify-center rounded border border-current text-current">
+		<div class="w-8 h-8 flex items-center justify-center rounded border border-current text-current">
 			<ArrowDown class="w-6 h-6 transition-transform origin-center text-current {t1Visible ? '-scale-y-100' : ''}" />
-		</div> -->
+		</div>
 	</button>
 
 	{#if t1Visible}
 		<div class="pb-8 border-b border-gray-500 dark:border-zinc-600" transition:slide>
 			<p>
-				Pjesma „Ja sem Varaždinec“
+				<span class="text-md font-medium">Pjesma „Ja sem Varaždinec“</span>
 				<br /> <br />
 				Fotografijom prikaži što za tebe predstavlja Varaždin. Ljepotu grada može predstavljati arhitektura, ali i ljudi koji ga čine tako posebnim. Zabavi se i razmišljaj izvan okvira!
 				<br /> <br />
@@ -91,7 +91,7 @@
 		</div>
 	{/if}
 
-	<!-- <button
+	<button
 		class="mt-8 flex justify-between items-center gap-10 mb-4 w-full transition-colors hover:text-violet-600 dark:hover:text-violet-300 {t2Visible ? 'text-violet-700 dark:text-violet-400' : ''}"
 		on:click={() => {
 			t2Visible = !t2Visible;
@@ -108,11 +108,17 @@
 
 	{#if t2Visible}
 		<p class="pb-8 border-b border-gray-500 dark:border-zinc-600" transition:slide>
-			
+			<span class="text-md font-medium">Pjesma „7 Years”</span>
+			<br /> <br />
+			Novi tjedan, novi zadatak. Ovoga smo tjedna za tebe odabrali pjesmu „7 Years” izvođača Lukasa Grahama koja govori o djetinjstvu i odrastanju. Tvoj je zadatak pofotkati trenutak koji te asocira na djetinjstvo ili neku aktivnost koju si radio/la kao dijete.
+			<br /> <br />
+			Pravila su ista kao i prošli tjedan, pošalji nam jednu fotografiju, predstavi se i ispričaj nam priču iza te fotografije u 50 riječi. Ne zaboravi pritom napomenuti na kojoj si godini i smjeru.
+			<br /> <br />
+			Za sve to imaš tjedan dana, odnosno do izlaska sljedećeg zadatka 27. 3. 2023.
 		</p>
 	{/if}
 
-	<button
+	<!-- <button
 		class="mt-8 flex justify-between items-center gap-10 mb-4 w-full transition-colors hover:text-violet-600 dark:hover:text-violet-300 {t3Visible ? 'text-violet-700 dark:text-violet-400' : ''}"
 		on:click={() => {
 			t3Visible = !t3Visible;
