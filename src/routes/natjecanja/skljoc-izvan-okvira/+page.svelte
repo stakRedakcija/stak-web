@@ -3,8 +3,8 @@
 	import { slide } from 'svelte/transition';
 
 	let t1Visible = false;
-	let t2Visible = true;
-	let t3Visible = false;
+	let t2Visible = false;
+	let t3Visible = true;
 </script>
 
 <svelte:head>
@@ -118,7 +118,7 @@
 		</p>
 	{/if}
 
-	<!-- <button
+	<button
 		class="mt-8 flex justify-between items-center gap-10 mb-4 w-full transition-colors hover:text-violet-600 dark:hover:text-violet-300 {t3Visible ? 'text-violet-700 dark:text-violet-400' : ''}"
 		on:click={() => {
 			t3Visible = !t3Visible;
@@ -135,7 +135,13 @@
 
 	{#if t3Visible}
 		<p class="pb-8 border-b border-gray-500 dark:border-zinc-600" transition:slide>
-			
+			Pjesma „Fast Car”
+			<br /> <br />
+			Tvoj je zadatak ovoga tjedna fotkati long-exposure fotografiju. Drugim riječima, uhvati bilo koji objekt u prirodi ili osobu u pokretu. Ne moraš se nužno držati tematike zadane pjesme, zato pusti malo mašti na volju. 
+			<br /> <br />
+			Sva su pravila ostala ista kao i u prethodna dva zadatka. Pošalji nam jednu fotografiju, predstavi se, napiši način kako si uhvatio/la trenutak te ideju iza te fotografije u 50 riječi. Ne zaboravi pritom napomenuti na kojoj si godini i smjeru.
+			<br /> <br />
+			Za sve to imaš tjedan dana, odnosno do 3. 4. 2023.
 		</p>
-	{/if} -->
+	{/if}
 </section>
