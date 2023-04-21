@@ -152,14 +152,14 @@
 	</div>
 </section>
 
-<section id="dva-jedan-nula-kodiraj" class="mx-10 mt-20 md:m-20 mb-0 md:mb-0">
+<!-- <section id="dva-jedan-nula-kodiraj" class="mx-10 mt-20 md:m-20 mb-0 md:mb-0">
 	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">2, 1, 0, kodiraj!</h2>
 
 	<div class="flex flex-wrap items-center xl:justify-center gap-10 xl:mx-auto max-w-lg">
 		<p class="xl:text-center">Jedan od načina na koji bilo koji student FOI-ja može pokazati svoju kreativnost programerskog razmišljanja izvan okvira predmeta koje sluša u sklopu nastave.</p>
 		<LargeSocialIcon data={dvaJedanNulaContactInfo} />
 	</div>	
-</section>
+</section> -->
 
 <section id="podcast" class="mx-10 mt-20 md:m-20 mb-0 md:mb-0">
 	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Podcast<wbr />@FOI</h2>
