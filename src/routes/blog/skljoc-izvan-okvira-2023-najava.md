@@ -5,7 +5,7 @@ date: 2023-03-14
 image: /clanci-slike/2023/skljoc-izvan-okvira-2023-najava.jpg
 imageSource: 'St@k'
 layout: blog
-featured: true
+featured: false
 categories:
 	- 'natjecanja'
 ---
