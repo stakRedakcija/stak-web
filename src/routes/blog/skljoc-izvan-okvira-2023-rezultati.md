@@ -23,7 +23,7 @@ Zadatke su osmislili i ocijenili fotografi Stak redakcije čiji je voditelj Doma
 
 U nastavku pročitajte iskustvo pobjednika natjecanja.
 
-<FeaturedPerson name='Mateo Radman' description='IPI, 2. godina' imageUrl='/clanci-slike/2023/skljoc-2023-mateo-radman.jpg' />
+<FeaturedPerson name='Mateo Radman' description='IUO, 1. godina' imageUrl='/clanci-slike/2023/skljoc-2023-mateo-radman.jpg' />
 
 > Uz obaveze na fakultetu još sam član dviju udruga tako da nemam mira i uvijek pokušavam nešto raditi. Ponekad radim studentske poslove, a u zadnje vrijeme pregledavam dizajn web-stranica. U slobodno vrijeme se bavim nogometom, košarkom i airsoftom, ali isto tako obožavam voziti bicikl.
 > 
