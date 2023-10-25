@@ -7,7 +7,7 @@
 
 <h1 class="wide-title text-9xl font-headline tracking-tighter m-10 md:m-20 mb-0 md:mb-0">Stak 26</h1>
 
-<div class="w-full flex max-xl:flex-col gap-10 p-10 md:p-20">
+<div class="w-full flex flex-col gap-10 p-10 md:p-20">
 	<iframe class="w-full aspect-[210/297] lg:aspect-video rounded-xl scrollbar-hide" title="Stak 26" src="/casopisi/stak-26.pdf" frameborder="0"></iframe>
 
 	<a class="mx-auto px-4 py-1 rounded-md flex items-center gap-2 shadow-md text-lg font-headline font-semibold bg-black hover:bg-emerald-400 text-emerald-50 hover:text-black hover:shadow-lg shadow-black/50 hover:shadow-emerald-900 transition" href='/casopisi/stak-26.pdf' target="_blank">

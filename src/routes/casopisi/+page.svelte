@@ -22,7 +22,7 @@
 
 			<p class="mt-4">{@html firstMagSummary}</p>
 
-			<a class="px-4 py-1 rounded-md mt-8 flex shadow-md text-lg font-headline font-semibold bg-black hover:bg-emerald-400 text-emerald-50 hover:text-black hover:shadow-lg shadow-black/50 hover:shadow-emerald-900 transition" href={firstMagUrl} {firstUrlParams}>Prolistaj </a>
+			<a class="px-4 py-1 rounded-md mt-8 flex shadow-md text-lg font-headline font-semibold bg-slate-800 hover:bg-emerald-400 text-emerald-50 hover:text-black hover:shadow-lg shadow-black/25 hover:shadow-emerald-900 transition" href={firstMagUrl} {firstUrlParams}>Prolistaj </a>
 		</div>
 	</div>
 
