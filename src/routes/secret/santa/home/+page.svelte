@@ -1,10 +1,29 @@
 <script>
+    import {fade} from 'svelte/transition'
+    import canvasConfetti from 'canvas-confetti'
+    import ElfCard from '$lib/santa/ElfCard.svelte'
+
     export let data
-    const {event: {startDate: sd, endDate: ed, isDrawingTime}, error} = data
-    const {email, src, fullName, username} = data.user
+    const {event: {startDate: sd, endDate: ed, isDrawingTime}, user, error} = data
+    let isElfFound = false
 
     const startDate = new Intl.DateTimeFormat('en-US', {dateStyle: 'long'}).format(sd)
     const endDate = new Intl.DateTimeFormat('en-US', {dateStyle: 'long'}).format(ed)
+
+    let isPresentHovered = false
+    const openPresent = () => {
+        setTimeout(() => (isElfFound = true), 3000)
+        canvasConfetti({
+            angle: 90,
+            spread: 360,
+            startVelocity: 30,
+            particleCount: 400,
+            dragFriction: 0.12,
+            duration: 5 * 1000,
+            stagger: 3,
+            colors: ['#f44336', '#2196F3', '#ffeb3b', '#4caf50', '#ff9800', '#9c27b0']
+        })
+    }
 </script>
 
 <svelte:head>
@@ -24,23 +43,50 @@
 {:else}
     <article class="p-5 md:p-20">
 
-        <div class="max-w-xs mx-auto bg-white p-4 shadow-lg candy-cane-background mb-16">
-            <img src={src} alt={fullName + ' logo'} class="w-20 h-20 mx-auto mb-2 rounded-full shadow-lg"/>
-
-            <div class="text-center mb-2 bg-red-400 rounded">
-                <strong class="text-lg block">{fullName} ({username})</strong>
-            </div>
-
-            <div class="text-center text-gray-800">{email}</div>
-        </div>
+        <ElfCard {...data.user}/>
 
         {#if isDrawingTime}
-            <div></div>
+            {#if isElfFound}
+                <div in:fade={{ delay: 1000, duration:500}} class="text-center">
+                    <h1 class="wide-title text-5xl font-headline tracking-tighter m-12">YOUR LITTLE
+                        ELF</h1>
+                    <ElfCard {...data.user}/>
+                </div>
+            {:else}
+                <div
+                        transition:fade={{ duration: 1000 }}
+                        class="flex justify-center items-center shake">
+                    <div
+                            on:click={openPresent}
+                            on:keypress={openPresent}
+                            on:mouseenter={() => (isPresentHovered = true)}
+                            on:mouseleave={() => (isPresentHovered = false)}
+                            class:cursor-pointer={isPresentHovered}
+                            class="relative">
+                        <!-- Candy Cane Stripes -->
+                        <div class="absolute w-1/2 h-4 bg-red-600 transform rotate-45"></div>
+                        <div class="absolute w-1/2 h-4 bg-red-600 transform rotate-45 translate-y-2"></div>
+                        <div class="absolute w-1/2 h-4 bg-red-600 transform rotate-45 -translate-y-2"></div>
+                        <!-- Present Box with Red Background, Vertical White Stripes, Ribbon, and Shadows -->
+                        <div class="bg-gradient-to-br from-red-600 to-red-800 p-8 rounded-lg shadow-2xl relative">
+                            <div class="w-2 bg-red-100 h-16 absolute top-1/2 right-1/4 -translate-x-9 rounded-s -translate-y-1/2"></div>
+                            <div class="w-2 bg-red-100 h-16 absolute top-1/2 right-1/4 -translate-x-5 -translate-y-1/2"></div>
+                            <div class="w-2 bg-red-100 h-16 absolute top-1/2 right-1/2 translate-x-3 -translate-y-1/2"></div>
+                            <div class="w-2 bg-red-100 h-16 absolute top-1/2 right-1/2 translate-x-7 rounded-e -translate-y-1/2"></div>
+                            <div class="w-16 bg-red-100 h-2 absolute -translate-x-8 translate-y-2"></div>
+                            <div class="w-16 bg-red-100 h-2 absolute -translate-x-8 -translate-y-4"></div>
+                            <!-- Shadow -->
+                            <div class="absolute bottom-0 right-0 w-16 h-2 bg-gray-800 opacity-50 rounded-full blur"></div>
+                        </div>
+                    </div>
+                </div>
+            {/if}
         {:else}
             <div class="article-content mx-auto prose prose-headings:max-w-[56ch] prose-p:max-w-[56ch] text-prose text-justify text-zinc-900 dark:text-white dark:prose-invert prose-blockquote:not-italic prose-blockquote:font-handwriting prose-blockquote:border-amber-600 dark:prose-blockquote:border-amber-900">
                 <h2 class="text-lg mb-10">🎄✨ Ho, Ho, Ho! 🎅✨</h2>
 
-                <p class="text-lg mb-3">Congratulations, dear {fullName}, for joining our festive Secret Santa game! 🎁
+                <p class="text-lg mb-3">Congratulations, dear {user.fullName}, for joining our festive Secret Santa
+                    game! 🎁
                     Your
                     cheerful spirit has brought even more warmth to our Christmas celebrations! 🌟 The twinkling lights,
                     the scent of gingerbread cookies, and the joyous laughter of friends and family all make this
@@ -74,14 +120,24 @@
         color: transparent;
     }
 
-    .candy-cane-background {
-        background: repeating-linear-gradient(
-                135deg,
-                #ff7f7f,
-                #ff7f7f 15px,
-                #ffffff 15px,
-                #ffffff 30px
-        );
-        border-radius: 24px;
+    @keyframes shake {
+        0%, 100% {
+            transform: translateX(0);
+        }
+        25% {
+            transform: translateX(-4px);
+        }
+        50% {
+            transform: translateX(4px);
+        }
+        75% {
+            transform: translateX(-4px);
+        }
     }
+
+
+    .shake {
+        animation: shake 0.6s infinite;
+    }
+
 </style>
