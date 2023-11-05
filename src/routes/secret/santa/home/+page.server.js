@@ -1,6 +1,7 @@
 import {redirect} from '@sveltejs/kit'
 import {PUBLIC_SANTA_START, PUBLIC_SANTA_END} from '$env/static/public'
 import members from '../../../clanovi.json'
+import {isDateBetween} from '$lib/utils/index.js'
 
 const validEmails = members.map((it) => it.email).filter((it) => it)
 const santaStartDate = new Date(PUBLIC_SANTA_START)
@@ -10,12 +11,13 @@ export const load = async ({url, locals: {supabase, getSession}}) => {
     const session = await getSession()
     const response = {
         error: '',
-        user: {},
         event: {
             startDate: santaStartDate,
             endDate: santaEndDate,
             isDrawingTime: isDateBetween(santaStartDate, santaEndDate)
-        }
+        },
+        user: {},
+        elf: {}
     }
 
     if (isSessionAvailable(session)) {
@@ -28,13 +30,13 @@ export const load = async ({url, locals: {supabase, getSession}}) => {
         await signInWithDiscord(supabase, url)
     }
 
-    response.user = getUserFromSession(session)
-    return response
-}
+    response.user = extractUserInfo(session.user)
 
-const isDateBetween = (startDate, endDate) => {
-    const currentDate = new Date()
-    return startDate <= currentDate && currentDate <= endDate
+    if (response.event.isDrawingTime) {
+        response.elf = await getElfForUser(supabase, session.user.id)
+    }
+
+    return response
 }
 
 const isSessionAvailable = (session) => session !== null
@@ -58,15 +60,28 @@ const signInWithDiscord = async (supabase, url) => {
     throw redirect(303, data.url)
 }
 
-const getUserFromSession = (session) => {
+const extractUserInfo = (user) => {
+    const {email, user_metadata, raw_user_meta_data} = user
     const {
-        email,
-        user_metadata: {
-            picture: src,
-            full_name: username,
-            custom_claims: {global_name: fullName}
-        }
-    } = session.user
+        picture: src,
+        full_name: username,
+        custom_claims: {global_name: fullName}
+    } = user_metadata ?? raw_user_meta_data
 
     return {email, src, fullName, username}
+}
+
+const getElfForUser = async (supabase, userId) => {
+    const {data, error} = await supabase.rpc('get_elf', {userid: userId})
+    if (error) return {}
+
+    const {elf_id, shown: isShown} = data
+    if (!elf_id) return {}
+
+    const elf = await supabase.rpc('get_user', {userid: elf_id})
+
+    return {
+        ...extractUserInfo(elf.data),
+        isShown
+    }
 }
