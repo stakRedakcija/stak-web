@@ -53,7 +53,7 @@ const signInWithDiscord = async (supabase, url) => {
 		provider: 'discord',
 		options: {
 			scopes: 'identify',
-			redirectTo: `${location.origin}/api/auth/callback?next=/secret/santa/home`,
+			redirectTo: `https://stak.foi.hr/api/auth/callback?next=/secret/santa/home`,
 		}
 	})
 
