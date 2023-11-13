@@ -8,8 +8,6 @@ const santaStartDate = new Date(PUBLIC_SANTA_START)
 const santaEndDate = new Date(PUBLIC_SANTA_END)
 
 export const load = async ({ url, locals: { supabase, getSession } }) => {
-	console.log(url);
-
 	const session = await getSession()
 	const response = {
 		error: '',
@@ -51,13 +49,11 @@ const deleteUser = async (supabase, user) => {
 }
 
 const signInWithDiscord = async (supabase, url) => {
-	console.log(url);
-
 	const { data } = await supabase.auth.signInWithOAuth({
 		provider: 'discord',
 		options: {
 			scopes: 'identify',
-			redirectTo: `${url.protocol}//${url.host}/api/auth/callback?next=/secret/santa/home`,
+			redirectTo: `${location.origin}/api/auth/callback?next=/secret/santa/home`,
 		}
 	})
 
