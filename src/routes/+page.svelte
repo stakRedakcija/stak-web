@@ -2,6 +2,7 @@
 	import LargeSocialIcon from '$lib/components/LargeSocialIcon.svelte';
 	import { getRandomInt } from '$lib/utils/index';
 	import { onMount } from 'svelte';
+	import members from './clanovi.json';
 
 	export let data;
 
@@ -51,20 +52,20 @@
 			text: '@stakredakcija6769',
 		};
 
+	/*
 	const dvaJedanNulaContactInfo = {
 			type: 'externalLink',
 			label: 'Saznaj više',
 			url: '/natjecanja/dva-jedan-nula-kodiraj',
 			text: 'i prijavi se!',
 		};
+	*/
 
 	let isMobile = true;
 
 	onMount(() => {
 		isMobile = window.innerWidth < 800;
 	});
-
-	import members from './clanovi.json';
 </script>
 
 <svelte:head>

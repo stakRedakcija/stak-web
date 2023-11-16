@@ -1,4 +1,4 @@
-export const load = async ({url: {pathname: currentRoute}, locals: {getSession}}) => {
+export const load = async ({ locals: { getSession } }) => {
     const session = await getSession()
 
     return {
