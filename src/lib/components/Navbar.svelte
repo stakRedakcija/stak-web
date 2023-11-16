@@ -1,12 +1,12 @@
 <script>
-    import StakLogo from "./StakLogo.svelte"
-    import {Sun, Moon, Bars3, XMark, Power} from "@inqling/svelte-icons/heroicon-24-solid"
+    import StakLogo from './StakLogo.svelte'
+    import {Sun, Moon, Bars3, XMark, Power} from '@inqling/svelte-icons/heroicon-24-solid'
 
-    import {page} from "$app/stores"
-    import {slide, fly} from "svelte/transition"
+    import {page} from '$app/stores'
+    import {slide, fly} from 'svelte/transition'
     import SocialIcon from './SocialIcon.svelte'
 
-    export let theme = "default"
+    export let theme = 'default'
     export let hasThemeToggle = true
     export let isLoggedIn = false
 
@@ -15,8 +15,8 @@
     $: currentUrl = $page.url.pathname
 
     const toggleTheme = () => {
-    	document.documentElement.classList.toggle("dark")
-    	isDark = document.documentElement.classList.contains("dark")
+    	document.documentElement.classList.toggle('dark')
+    	isDark = document.documentElement.classList.contains('dark')
     }
 
     let mobileMenuOpen = false
@@ -42,15 +42,15 @@
 
     <ul class="hidden sm:flex items-center text-base md:ml-12 py-1 gap-8">
         <li>
-            <a class="navbar-link navbar-link-{theme}" class:active={currentUrl.startsWith("/blog")}
+            <a class="navbar-link navbar-link-{theme}" class:active={currentUrl.startsWith('/blog')}
                href="/blog">Blog</a>
         </li>
         <li>
-            <a class="navbar-link navbar-link-{theme}" class:active={currentUrl.startsWith("/casopisi")}
+            <a class="navbar-link navbar-link-{theme}" class:active={currentUrl.startsWith('/casopisi')}
                href="/casopisi">Časopisi</a>
         </li>
         <li>
-            <a class="navbar-link navbar-link-{theme}" class:active={currentUrl.startsWith("/natjecanja")}
+            <a class="navbar-link navbar-link-{theme}" class:active={currentUrl.startsWith('/natjecanja')}
                href="/natjecanja">Natjecanja</a>
         </li>
     </ul>
@@ -100,11 +100,11 @@
 
         <ul class="flex flex-col text-2xl md:ml-12 py-1 gap-6">
             <li><a on:click={() => mobileMenuOpen = false} class="wide-title navbar-link navbar-link-{theme}"
-                   class:active={currentUrl.startsWith("/blog")} href="/blog">Blog</a></li>
+                   class:active={currentUrl.startsWith('/blog')} href="/blog">Blog</a></li>
             <li><a on:click={() => mobileMenuOpen = false} class="wide-title navbar-link navbar-link-{theme}"
-                   class:active={currentUrl.startsWith("/casopisi")} href="/casopisi">Časopisi</a></li>
+                   class:active={currentUrl.startsWith('/casopisi')} href="/casopisi">Časopisi</a></li>
             <li><a on:click={() => mobileMenuOpen = false} class="wide-title navbar-link navbar-link-{theme}"
-                   class:active={currentUrl.startsWith("/natjecanja")} href="/natjecanja">Natjecanja</a></li>
+                   class:active={currentUrl.startsWith('/natjecanja')} href="/natjecanja">Natjecanja</a></li>
         </ul>
 
         <div class="flex flex-wrap gap-x-4 gap-y-1 md:gap-1 w-7/12 mt-auto">

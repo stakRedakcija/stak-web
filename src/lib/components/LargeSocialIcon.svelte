@@ -1,8 +1,8 @@
 <script>
 	import { getRandomInt } from '$lib/utils/index'
 
-	import { Facebook, Twitter, Instagram, Youtube as YouTube, Issuu} from "@inqling/svelte-icons/simple-icons"
-	import { Envelope, ArrowTopRightOnSquare, GlobeAlt, Link } from "@inqling/svelte-icons/heroicon-24-solid"
+	import { Facebook, Twitter, Instagram, Youtube as YouTube, Issuu} from '@inqling/svelte-icons/simple-icons'
+	import { Envelope, ArrowTopRightOnSquare, GlobeAlt, Link } from '@inqling/svelte-icons/heroicon-24-solid'
 
 	export let data
 

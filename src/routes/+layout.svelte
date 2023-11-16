@@ -3,7 +3,7 @@
     import Footer from '$lib/components/Footer.svelte'
     import {fly} from 'svelte/transition'
     import Navbar from '$lib/components/Navbar.svelte'
-    import {page} from "$app/stores"
+    import {page} from '$app/stores'
 
     export let data
     $: isLoggedIn = data.isLoggedIn

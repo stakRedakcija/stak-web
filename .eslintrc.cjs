@@ -15,6 +15,7 @@ module.exports = {
 	rules: {
 		'indent': ['error', 'tab'],
 		'semi': ['error', 'never'],
+		'quotes': ['error', 'single'],
 		'comma-dangle': ['error', 'never'],
 		'spaced-comment': ['error', 'always'],
 		'max-len': ['error', { 'code': 120 }]

@@ -1,6 +1,6 @@
 <script>
-	import { Envelope } from "@inqling/svelte-icons/heroicon-24-solid"
-	import { Facebook, Twitter, Instagram, Youtube as YouTube, Issuu } from "@inqling/svelte-icons/simple-icons"
+	import { Envelope } from '@inqling/svelte-icons/heroicon-24-solid'
+	import { Facebook, Twitter, Instagram, Youtube as YouTube, Issuu } from '@inqling/svelte-icons/simple-icons'
 
 	export let type
 	export let url

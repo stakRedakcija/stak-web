@@ -1,6 +1,6 @@
 <script>
-	import { ArrowLeft } from "@inqling/svelte-icons/heroicon-24-solid"
-	import { DocumentArrowDown } from "@inqling/svelte-icons/heroicon-24-outline"
+	import { ArrowLeft } from '@inqling/svelte-icons/heroicon-24-solid'
+	import { DocumentArrowDown } from '@inqling/svelte-icons/heroicon-24-outline'
 </script>
 
 <a style="font-stretch: 150%; font-weight: 280;" class="text-base flex items-center gap-2 mt-10 mb-6 mx-10 md:mx-20" href="/casopisi"><ArrowLeft class="text-emerald-400 w-5 h-5" />Časopisi</a>

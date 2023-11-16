@@ -1,26 +1,26 @@
-const typography = require("@tailwindcss/typography")
-const forms = require("@tailwindcss/forms")
+const typography = require('@tailwindcss/typography')
+const forms = require('@tailwindcss/forms')
 const fluidTypography = require('tailwindcss-fluid-type')
 
 const config = {
-	content: ["./src/**/*.{html,js,svelte,ts}"],
+	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	corePlugins: {
-		fontSize: false,
+		fontSize: false
 	},
 
 	theme: {
 		fontFamily: {
 			sans: ['Roboto Flex', 'system-ui', 'sans-serif'],
 			headline: ['Archivo', 'system-ui', 'sans-serif'],
-			handwriting: ['Patrick Hand', 'system-ui', 'sans-serif'],
+			handwriting: ['Patrick Hand', 'system-ui', 'sans-serif']
 		},
 		extend: {
 			transitionProperty: {
 				'default-plus-var-font': 'color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, font-variation-settings',
-				'var-font': 'font-variation-settings, color',
+				'var-font': 'font-variation-settings, color'
 			}
-		},
+		}
 	},
 
 	darkMode: 'class',
@@ -36,7 +36,7 @@ const config = {
 				screenMin: 20,
 				screenMax: 96,
 				unit: 'rem',
-				prefix: '',
+				prefix: ''
 			},
 			values: {
 				'base': [0, 1.1],
@@ -51,7 +51,7 @@ const config = {
 				'17xl': ['16rem', 0.85],
 				'18xl': ['17rem', 0.85],
 				'19xl': ['18rem', 0.85],
-				'20xl': ['19rem', 0.85],
+				'20xl': ['19rem', 0.85]
 			}
 		}),
 		forms,

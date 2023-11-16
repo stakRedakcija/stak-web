@@ -1,5 +1,5 @@
 <script>
-	import { ArrowLeft, ArrowRight } from "@inqling/svelte-icons/heroicon-24-solid"
+	import { ArrowLeft, ArrowRight } from '@inqling/svelte-icons/heroicon-24-solid'
 	export let steps
 
 	let currentIndex = 0
