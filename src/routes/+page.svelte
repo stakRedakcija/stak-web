@@ -11,45 +11,45 @@
 			type: 'mail',
 			label: 'Mail',
 			url: 'mailto:stak@foi.hr',
-			text: 'stak@foi.hr',
+			text: 'stak@foi.hr'
 		},
 		{
 			type: 'facebook',
 			label: 'Facebook',
 			url: 'https://facebook.com/foi.stak',
-			text: 'facebook.com/foi.stak',
+			text: 'facebook.com/foi.stak'
 		},
 		{
 			type: 'twitter',
 			label: 'Twitter',
 			url: 'https://twitter.com/@SRedakcija',
-			text: '@SRedakcija',
+			text: '@SRedakcija'
 		},
 		{
 			type: 'instagram',
 			label: 'Instagram',
 			url: 'https://instagram.com/stak_redakcija',
-			text: '@stak_redakcija',
+			text: '@stak_redakcija'
 		},
 		{
 			type: 'youtube',
 			label: 'YouTube',
 			url: 'https://www.youtube.com/channel/UC-wqKxxGZIlbZIw7iroJi0Q',
-			text: '@stakredakcija6769',
+			text: '@stakredakcija6769'
 		},
 		{
 			type: 'issuu',
 			label: 'ISSUU',
 			url: 'https://issuu.com/foi.stak',
-			text: 'issuu.com/foi.stak',
-		},
+			text: 'issuu.com/foi.stak'
+		}
 	]
 
 	const podcastContactInfo = {
 			type: 'youtube',
 			label: 'Gledaj na YouTubeu',
 			url: 'https://www.youtube.com/channel/UC-wqKxxGZIlbZIw7iroJi0Q',
-			text: '@stakredakcija6769',
+			text: '@stakredakcija6769'
 		}
 
 	/*

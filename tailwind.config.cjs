@@ -55,8 +55,8 @@ const config = {
 			}
 		}),
 		forms,
-		typography,
-	],
+		typography
+	]
 }
 
 module.exports = config

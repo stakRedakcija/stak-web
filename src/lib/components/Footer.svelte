@@ -13,7 +13,7 @@
 		twitter: 'https://twitter.com',
 		instagram: 'https://instagram.com',
 		youtube: 'https://www.youtube.com/channel/UC-wqKxxGZIlbZIw7iroJi0Q',
-		issuu: 'https://issuu.com',
+		issuu: 'https://issuu.com'
 	}
 </script>
 

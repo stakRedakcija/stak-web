@@ -53,7 +53,7 @@ const signInWithDiscord = async (supabase, url) => {
 		provider: 'discord',
 		options: {
 			scopes: 'identify',
-			redirectTo: `${url.protocol}//${url.host}/api/auth/callback?next=/secret/santa/home`,
+			redirectTo: `${url.protocol}//${url.host}/api/auth/callback?next=/secret/santa/home`
 		}
 	})
 

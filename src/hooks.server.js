@@ -11,8 +11,8 @@ export const handle = async ({event, resolve}) => {
             },
             remove: (key, options) => {
                 event.cookies.delete(key, options)
-            },
-        },
+            }
+        }
     })
 
     event.locals.getSession = async () => {
@@ -23,6 +23,6 @@ export const handle = async ({event, resolve}) => {
     return resolve(event, {
         filterSerializedResponseHeaders(name) {
             return name === 'content-range'
-        },
+        }
     })
 }

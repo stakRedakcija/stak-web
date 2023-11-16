@@ -8,15 +8,15 @@ const config = {
   extensions: [".svelte", ...mdsvexConfig.extensions],
 
   kit: {
-    adapter: adapter(),
+    adapter: adapter()
   },
 
   preprocess: [
     preprocess({
-      postcss: true,
+      postcss: true
     }),
-    mdsvex(mdsvexConfig),
-  ],
+    mdsvex(mdsvexConfig)
+  ]
 }
 
 export default config

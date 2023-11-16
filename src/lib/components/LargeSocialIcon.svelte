@@ -12,7 +12,7 @@
 
 	const additionalProps = internalLinkTypes.includes(type) ? {} : {
 		target: '_blank',
-		rel: 'noreferrer',
+		rel: 'noreferrer'
 	}
 </script>
 

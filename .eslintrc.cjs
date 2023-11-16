@@ -13,6 +13,7 @@ module.exports = {
 		node: true
 	},
 	rules: {
-		'semi': ['error', 'never']
+		'semi': ['error', 'never'],
+		'comma-dangle': ['error', 'never']
 	}
 }
