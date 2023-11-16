@@ -3,7 +3,7 @@ title: Postani dio St@k tima!
 author: St@k
 date: 2023-03-06
 image: /clanci-slike/2023/postani-dio-stak-tima.jpg
-imageSource: St@k
+imageSource: 'St@k'
 layout: blog
 featured: false
 categories:
