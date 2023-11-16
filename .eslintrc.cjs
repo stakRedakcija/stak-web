@@ -16,6 +16,7 @@ module.exports = {
 		'indent': ['error', 'tab'],
 		'semi': ['error', 'never'],
 		'comma-dangle': ['error', 'never'],
-		'spaced-comment': ['error', 'always']
+		'spaced-comment': ['error', 'always'],
+		'max-len': ['error', { 'code': 120 }]
 	}
 }
