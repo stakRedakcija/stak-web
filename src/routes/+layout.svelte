@@ -12,10 +12,10 @@
     $: theme = routeThemes[currentRoute] || 'default'
 
     const routeThemes = {
-        '/blog': 'blog',
-        '/casopisi': 'magazine',
-        '/natjecanja': 'competitive',
-        '/o-nama': 'about'
+    	'/blog': 'blog',
+    	'/casopisi': 'magazine',
+    	'/natjecanja': 'competitive',
+    	'/o-nama': 'about'
     }
 </script>
 

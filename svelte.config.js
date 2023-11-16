@@ -5,18 +5,18 @@ import adapter from '@sveltejs/adapter-netlify'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-  extensions: [".svelte", ...mdsvexConfig.extensions],
+	extensions: [".svelte", ...mdsvexConfig.extensions],
 
-  kit: {
-    adapter: adapter()
-  },
+	kit: {
+		adapter: adapter()
+	},
 
-  preprocess: [
-    preprocess({
-      postcss: true
-    }),
-    mdsvex(mdsvexConfig)
-  ]
+	preprocess: [
+		preprocess({
+			postcss: true
+		}),
+		mdsvex(mdsvexConfig)
+	]
 }
 
 export default config

@@ -1,7 +1,7 @@
 export const load = async ({ locals: { getSession } }) => {
-    const session = await getSession()
+	const session = await getSession()
 
-    return {
-        isLoggedIn: session !== null
-    }
+	return {
+		isLoggedIn: session !== null
+	}
 }

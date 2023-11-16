@@ -13,6 +13,7 @@ module.exports = {
 		node: true
 	},
 	rules: {
+		'indent': ['error', 'tab'],
 		'semi': ['error', 'never'],
 		'comma-dangle': ['error', 'never'],
 		'spaced-comment': ['error', 'always']

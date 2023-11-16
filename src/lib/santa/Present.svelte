@@ -7,17 +7,17 @@
 
     let isPresentHovered = false
     const openPresent = () => {
-        setTimeout(() => dispatch('open'), 3000)
-        canvasConfetti({
-            angle: 90,
-            spread: 360,
-            startVelocity: 30,
-            particleCount: 400,
-            dragFriction: 0.12,
-            duration: 5 * 1000,
-            stagger: 3,
-            colors: ['#f44336', '#2196F3', '#ffeb3b', '#4caf50', '#ff9800', '#9c27b0']
-        })
+    	setTimeout(() => dispatch('open'), 3000)
+    	canvasConfetti({
+    		angle: 90,
+    		spread: 360,
+    		startVelocity: 30,
+    		particleCount: 400,
+    		dragFriction: 0.12,
+    		duration: 5 * 1000,
+    		stagger: 3,
+    		colors: ['#f44336', '#2196F3', '#ffeb3b', '#4caf50', '#ff9800', '#9c27b0']
+    	})
     }
 </script>
 

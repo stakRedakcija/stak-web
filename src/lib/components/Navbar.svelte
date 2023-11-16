@@ -15,19 +15,19 @@
     $: currentUrl = $page.url.pathname
 
     const toggleTheme = () => {
-        document.documentElement.classList.toggle("dark")
-        isDark = document.documentElement.classList.contains("dark")
+    	document.documentElement.classList.toggle("dark")
+    	isDark = document.documentElement.classList.contains("dark")
     }
 
     let mobileMenuOpen = false
 
     export let socialLinks = {
-        mail: 'mailto:stak@foi.hr',
-        facebook: 'https://facebook.com',
-        twitter: 'https://twitter.com',
-        instagram: 'https://instagram.com',
-        youtube: 'https://www.youtube.com/channel/UC-wqKxxGZIlbZIw7iroJi0Q',
-        issuu: 'https://issuu.com'
+    	mail: 'mailto:stak@foi.hr',
+    	facebook: 'https://facebook.com',
+    	twitter: 'https://twitter.com',
+    	instagram: 'https://instagram.com',
+    	youtube: 'https://www.youtube.com/channel/UC-wqKxxGZIlbZIw7iroJi0Q',
+    	issuu: 'https://issuu.com'
     }
 
     let scrollY = 0

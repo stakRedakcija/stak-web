@@ -46,11 +46,11 @@
 	]
 
 	const podcastContactInfo = {
-			type: 'youtube',
-			label: 'Gledaj na YouTubeu',
-			url: 'https://www.youtube.com/channel/UC-wqKxxGZIlbZIw7iroJi0Q',
-			text: '@stakredakcija6769'
-		}
+		type: 'youtube',
+		label: 'Gledaj na YouTubeu',
+		url: 'https://www.youtube.com/channel/UC-wqKxxGZIlbZIw7iroJi0Q',
+		text: '@stakredakcija6769'
+	}
 
 	/*
 	const dvaJedanNulaContactInfo = {
