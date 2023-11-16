@@ -3,63 +3,10 @@
 	import { getRandomInt } from '$lib/utils/index'
 	import { onMount } from 'svelte'
 	import members from './clanovi.json'
+	import socialLinks from './socialLinks.json'
+	import contactInfo from './contactInfo.json'
 
 	export let data
-
-	const socialLinks = [
-		{
-			type: 'mail',
-			label: 'Mail',
-			url: 'mailto:stak@foi.hr',
-			text: 'stak@foi.hr'
-		},
-		{
-			type: 'facebook',
-			label: 'Facebook',
-			url: 'https://facebook.com/foi.stak',
-			text: 'facebook.com/foi.stak'
-		},
-		{
-			type: 'twitter',
-			label: 'Twitter',
-			url: 'https://twitter.com/@SRedakcija',
-			text: '@SRedakcija'
-		},
-		{
-			type: 'instagram',
-			label: 'Instagram',
-			url: 'https://instagram.com/stak_redakcija',
-			text: '@stak_redakcija'
-		},
-		{
-			type: 'youtube',
-			label: 'YouTube',
-			url: 'https://www.youtube.com/channel/UC-wqKxxGZIlbZIw7iroJi0Q',
-			text: '@stakredakcija6769'
-		},
-		{
-			type: 'issuu',
-			label: 'ISSUU',
-			url: 'https://issuu.com/foi.stak',
-			text: 'issuu.com/foi.stak'
-		}
-	]
-
-	const podcastContactInfo = {
-		type: 'youtube',
-		label: 'Gledaj na YouTubeu',
-		url: 'https://www.youtube.com/channel/UC-wqKxxGZIlbZIw7iroJi0Q',
-		text: '@stakredakcija6769'
-	}
-
-	/*
-	const dvaJedanNulaContactInfo = {
-			type: 'externalLink',
-			label: 'Saznaj više',
-			url: '/natjecanja/dva-jedan-nula-kodiraj',
-			text: 'i prijavi se!',
-		}
-	*/
 
 	let isMobile = true
 
@@ -168,7 +115,7 @@
 	
 	<div class="flex flex-wrap items-center xl:justify-center gap-10 xl:mx-auto max-w-lg">
 		<p class="xl:text-center">U razgovoru s vašim omiljenim profesorima saznajte više o tome što rade na Fakultetu, u slobodno vrijeme i koliko su vješti u rješavanju izazova!</p>
-		<LargeSocialIcon data={podcastContactInfo} />
+		<LargeSocialIcon data={contactInfo.podcast} />
 	</div>	
 </section>
 

@@ -1,22 +1,22 @@
 <script>
-    import '../app.postcss'
-    import Footer from '$lib/components/Footer.svelte'
-    import {fly} from 'svelte/transition'
-    import Navbar from '$lib/components/Navbar.svelte'
-    import {page} from '$app/stores'
+  import '../app.postcss'
+  import Footer from '$lib/components/Footer.svelte'
+  import { fly } from 'svelte/transition'
+  import Navbar from '$lib/components/Navbar.svelte'
+  import { page } from '$app/stores'
+  import socialLinks from './socialLinks.json'
 
-    export let data
-    $: isLoggedIn = data.isLoggedIn
+  export let data
+  $: isLoggedIn = data.isLoggedIn
+  $: currentRoute = $page.url.pathname
+  $: theme = routeThemes[currentRoute] || 'default'
 
-    $: currentRoute = $page.url.pathname
-    $: theme = routeThemes[currentRoute] || 'default'
-
-    const routeThemes = {
-    	'/blog': 'blog',
-    	'/casopisi': 'magazine',
-    	'/natjecanja': 'competitive',
-    	'/o-nama': 'about'
-    }
+  const routeThemes = {
+	'/blog': 'blog',
+	'/casopisi': 'magazine',
+	'/natjecanja': 'competitive',
+	'/o-nama': 'about'
+  }
 </script>
 
 <div
@@ -43,7 +43,7 @@
         </div>
     {/key}
 
-    <Footer {theme}/>
+    <Footer {theme} {socialLinks}/>
 </div>
 
 <style global lang="postcss">

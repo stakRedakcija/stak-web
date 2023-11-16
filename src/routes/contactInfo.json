@@ -1,0 +1,14 @@
+{
+  "podcast": {
+    "type": "youtube",
+    "label": "Gledaj na YouTubeu",
+    "url": "https://www.youtube.com/channel/UC-wqKxxGZIlbZIw7iroJi0Q",
+    "text": "@stakredakcija6769"
+  },
+  "210_kodiraj": {
+    "type": "externalLink",
+    "label": "Saznaj više",
+    "url": "/natjecanja/dva-jedan-nula-kodiraj",
+    "text": "i prijavi se!"
+  }
+}
