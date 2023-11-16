@@ -1,12 +1,12 @@
 <script>
-	export let name;
-	export let description;
-	export let imageUrl;
+	export let name
+	export let description
+	export let imageUrl
 
-	let className;
-	export { className as class };
+	let className
+	export { className as class }
 
-	export let imageClass = '';
+	export let imageClass = ''
 </script>
 
 <div class="flex items-center gap-6 {className}">

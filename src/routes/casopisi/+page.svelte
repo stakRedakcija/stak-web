@@ -1,9 +1,9 @@
 <script>
-	import magazines from './casopisi.json';
+	import magazines from './casopisi.json'
 
-	const { title: firstMagTitle, time: firstMagTime, summary: firstMagSummary, coverImageUrl: firstMagCoverImageUrl, url: firstMagUrl } = magazines[0];
+	const { title: firstMagTitle, time: firstMagTime, summary: firstMagSummary, coverImageUrl: firstMagCoverImageUrl, url: firstMagUrl } = magazines[0]
 
-	const firstUrlParams = firstMagUrl?.startsWith('https://') ? 'target="_blank" rel="noreferrer"' : '';
+	const firstUrlParams = firstMagUrl?.startsWith('https://') ? 'target="_blank" rel="noreferrer"' : ''
 </script>
 
 <svelte:head>

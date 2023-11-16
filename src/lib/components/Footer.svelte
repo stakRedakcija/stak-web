@@ -1,11 +1,11 @@
 <script>
-	import StakLogo from './StakLogo.svelte';
-	import { page } from '$app/stores';
-	import SocialIcon from './SocialIcon.svelte';
+	import StakLogo from './StakLogo.svelte'
+	import { page } from '$app/stores'
+	import SocialIcon from './SocialIcon.svelte'
 
-	export let theme = 'default';
+	export let theme = 'default'
 
-	$: currentUrl = $page.url.pathname;
+	$: currentUrl = $page.url.pathname
 
 	export let socialLinks = {
 		mail: 'mailto:stak@foi.hr',
@@ -14,7 +14,7 @@
 		instagram: 'https://instagram.com',
 		youtube: 'https://www.youtube.com/channel/UC-wqKxxGZIlbZIw7iroJi0Q',
 		issuu: 'https://issuu.com',
-	};
+	}
 </script>
 
 <footer class:dark={theme === 'magazine'} class="footer-theme-{theme} p-5 md:p-10 lg:px-20 gap-5 xl:gap-8 bg-gradient-to-br border-t transition flex max-md:flex-col items-center">

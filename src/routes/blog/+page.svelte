@@ -1,7 +1,7 @@
 <script>
-	export let data;
+	export let data
 
-	import {getRandomInt} from '$lib/utils/index';
+	import {getRandomInt} from '$lib/utils/index'
 
 </script>
 

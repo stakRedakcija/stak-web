@@ -1,10 +1,10 @@
 <script>
-	import LargeSocialIcon from '$lib/components/LargeSocialIcon.svelte';
-	import { getRandomInt } from '$lib/utils/index';
-	import { onMount } from 'svelte';
-	import members from './clanovi.json';
+	import LargeSocialIcon from '$lib/components/LargeSocialIcon.svelte'
+	import { getRandomInt } from '$lib/utils/index'
+	import { onMount } from 'svelte'
+	import members from './clanovi.json'
 
-	export let data;
+	export let data
 
 	const socialLinks = [
 		{
@@ -43,14 +43,14 @@
 			url: 'https://issuu.com/foi.stak',
 			text: 'issuu.com/foi.stak',
 		},
-	];
+	]
 
 	const podcastContactInfo = {
 			type: 'youtube',
 			label: 'Gledaj na YouTubeu',
 			url: 'https://www.youtube.com/channel/UC-wqKxxGZIlbZIw7iroJi0Q',
 			text: '@stakredakcija6769',
-		};
+		}
 
 	/*
 	const dvaJedanNulaContactInfo = {
@@ -58,14 +58,14 @@
 			label: 'Saznaj više',
 			url: '/natjecanja/dva-jedan-nula-kodiraj',
 			text: 'i prijavi se!',
-		};
+		}
 	*/
 
-	let isMobile = true;
+	let isMobile = true
 
 	onMount(() => {
-		isMobile = window.innerWidth < 800;
-	});
+		isMobile = window.innerWidth < 800
+	})
 </script>
 
 <svelte:head>

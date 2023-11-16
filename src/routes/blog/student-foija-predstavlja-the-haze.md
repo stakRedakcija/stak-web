@@ -11,7 +11,7 @@ categories:
 ---
 
 <script>
-  import FeaturedPerson from '$lib/article-components/FeaturedPerson.svelte';
+  import FeaturedPerson from '$lib/article-components/FeaturedPerson.svelte'
   // pt-14
 </script>
 

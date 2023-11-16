@@ -1,10 +1,10 @@
 <script>
-	import { ArrowLeft, ArrowRight } from "@inqling/svelte-icons/heroicon-24-solid";
-	export let steps;
+	import { ArrowLeft, ArrowRight } from "@inqling/svelte-icons/heroicon-24-solid"
+	export let steps
 
-	let currentIndex = 0;
+	let currentIndex = 0
 
-	$: step = steps[currentIndex];
+	$: step = steps[currentIndex]
 </script>
 
 <div class="w-full flex flex-col gap-y-4 py-20">

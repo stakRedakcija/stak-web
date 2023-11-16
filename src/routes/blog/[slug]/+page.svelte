@@ -1,10 +1,10 @@
 <script>
-	import { ArrowLeft } from "@inqling/svelte-icons/heroicon-24-solid";
-	export let data;
-	const { content, author, date: rawDate, image, title, imageSource } = data;
+	import { ArrowLeft } from "@inqling/svelte-icons/heroicon-24-solid"
+	export let data
+	const { content, author, date: rawDate, image, title, imageSource } = data
 
-	const dateData = new Date(rawDate);
-	const date = new Intl.DateTimeFormat('hr-HR', { dateStyle: 'long' }).format(dateData);
+	const dateData = new Date(rawDate)
+	const date = new Intl.DateTimeFormat('hr-HR', { dateStyle: 'long' }).format(dateData)
 </script>
 
 <svelte:head>

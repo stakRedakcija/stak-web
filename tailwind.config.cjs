@@ -1,6 +1,6 @@
-const typography = require("@tailwindcss/typography");
-const forms = require("@tailwindcss/forms");
-const fluidTypography = require('tailwindcss-fluid-type');
+const typography = require("@tailwindcss/typography")
+const forms = require("@tailwindcss/forms")
+const fluidTypography = require('tailwindcss-fluid-type')
 
 const config = {
 	content: ["./src/**/*.{html,js,svelte,ts}"],
@@ -57,6 +57,6 @@ const config = {
 		forms,
 		typography,
 	],
-};
+}
 
-module.exports = config;
+module.exports = config

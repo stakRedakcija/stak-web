@@ -1,19 +1,19 @@
 <script>
-	import { getRandomInt } from '$lib/utils/index';
+	import { getRandomInt } from '$lib/utils/index'
 
-	import { Facebook, Twitter, Instagram, Youtube as YouTube, Issuu} from "@inqling/svelte-icons/simple-icons";
-	import { Envelope, ArrowTopRightOnSquare, GlobeAlt, Link } from "@inqling/svelte-icons/heroicon-24-solid";
+	import { Facebook, Twitter, Instagram, Youtube as YouTube, Issuu} from "@inqling/svelte-icons/simple-icons"
+	import { Envelope, ArrowTopRightOnSquare, GlobeAlt, Link } from "@inqling/svelte-icons/heroicon-24-solid"
 
-	export let data;
+	export let data
 
-	const { type, label, url, text } = data;
+	const { type, label, url, text } = data
 
-	const internalLinkTypes = ['mail', 'web', 'link', 'externalLink'];
+	const internalLinkTypes = ['mail', 'web', 'link', 'externalLink']
 
 	const additionalProps = internalLinkTypes.includes(type) ? {} : {
 		target: '_blank',
 		rel: 'noreferrer',
-	};
+	}
 </script>
 
 <a class="group drop-shadow-sm max-sm:w-56" href={url} {...additionalProps}>

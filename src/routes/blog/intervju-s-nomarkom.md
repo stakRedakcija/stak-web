@@ -11,7 +11,7 @@ categories:
 ---
 
 <script>
-	import { Tabs, Tab, TabList, TabPanel } from 'svelte-tabs';
+	import { Tabs, Tab, TabList, TabPanel } from 'svelte-tabs'
 </script>
 
 <Tabs>

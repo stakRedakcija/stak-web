@@ -4,5 +4,5 @@ export const load = async ({ fetch }) => {
 
     return {
         posts: posts.filter((post) => post?.meta?.featured)
-    };
+    }
 }

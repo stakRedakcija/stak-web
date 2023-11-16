@@ -11,7 +11,7 @@ categories:
 ---
 
 <script>
-  import ImageSteps from '$lib/article-components/ImageSteps.svelte';
+  import ImageSteps from '$lib/article-components/ImageSteps.svelte'
 
   const data = [
     {
@@ -102,9 +102,8 @@ categories:
       imageUrl: '/clanci-slike/2022/starije-od-foija/metronomi.png',
       caption: 'György Ligeti - Poème symphonique, skladba za 100 metronoma',
     },
-  ];
+  ]
   // py-40 bg-red-200
 </script>
 
 <ImageSteps steps={data} />
-

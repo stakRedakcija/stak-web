@@ -1,10 +1,10 @@
 <script>
-	import { ArrowDown, ArrowLeft } from "@inqling/svelte-icons/heroicon-24-solid";
-	import { slide } from 'svelte/transition';
+	import { ArrowDown, ArrowLeft } from "@inqling/svelte-icons/heroicon-24-solid"
+	import { slide } from 'svelte/transition'
 
-	let t1Visible = false;
-	let t2Visible = false;
-	let t3Visible = false;
+	let t1Visible = false
+	let t2Visible = false
+	let t3Visible = false
 </script>
 
 <svelte:head>
@@ -63,9 +63,9 @@
 	<button
 		class="flex justify-between items-center gap-10 mb-4 w-full transition-colors hover:text-violet-600 dark:hover:text-violet-300 {t1Visible ? 'text-violet-700 dark:text-violet-400' : ''}"
 		on:click={() => {
-			t1Visible = !t1Visible;
-			t2Visible = false;
-			t3Visible = false;
+			t1Visible = !t1Visible
+			t2Visible = false
+			t3Visible = false
 		}}
 	>
 		<h3 class="font-headline text-xl font-semibold text-current ">Prvi zadatak</h3>
@@ -94,9 +94,9 @@
 	<button
 		class="mt-8 flex justify-between items-center gap-10 mb-4 w-full transition-colors hover:text-violet-600 dark:hover:text-violet-300 {t2Visible ? 'text-violet-700 dark:text-violet-400' : ''}"
 		on:click={() => {
-			t2Visible = !t2Visible;
-			t1Visible = false;
-			t3Visible = false;
+			t2Visible = !t2Visible
+			t1Visible = false
+			t3Visible = false
 		}}
 	>
 		<h3 class="font-headline text-xl font-semibold text-current">Drugi zadatak</h3>
@@ -121,9 +121,9 @@
 	<button
 		class="mt-8 flex justify-between items-center gap-10 mb-4 w-full transition-colors hover:text-violet-600 dark:hover:text-violet-300 {t3Visible ? 'text-violet-700 dark:text-violet-400' : ''}"
 		on:click={() => {
-			t3Visible = !t3Visible;
-			t1Visible = false;
-			t2Visible = false;
+			t3Visible = !t3Visible
+			t1Visible = false
+			t2Visible = false
 		}}
 	>
 		<h3 class="font-headline text-xl font-semibold text-current">Treći zadatak</h3>
