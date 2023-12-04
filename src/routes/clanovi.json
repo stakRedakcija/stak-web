@@ -2,7 +2,7 @@
 	{
 		"name": "Ana Horvat",
 		"email": "anahorvat2210@gmail.com",
-		"role": "zamjenik urednice, voditelj novinara i web developmenta",
+		"role": "zamjenica urednice, voditeljica novinara i web developera na papiru",
 		"bio": "Premijska sam osoba koja obožava ispravljati svoje i tuđe pogreške. U slobodno vrijeme volim pospremati i sviram klavir. Apsolutni sam <i>masterchef</i> te aficionado Hrvatskih željeznica i svega povezanog s njima (da, ne). Moja je pisana komunikacija kriminalna i nikad ne biste rekli da sam lektor.",
 		"photoUrl": "/clanovi/ana-horvat.jpg",
 		"photoUrlWebp": "/clanovi/ana-horvat.webp",
@@ -36,7 +36,7 @@
 	{
 		"name": "David Slavik",
 		"email": "david@slavik02@gmail.com",
-		"role": "voditelj dizajnera",
+		"role": "voditelj dizajnera, novinar",
 		"bio": "Dizajner s okom za detalje i kavoholičar. Tu i tamo ispoštujem rok za dizajn u St@ku i odradim ga na vrijeme. Moji glavni interesi trenutno su <i>frontend development</i>, UI/UX dizajn i razvoj softvera općenito. U slobodno vrijeme volim se opustiti uz <i>golden age</i> hip-hop i <i>silver age</i> stripove. S vremena na vrijeme odigram poneku igru, najdraže su mi one za <i>PlayStation 1</i> poput <i>Crash Bandicoot</i>, <i>Spyro</i>, MGS i brojne druge.",
 		"photoUrl": "/clanovi/david-slavik.jpg",
 		"photoUrlWebp": "/clanovi/david-slavik.webp",
@@ -53,7 +53,7 @@
 	{
 		"name": "Tomislav Milec",
 		"email": "t.milec3@gmail.com",
-		"role": "voditelj film crew sekcije,<br /> community manager, fotograf",
+		"role": "voditelj film crewa, voditelj fotografa",
 		"bio": "Fotoaparat, kamera i montaža nisu mi strani pojmovi. Obožavam raditi sve što ima veze s tehnologijama i multimedijom. Svaki vikend rezerviran je za izlazak s ekipom.",
 		"photoUrl": "/clanovi/tomislav-milec.jpg",
 		"photoUrlWebp": "/clanovi/tomislav-milec.webp",
@@ -70,7 +70,7 @@
 	{
 		"name": "Klara Škaulj",
 		"email": "klara.skaulj2@gmail.com",
-		"role": "novinar, community manager",
+		"role": "novinarka, community managerica",
 		"bio": "Entuzijastično pišem članke za koje sam sigurna da ih samo ja i čitam te rado ispravljam tuđe pogreške. Slobodno vrijeme provodim kao glazbeni i filmski elitist, a tu i tamo odigram koju videoigricu.",
 		"photoUrl": "/clanovi/klara-skaulj.jpg",
 		"photoUrlWebp": "/clanovi/klara-skaulj.webp",
@@ -87,7 +87,7 @@
 	{
 		"name": "Andreas Leja",
 		"email": "andreasovmail@gmail.com",
-		"role": "voditelj community managera,<br /> dizajner, film crew, novinar",
+		"role": "voditelj community managera, novinar, dizajner",
 		"bio": "Za osobu s puno interesa, imam malo toga za reći. Slobodno vrijeme volim provesti prokrastinirajući i žaleći se kako imam previše posla, a premalo vremena. U Redakciji često imamo puno posla, ali uz super ekipu i odlične kolege, vremena bude sasvim dovoljno. Možda me nećete često vidjeti negdje vani, ali znajte da uvijek možete računati na „pozdravko” od mene.",
 		"photoUrl": "/clanovi/andreas-leja.jpg",
 		"photoUrlWebp": "/clanovi/andreas-leja.webp",
@@ -104,7 +104,7 @@
 	{
 		"name": "Erik Đuranec",
 		"email": "erik.djuranec@gmail.com",
-		"role": "novinar, voditelj podcasta",
+		"role": "novinar",
 		"bio": "U slobodno vrijeme Katica za sve, a inače novinar i voditelj <i>podcasta</i>. Okružen hrpetinom različitih interesa i ljudi. Društven i komunikativan, a zezancija mi definitivno nije strani pojam. Ovo je zadnja rečenica koja je minimalni uvjet za ovaj opis pa sam svoje obavio, pozdrav.",
 		"photoUrl": "/clanovi/erik-djuranec.jpg",
 		"photoUrlWebp": "/clanovi/erik-djuranec.webp",
@@ -189,7 +189,7 @@
 	{
 		"name": "Domagoj Babić",
 		"email": "domagoj.babic53@gmail.com",
-		"role": "dizajner",
+		"role": "fotograf, dizajner",
 		"bio": "Obožavam fotografirati i kroz fotografiju zabilježiti važne trenutke. Uvijek mi je drago upoznati nove ljude i otkriti njihove interese. U slobodno vrijeme gledam serije i družim se s prijateljima. Faks ne ide najbolje.",
 		"photoUrl": "/clanovi/domagoj-babic.jpg",
 		"photoUrlWebp": "/clanovi/domagoj-babic.webp",
@@ -223,7 +223,7 @@
 	{
 		"name": "Laura Krišković",
 		"email": "krisklaura@gmail.com",
-		"role": "lektor",
+		"role": "lektorica",
 		"bio": "Većinu vremena velika flegma. U slobodno vrijeme volim imati male kreativne pothvate poput pisanja pjesama, pisama, pletenja narukvica i crtanja portreta. Čitanje i glazba također su mi bliski srcu. Osim ovih opuštajućih aktivnosti, volim putovanja i nova iskustva. Želim što više iscijediti taj limun koji mi je život dao, a limunadu servirati s puno kockica leda i suncobranom na vrhu (ako vam ta analogija ima smisla).",
 		"photoUrl": "/clanovi/laura-kriskovic.jpeg",
 		"photoUrlWebp": "/clanovi/laura-kriskovic.webp",
@@ -240,7 +240,7 @@
 	{
 		"name": "Anja Peharda",
 		"email": "apeharda21@student.foi.hr",
-		"role": "urednica, lektor, fotograf",
+		"role": "urednica, lektorica",
 		"bio": "U slobodno vrijeme čitam, crtam, pišem, fotografiram, sviram i rješavam ankete. Folklor je moja najveća ljubav i ovisnost.",
 		"photoUrl": "/clanovi/anja-peharda.jpg",
 		"photoUrlWebp": "/clanovi/anja-peharda.webp",
@@ -257,7 +257,7 @@
 	{
 		"name": "Petra Jakopović",
 		"email": "pjakopovi@student.foi.hr",
-		"role": "dizajner",
+		"role": "dizajnerica",
 		"bio": "Hedonist, ambivert, ailurofil, filmofil, gluha osoba. Dizajniram. Kasnije planiram raditi s <i>web</i> dizajnom i fotografijom. Trenutno sam na Erasmusu te ovisna o k-drami. UwU* U slobodno vrijeme ostvarujem svojih milijun ideja i planova. ¯\\_(ツ)_/¯",
 		"photoUrl": "/clanovi/petra-jakopovic.jpeg",
 		"photoUrlWebp": "/clanovi/petra-jakopovic.webp",
@@ -291,7 +291,7 @@
 	{
 		"name": "Matea Kucljak",
 		"email": "mkucljak22@student.foi.hr",
-		"role": "community manager",
+		"role": "dizajnerica, community managerica",
 		"bio": "Svakodnevno razmišljam o pokretanju peticije da se dan produlji na 48 sati jer mi 24 sata nije dovoljno za ostvarenje svih ideja i planova, ali uvijek imam vremena za kavu. Rijetko ćete me zateći da odmaram; uvijek je „a mogla bi ovo”, „a mogla bi ono”, „idemo tu” i „idemo tamo”. Umjetnica koja se igrom slučaja zatekla na ovom faksu, no sad joj je lijepo. Od svojih mnogobrojnih interesa, najviše se volim baviti slikarstvom, modom, dizajnom i biti u pokretu.",
 		"photoUrl": "/clanovi/matea-kucljak.jpg",
 		"photoUrlWebp": "/clanovi/matea-kucljak.webp",
@@ -308,7 +308,7 @@
 	{
 		"name": "Emilia Jelačić",
 		"email": "ejelacic@student.foi.hr",
-		"role": "novinar, lektor",
+		"role": "novinarka, lektorica",
 		"bio": "Volim mir dugih šetnji u kasnu jesen, isprobavanje novih stvari, pisanje i glazbu. Ovdje sam zbog potrebe da se kreativno izrazim i budem dio zajednice ljudi sa sličnim interesima. Isto tako, zbog potrage za načinom da se izrazim na način koji je autentičan i istovremeno razumljiv i pitak.",
 		"photoUrl": "/clanovi/emilia-jelacic.png",
 		"photoUrlWebp": "/clanovi/emilia-jelacic.webp",
@@ -325,7 +325,7 @@
 	{
 		"name": "Klara Tepić",
 		"email": "tepic.klara@gmail.com",
-		"role": "fotograf",
+		"role": "fotografkinja",
 		"bio": "Vječna avanturistica! Volim izlaziti iz svoje zone komfora te pomicati granice. Uvijek nešto radim čak i kad ništa ne radim. Najveća ljubav mi je brdski biciklizam kojim se bavim (i natječem) dugi niz godina. Uz to, u slobodno vrijeme (koje baš i nemam) volim čitati, crtati i fotografirati. Fotografija je nešto što me prati kroz čitav život pa zato kažem da je to moja prva ljubav. 😄",
 		"photoUrl": "/clanovi/klara-tepic.png",
 		"photoUrlWebp": "/clanovi/klara-tepic.webp",
@@ -359,7 +359,7 @@
 	{
 		"name": "Antonija Munjeković",
 		"email": "antonijamunjekovic.15@gmail.com",
-		"role": "voditelj lektora",
+		"role": "voditeljica lektora",
 		"bio": "Volim učiti strane jezike, putovati i ispravljati pogreške u tekstu. Sve radim u zadnji trenutak, a u slobodno vrijeme spavam, bojam ili gledam serije.",
 		"photoUrl": "/clanovi/antonija-munjekovic.jpg",
 		"photoUrlWebp": "/clanovi/antonija-munjekovic.webp",
@@ -376,7 +376,7 @@
 	{
 		"name": "Elena Kržina",
 		"email": "elena.krzina11@gmail.com",
-		"role": "lektor, dizajner",
+		"role": "lektorica, dizajnerica",
 		"bio": "Optimistična, pragmatična, i jako osjetljiva na kafein. Volim videoigrice, knjige, pisanje, crtanje, slikanje, psihologiju, dizajn likova, životinje, putovanja, mitologiju, plivanje; sve i svašta. Uzimam previše projekti od jednom i onda ne stignem spavati kad ujutro moram na vlak...",
 		"photoUrl": "/clanovi/elena-krzina.jpg",
 		"photoUrlWebp": "/clanovi/elena-krzina.webp",
@@ -393,7 +393,7 @@
 	{
 		"name": "Josip Ferić",
 		"email": "joseph.feric@gmail.com",
-		"role": "član web tima",
+		"role": "web developer",
 		"bio": "Osoba sam koja svaku slobodnu minutu ulaže u obrazovanje, gledanje SF filmova, igranja igrica i ispajanja kave. Iz toga razloga ako bih morao opisati svoj socijalni život u 3 riječi to bi bile: tuga, jad i čemer. Volim sudjelovati u hakerskim natjecanjima, baviti se 3D printanjem i ako ikada ulovim vremena, otići na nogomet sa ekipom i odsvirati neki dobar riff na električnoj gitari 😁",
 		"photoUrl": "/clanovi/josip-feric.jpg",
 		"photoUrlWebp": "/clanovi/josip-feric.webp",
@@ -444,7 +444,7 @@
 	{
 		"name": "Tin Tomašić",
 		"email": "",
-		"role": "član web tima",
+		"role": "web developer",
 		"bio": "Aktivno uživam u istraživanju mističnih aspekata života, gradeći svoju magičnu priču unutar entropije AI simulacije nazvane \"svemir\". U slobodno vrijeme studiram, sviram te slušam staru mjuzu i još starije bendove. ⚡",
 		"photoUrl": "/clanovi/tin-tomasic.jpg",
 		"photoUrlWebp": "/clanovi/tin-tomasic.webp",
@@ -461,7 +461,7 @@
 	{
 		"name": "Ema Jukić",
 		"email": "",
-		"role": "novinar",
+		"role": "novinarka",
 		"bio": "Introvertirani ekstrovert I multimedijalni meloman: obožavam zaroniti u svijet knjiga i videogrica te fotografirati. Volim kombinirati nogomet i bicikliranje, sve uz dobru šalicu kave i njemački rječnik. Često uhvatim sebe u više projekata odjednom. ❤️",
 		"photoUrl": "/clanovi/ema-jukic.jpg",
 		"photoUrlWebp": "/clanovi/ema-jukic.webp",
@@ -478,7 +478,7 @@
 	{
 		"name": "Anamarija Dominiković",
 		"email": "",
-		"role": "lektor, novinar",
+		"role": "novinarka, lektorica",
 		"bio": "Osoba koja je vječno nasmijana i gluha od maksimalno pojačanog zvuka na slušalicama, nenormalno organizirana i s puno loših viceva u rukavu te misijom da osmijehom svakome uljepša dan kad god to može. More i priroda su moje utočište.",
 		"photoUrl": "/clanovi/anamarija-dominikovic.jpg",
 		"photoUrlWebp": "/clanovi/anamarija-dominikovic.webp",
@@ -495,7 +495,7 @@
 	{
 		"name": "Nina Obadić",
 		"email": "",
-		"role": "dizajner",
+		"role": "dizajnerica",
 		"bio": "Sve radim u zadnji čas jer najbolje funkcioniram pod pritiskom. Volim umjetnost i estetski lijepe stvari. Da ne ispadne da sam se na ovom faksu našla slučajno, obožavam tehnologiju, posebice web development i UI/UX dizajn. Zezaju me da sam perfekcionist jer su me jednom uhvatili da crtam razlomačku crtu ravnalom. 🙄",
 		"photoUrl": "/clanovi/nina-obadic.jpg",
 		"photoUrlWebp": "/clanovi/nina-obadic.webp",
@@ -529,7 +529,7 @@
 	{
 		"name": "Kristijan Cepanec",
 		"email": "",
-		"role": "community manager, dizajner, film crew",
+		"role": "dizajner, film crew, community manager",
 		"bio": "Introvert, ex- hardcore gamer. Volim čitati, učim razne stvari koje me zanimaju kao npr. poslovanje, psihologija, nutricionizam, financije i sl. Vjerujem u svakodnevni rast i razvoj. U slobodno vrijeme vježbam te editiram videozapise i razne objave za društvene mreže.",
 		"photoUrl": "/clanovi/kristijan-cepanec.jpg",
 		"photoUrlWebp": "/clanovi/kristijan-cepanec.webp",
