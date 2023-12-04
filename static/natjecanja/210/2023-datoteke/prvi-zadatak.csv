@@ -1,0 +1,11 @@
+ID,Naziv,Adresa,Broj mjesta,Status mjesta,Plaæanje
+1,Autobusni Kolodvor Varaždin,"Ulica Zrinskih i Frankopana b.b., Varaždin, 42000, HR",3,Raspoloživo,Ne
+2,Kaufland,"Varteksova ul. 2, 42000, Varaždin, Croatia",2,Raspoloživo,Ne
+3,Auto centar Kos,"Cehovska ul. 18, 42000, Varaždin, Croatia",1,Raspoloživo,Ne
+4,SICK Mobilisis,Varazdinska ulica - Odvojak II 7,1,Ogranièeno,Ne
+5,ELEN Braæe Radiæ,"Ul. Braæe Radiæ 11, 42000, Varaždin, Croatia",1,Raspoloživo,Da
+6,Opæa Bolnica Varaždin,"Ul. Ivana Meštroviæa 1, 42000, Varaždin, Croatia",3,Raspoloživo,Da
+7,Vinka Meðerala,"Ul. Vinka Meðerala bb, 42000, Varaždin, Croatia",3,Raspoloživo,Da
+8,Trg bana Josipa Jelaèiæa 8 Parkiranje,"Trg bana Josipa Jelaèiæa 8, 42000, Varaždin, Croatia",2,Popravak u tijeku,Da
+9,Tehnološki park Varaždin,"Zagrebaèka ul. 89, 42000, Varaždin, Croatia",3,Ogranièeno,Ne
+10,Konzum Centar,"Ul. Gustava Krkleca 1a, 42000, Varaždin, Croatia",3,Raspoloživo,Da
