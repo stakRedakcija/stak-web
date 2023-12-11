@@ -53,7 +53,6 @@
 	<button
 		class="flex justify-between items-center gap-10 mb-4 w-full transition-colors hover:text-violet-600 dark:hover:text-violet-300 {t1Visible ? 'text-violet-700 dark:text-violet-400' : ''}"
 		on:click={() => {
-			return;
 			t1Visible = !t1Visible
 			t2Visible = false
 			t3Visible = false
