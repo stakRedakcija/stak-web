@@ -2,8 +2,8 @@
 	import { ArrowDown, ArrowLeft, PaperClip } from '@inqling/svelte-icons/heroicon-24-solid'
 	import { slide } from 'svelte/transition'
 
-	let t1Visible = true
-	let t2Visible = false
+	let t1Visible = false
+	let t2Visible = true
 	let t3Visible = false
 </script>
 
@@ -61,9 +61,9 @@
 	>
 		<h3 class="font-headline text-xl font-semibold text-current ">Prvi zadatak</h3>
 
-		<!-- <div class="w-8 h-8 flex items-center justify-center rounded border border-current text-current">
+		<div class="w-8 h-8 flex items-center justify-center rounded border border-current text-current">
 			<ArrowDown class="w-6 h-6 transition-transform origin-center text-current {t1Visible ? '-scale-y-100' : ''}" />
-		</div> -->
+		</div>
 	</button>
 
 	{#if t1Visible}
@@ -112,7 +112,7 @@
 		</div>
 	{/if}
 
-	<!-- <button
+	<button
 		class="mt-8 flex justify-between items-center gap-10 mb-4 w-full transition-colors hover:text-violet-600 dark:hover:text-violet-300 {t2Visible ? 'text-violet-700 dark:text-violet-400' : ''}"
 		on:click={() => {
 			t2Visible = !t2Visible
@@ -157,7 +157,7 @@
 		</p>
 	{/if}
 
-	<button
+	<!-- <button
 		class="mt-8 flex justify-between items-center gap-10 mb-4 w-full transition-colors hover:text-violet-600 dark:hover:text-violet-300 {t3Visible ? 'text-violet-700 dark:text-violet-400' : ''}"
 		on:click={() => {
 			t3Visible = !t3Visible
