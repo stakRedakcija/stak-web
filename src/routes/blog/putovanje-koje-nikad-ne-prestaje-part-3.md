@@ -27,6 +27,6 @@ Shinkansenova mreža vlakova prometuje gotovo cijelim Japanom te se dijeli na: T
 
 Shinkansen vlakovi po mnogočemu sliče zrakoplovima što se tiče plana sjedenja, a na nekim je Shinkansenima moguće poslužiti se hranom i pićem zapakiranim u kutije (bento). Na svakom je vlaku dostupan besplatan Wi-Fi (toga nema na HŽ-u, a ako ima, radi traljavo) i prilagođeni su osobama s invaliditetom.
 
-Summa summarum (dočekala sam dan kad mogu upotrijebiti svoje znanje latinskog), japanski su vlakovi nekoliko svjetlosnih godina ispred hrvatskih i upravo su zato predmet moje zanimacije. U ovom su članku japanski vlakovi opisani samo površno, a ispod ti ostavljam nekoliko korisnih linkova ako te zanima više.
+Summa summarum (dočekala sam dan kad mogu upotrijebiti svoje znanje latinskog), japanski su vlakovi nekoliko svjetlosnih godina ispred hrvatskih i upravo su zato predmet moje zanimacije.
 
 Do čitanja!
