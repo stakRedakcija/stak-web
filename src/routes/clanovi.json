@@ -542,5 +542,22 @@
 		"rot": -3,
 		"bgCutout": 4,
 		"borderRadius": 1.08
+	},
+	{
+		"name": "Anja Svetličić",
+		"email": "anja.svetlicic2022@gmail.com",
+		"role": "fotografkinja",
+		"bio": "U slobodno vrijeme uživam u aktivnostima kao što su fotografiranje, crtanje i druženje s prijateljima. Što se tiče FOI-ja, tu sam zasad otkrila da me najviše zanima UI/UX dizajn.",
+		"photoUrl": "/clanovi/anja-svetlicic.png",
+		"photoUrlWebp": "/clanovi/anja-svetlicic.webp",
+		"imgRot": -1,
+		"txtRot": -1,
+		"trOrigX": 22,
+		"trOrigY": 3,
+		"trX": 2,
+		"trY": -8,
+		"rot": 2,
+		"bgCutout": 6,
+		"borderRadius": 1.16
 	}
 ]
