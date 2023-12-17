@@ -3,8 +3,8 @@
 	import { slide } from 'svelte/transition'
 
 	let t1Visible = false
-	let t2Visible = true
-	let t3Visible = false
+	let t2Visible = false
+	let t3Visible = true
 </script>
 
 <svelte:head>
@@ -156,7 +156,7 @@
 		</p>
 	{/if}
 
-	<!-- <button
+	<button
 		class="mt-8 flex justify-between items-center gap-10 mb-4 w-full transition-colors hover:text-violet-600 dark:hover:text-violet-300 {t3Visible ? 'text-violet-700 dark:text-violet-400' : ''}"
 		on:click={() => {
 			t3Visible = !t3Visible
@@ -173,6 +173,54 @@
 
 	{#if t3Visible}
 		<p class="pb-8 border-b border-gray-500 dark:border-zinc-600" transition:slide>
+			Marija je odlučila optimirati svoje mjesečne troškove.
+			<br /> <br />
+			Trenutno na posao ide osobnim automobilom. Međutim, budući da je put kroz grad s puno stani-kreni prometa, mjesečni troškovi ispali su relativno visoki zbog potrošnje Marijina automobila.
+			<br /><br />
+			Razmišljajući, došla je do sljedećih opcija prijevoza do posla (u jednom smjeru):
+			<br />
+			- pješke: 0 €, 50 min <br />
+			- bicikl: 0 €, 20 min <br />
+			- automobil: 1,25 €, 10 min <br />
+			- električni romobil: 0,85 €, 12 min <br />
+			- javni prijevoz: 2,5 €, 11 min <br />
+			- taksi: 5 €, 8 min. <br />
+			<br /> <br />
+			<b>Zadatak 1</b>
+			<br />
+			<i>2 boda</i>
+			<br />
+			<br />
+			U ovisnosti o broju unesenih dana izračunajte vremenski i novčani trošak prijevoza do posla za svaki način prijevoza. [1 bod]
+			<br /> <br />
+			Ispišite najefikasnije metode prijevoza ovisno o vremenu i novcu. [1 bod]
+			<br /> <br /> <br />
+			<b>Zadatak 2</b>
+			<br />
+			<i>2 boda</i>
+			<br />
+			<br />
+			Marija radi 220 dana u godini. Da bismo dobili točniji trošak odlaska na posao, trebamo uračunati trošak vozila te njegovo održavanje.
+			<br /> <br />
+			Iznosi su sljedeći:
+			<br />
+			- pješke: 0 € <br />
+			- bicikl: 150 € kupnja, održavanje 20 €/god. <br />
+			- automobil: 25.000 € kupnja, održavanje 400 €/god. (tehnički pregled, osiguranje, redovni servis) <br />
+			- električni romobil: 0 € kupnja, 1 €/mj. pretplata na <i>ridesharing</i> aplikaciju <br />
+			- javni prijevoz: 0 € <br />
+			- taksi: 0 €. <br />
+			<br /> <br />
+			Uzevši u obzir ove podatke, koji je najefikasniji način odlaska na posao?
+			<br /> <br /> <br />
+			<b>Zadatak 3</b>
+			<br />
+			<i>1 bod</i>
+			<br />
+			<br />
+			Marija je razmišljala o kupnji električnog automobila. Nabavna je cijena 30.000 €, a troškovi su 100 € godišnje. Budući da Marija može puniti automobil na poslu, trošak putovanja pada na 0 €.
+			<br /> <br />
+			Nakon koliko bi se vremena kupnja električnog automobila isplatila u usporedbi s benzinskim automobilom koji Marija trenutno ima?
 		</p>
-	{/if} -->
+	{/if}
 </section>
