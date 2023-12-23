@@ -10,11 +10,22 @@
     "color": {
       "value": "#fff"
     },
+    "shadow": {
+      "blur": 2,
+      "color": {
+        "value": "#f00"
+      },
+      "enable": true,
+      "offset": {
+        "x": 0,
+        "y": 2
+      }
+    },
     "shape": {
       "type": "circle",
       "stroke": {
         "width": 0,
-        "color": "#000000"
+        "color": "#fff"
       },
       "polygon": {
         "nb_sides": 5
