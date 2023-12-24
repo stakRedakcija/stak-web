@@ -29,6 +29,7 @@
 	"type": "module",
 	"dependencies": {
 		"@inqling/svelte-icons": "^3.1.0",
+		"@slidy/svelte": "^3.4.2",
 		"@supabase/ssr": "^0.0.8",
 		"@supabase/supabase-js": "^2.38.4",
 		"canvas-confetti": "^1.9.0",
