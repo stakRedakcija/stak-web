@@ -1,14 +1,24 @@
 <script>
+	import { Slidy } from '@slidy/svelte'
 	import LargeSocialIcon from '$lib/components/LargeSocialIcon.svelte'
 	import { getRandomInt } from '$lib/utils/index'
 	import { onMount } from 'svelte'
 	import members from './clanovi.json'
 	import socialLinks from './socialLinks.json'
 	import contactInfo from './contactInfo.json'
+	import slides from './xmas-carousel.json'
 
 	export let data
 
 	let isMobile = true
+	let carouselOptions = {
+		slides,
+		arrows: true,
+		snap: 'center',
+		counter: false,
+		thumbnail: false,
+		progress: true
+	}
 
 	onMount(() => {
 		isMobile = window.innerWidth < 800
@@ -21,21 +31,32 @@
 
 <h1 class="wide-title text-9xl font-headline tracking-tighter mx-10 mt-5 md:mx-20 md:mt-20 text-red-600 dark:text-red-300">Dobro&shy;došli u svijet St@ka!</h1>
 
-<section id="frisko-z-bloga" class="mx-10 mt-20 md:m-20 mb-20 md:mb-40">
+<section id="xmas-2023" class="mx-10 mt-20 md:m-20 mb-20 md:mb-40">
+	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Sretni blagdani!</h2>
+	<div class="mt-20 text-center mx-auto">
+		<div class="flex flex-col lg:flex-row gap-14 lg:gap-20 xl:mx-auto my-20 lg:my-24 w-[80vw] xl:w-max">
+			<div class="flex flex-col gap-4 items-start justify-center max-w-md text-justify">
+				<Slidy {...carouselOptions} />
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="frisko-z-bloga" class="mx-10 mt-10 md:m-20 mb-20 md:mb-40">
 	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Iz našeg pera</h2>
 
 	<ul class="flex flex-wrap justify-center gap-10 md:gap-14 lg:gap-20 px-0 pt-10 xl:pt-20 mx-auto max-w-[100rem]">
-		{#each data.posts as { path, meta: { title, image, date } }, i}
+		{#each data.posts as { path, meta: { title, image, date } }}
 			{@const formattedDate = new Intl.DateTimeFormat('hr-HR', { dateStyle: 'long' }).format(new Date(date))}
 			{@const randomRot = getRandomInt(-40, 30) / 10}
-			
+
 			<li class="max-lg:odd:ml-auto max-lg:even:mr-auto">
 				<a href={path} class="flex flex-col group max-w-md 2xl:max-w-2xl">
 					<div class="grid grid-cols-1 grid-rows-1 drop-shadow-2xl" style:transform={`rotate(${randomRot}deg)`}>
 						<img class="rounded-xl border-8 border-white dark:border-neutral-600 group-hover:border-red-500 dark:group-hover:border-red-400 transition-colors w-[80vw] aspect-video row-start-1 row-end-1 col-start-1 col-end-1 object-cover dark:brightness-75" src={image} alt={title} />
 						<div class="rounded-xl border-8 border-white dark:border-neutral-600 group-hover:border-red-500 dark:group-hover:border-red-400 transition-colors bg-gradient-to-tr from-white/0 to-white/10 bg-blend-overlay shadow-inner w-full h-full row-start-1 row-end-1 col-start-1 col-end-1">&nbsp;</div>
 					</div>
-	
+
 					<div class="-mt-8 -ml-6 lg:-mt-14 lg:-ml-8 mr-auto drop-shadow-xl z-10 max-w-[90%]">
 						<div class="paper-bg torn-paper-4 py-4 px-8 flex flex-col gap-1" style:border-radius={`${getRandomInt(16, 32)}px`} style:transform={`rotate(${randomRot + getRandomInt(-1, 1)}deg)`}>
 							<h2 class="group-hover:text-red-500 dark:group-hover:text-red-400 post-title text-lg 2xl:text-2xl transition-colors">{@html title}</h2>
@@ -112,11 +133,11 @@
 <section id="podcast" class="mx-10 mt-20 md:m-20 mb-0 md:mb-0">
 	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Podcast<wbr />@FOI</h2>
 
-	
+
 	<div class="flex flex-wrap items-center xl:justify-center gap-10 xl:mx-auto max-w-lg">
 		<p class="xl:text-center">U razgovoru s vašim omiljenim profesorima saznajte više o tome što rade na Fakultetu, u slobodno vrijeme i koliko su vješti u rješavanju izazova!</p>
 		<LargeSocialIcon data={contactInfo.podcast} />
-	</div>	
+	</div>
 </section>
 
 <section id="meet-the-crew" class="mx-10 mt-20 md:m-20 mb-0">
@@ -161,3 +182,7 @@
 		{/each}
 	</div>
 </section>
+
+<style>
+	@import '/node_modules/@slidy/svelte/dist/slidy.css';
+</style>

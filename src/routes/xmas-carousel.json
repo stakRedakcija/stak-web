@@ -1,0 +1,45 @@
+[
+  {
+    "src": "/images/2023-bozic/candy-cane.jpg",
+    "alt": "Candy cane",
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "src": "/images/2023-bozic/fireplace.png",
+    "alt": "Fireplace",
+    "width": 2221,
+    "height": 2221
+  }
+,
+  {
+    "src": "/images/2023-bozic/grinch.png",
+    "alt": "Grinch",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "/images/2023-bozic/message.png",
+    "alt": "Message",
+    "width": 3402,
+    "height": 3402
+  },
+  {
+    "src": "/images/2023-bozic/olaf.jpg",
+    "alt": "Olaf",
+    "width": 3334,
+    "height": 3334
+  },
+  {
+    "src": "/images/2023-bozic/poruka.png",
+    "alt": "Poruka",
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "src": "/images/2023-bozic/snow.png",
+    "alt": "Snow",
+    "width": 4320,
+    "height": 4320
+  }
+]
