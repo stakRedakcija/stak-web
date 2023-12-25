@@ -16,8 +16,9 @@
 		arrows: true,
 		snap: 'center',
 		counter: false,
-		thumbnail: false,
-		progress: true
+		thumbnail: true,
+		progress: false, // does not work on MS Edge
+		loop: true
 	}
 
 	onMount(() => {
