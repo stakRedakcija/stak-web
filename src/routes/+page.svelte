@@ -6,7 +6,7 @@
 	import members from './clanovi.json'
 	import socialLinks from './socialLinks.json'
 	import contactInfo from './contactInfo.json'
-	import slides from './xmas-carousel.json'
+	import slides from './xmasCarousel.json'
 
 	export let data
 
