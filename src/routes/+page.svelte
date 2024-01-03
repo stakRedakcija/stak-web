@@ -1,25 +1,28 @@
 <script>
-	import { Slidy } from '@slidy/svelte'
 	import LargeSocialIcon from '$lib/components/LargeSocialIcon.svelte'
 	import { getRandomInt } from '$lib/utils/index'
 	import { onMount } from 'svelte'
 	import members from './clanovi.json'
 	import socialLinks from './socialLinks.json'
 	import contactInfo from './contactInfo.json'
-	import slides from './xmasCarousel.json'
 
 	export let data
 
 	let isMobile = true
-	let carouselOptions = {
-		slides,
-		arrows: true,
-		snap: 'center',
-		counter: false,
-		thumbnail: true,
-		progress: false, // does not work on MS Edge
-		loop: true
-	}
+	/** Xmas 2023 visuals (carousel)
+	 *
+	 *  import { Slidy } from '@slidy/svelte'
+	 *  import slides from './xmasCarousel.json'
+	 * 	let carouselOptions = {
+	 * 		slides,
+	 * 		arrows: true,
+	 * 		snap: 'center',
+	 * 		counter: false,
+	 * 		thumbnail: true,
+	 * 		progress: false, // does not work on MS Edge
+	 * 		loop: true
+	 * 	}
+	 */
 
 	onMount(() => {
 		isMobile = window.innerWidth < 800
@@ -32,7 +35,7 @@
 
 <h1 class="wide-title text-9xl font-headline tracking-tighter mx-10 mt-5 md:mx-20 md:mt-20 text-red-600 dark:text-red-300">Dobro&shy;došli u svijet St@ka!</h1>
 
-<section id="xmas-2023" class="mx-10 mt-20 md:m-20 mb-20 md:mb-40">
+<!--<section id="xmas-2023" class="mx-10 mt-20 md:m-20 mb-20 md:mb-40">
 	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Sretni blagdani!</h2>
 	<div class="mt-20 text-center mx-auto">
 		<div class="flex flex-col lg:flex-row gap-14 lg:gap-20 xl:mx-auto my-20 lg:my-24 w-[80vw] xl:w-max">
@@ -41,7 +44,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section>-->
 
 <section id="frisko-z-bloga" class="mx-10 mt-10 md:m-20 mb-20 md:mb-40">
 	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Iz našeg pera</h2>
@@ -184,6 +187,6 @@
 	</div>
 </section>
 
-<style>
+<!--<style>
 	@import '/node_modules/@slidy/svelte/dist/slidy.css';
-</style>
+</style>-->

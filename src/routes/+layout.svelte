@@ -1,7 +1,6 @@
 <script>
 	import '../app.postcss'
 	import Navbar from '$lib/components/Navbar.svelte'
-	import Snow from '$lib/components/Snow.svelte'
 	import Footer from '$lib/components/Footer.svelte'
 	import { fly } from 'svelte/transition'
 	import { page } from '$app/stores'
@@ -19,8 +18,6 @@
 		'/o-nama': 'about'
 	}
 </script>
-
-<Snow />
 
 <div
 	class="transition-colors overflow-x-hidden min-h-screen flex flex-col"
