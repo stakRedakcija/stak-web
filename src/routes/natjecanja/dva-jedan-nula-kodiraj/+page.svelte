@@ -4,7 +4,7 @@
 
 	let t1Visible = false
 	let t2Visible = false
-	let t3Visible = true
+	let t3Visible = false
 </script>
 
 <svelte:head>
@@ -34,16 +34,17 @@
 
 		<p>Zadatci koje zadaje St@k različite su težine, ali uz malo truda moguće ih je riješiti i pritom naučiti nešto novo ili poboljšati već stečeno znanje programiranja.</p>
 
-		<a
+		<!--<a
 			class="px-6 py-2 rounded-lg mt-8 flex shadow-md text-lg font-headline font-semibold bg-violet-100 dark:bg-black dark:text-violet-300 hover:bg-violet-700 dark:hover:bg-violet-400 text-violet-700 hover:text-violet-50 dark:hover:text-black hover:shadow-lg shadow-zinc-200 dark:shadow-black/50 hover:shadow-violet-400 dark:hover:shadow-violet-900 transition"
 			href="mailto:stak@foi.hr"
 			target="_blank"
 			rel="noreferrer"
 		>
 			Prijavi se
-		</a>
+		</a>-->
 
 		<!-- <a href="/blog/zavrsila-je-peta-sezona-natjecanja-dva-jedan-nula-kodiraj" class="text-md font-semibold underline underline-offset-4 decoration-dotted decoration-violet-600 dark:decoration-violet-300 hover:text-violet-600 dark:hover:text-violet-300 hover:decoration-solid transition-colors">Natjecanje je završilo, hvala svima koji su se prijavili!</a> -->
+		<p class="text-md font-semibold">Natjecanje je završilo, hvala svima koji su se prijavili!</p>
 	</div>
 </section>
 
