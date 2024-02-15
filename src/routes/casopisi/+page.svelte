@@ -1,11 +1,11 @@
 <script>
 	import magazinesInfo from './casopisi.json'
 
-	const magazines = magazinesInfo.map((it) => ({
-		...it,
-		title: `St@k ${it.id}`,
-		url: `/casopisi/${it.id}`,
-		imgCover: `/casopisi/stak-${it.id}.webp`
+	const magazines = magazinesInfo.map((magazineInfo) => ({
+		...magazineInfo,
+		title: `St@k ${magazineInfo.id}`,
+		url: `/casopisi/${magazineInfo.id}`,
+		imgCover: `/casopisi/stak-${magazineInfo.id}.webp`
 	}))
 
 	const latestMagazine = magazines[0]
