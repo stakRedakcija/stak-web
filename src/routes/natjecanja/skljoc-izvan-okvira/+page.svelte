@@ -2,7 +2,7 @@
 	import { ArrowDown, ArrowLeft } from '@inqling/svelte-icons/heroicon-24-solid'
 	import { slide } from 'svelte/transition'
 
-	let t1Visible = false
+	let t1Visible = true
 	let t2Visible = false
 	let t3Visible = false
 </script>
@@ -35,23 +35,14 @@
 			Svaki tjedan tijekom trajanja natjecanja St@k objavljuje novi zadatak. Tematike su različite, ali vjerujemo da je svaka zanimljiva na svoj način te dopušta potpunu kreativnu slobodu natjecatelju.
 		</p>
 
-		<!-- <a
+		 <a
 			class="px-6 py-2 rounded-lg mt-8 flex shadow-md text-lg font-headline font-semibold bg-violet-100 dark:bg-black dark:text-violet-300 hover:bg-violet-700 dark:hover:bg-violet-400 text-violet-700 hover:text-violet-50 dark:hover:text-black hover:shadow-lg shadow-zinc-200 dark:shadow-black/50 hover:shadow-violet-400 dark:hover:shadow-violet-900 transition"
 			href="mailto:stak@foi.hr"
 			target="_blank"
 			rel="noreferrer"
 		>
 			Prijavi se
-		</a> -->
-
-		<!-- <a
-			class="px-6 py-2 rounded-lg mt-8 flex shadow-md text-lg font-headline font-semibold bg-violet-100 dark:bg-black dark:text-violet-300 hover:bg-violet-700 dark:hover:bg-violet-400 text-violet-700 hover:text-violet-50 dark:hover:text-black hover:shadow-lg shadow-zinc-200 dark:shadow-black/50 hover:shadow-violet-400 dark:hover:shadow-violet-900 transition"
-			href="mailto:stak@foi.hr"
-			target="_blank"
-			rel="noreferrer"
-		>
-			Prijavi se
-		</a> -->
+		</a>
 
 		<!--<a href="/blog/skljoc-izvan-okvira-2023-rezultati" class="text-md font-semibold underline underline-offset-4 decoration-dotted decoration-violet-600 dark:decoration-violet-300 hover:text-violet-600 dark:hover:text-violet-300 hover:decoration-solid transition-colors">Natjecanje je završilo, hvala svima koji su se prijavili!</a>-->
 	</div>
@@ -101,7 +92,11 @@
 	{#if t1Visible}
 		<div class="pb-8 border-b border-gray-500 dark:border-zinc-600" transition:slide>
 			<p>
-				...dolazi u ponedjeljak, <span class="font-semibold">11. ožujka 2024.</span>
+				U svijetu fotografije portret je umjetnički prikaz osobe, obično fokusiran na lice i izraze lica, s ciljem otkrivanja unutarnje suštine. No, ovaj put, pozivamo te da iziđeš iz uobičajenih okvira i uđeš u svijet portreta životinje.
+				<br><br>
+				Tvoj je zadatak uhvatiti čaroliju života u oku neke životinje. Fokusiraj se na izražajnost očiju, pokušaj zabilježiti emocije, karakter i jedinstvenost života koji živi u tom biću. Pusti mašti na volju i istraži različite perspektive kako bi stvorio portret koji će gledatelja očarati i nagnati ga na razmišljanje. Portret životinje treba odražavati ljepotu prirode, njezinu snagu ili nježnost. Koristi se svjetlom i bojom da naglasiš detalje i stvoriš atmosferu koja će dočarati osobnost ili karakter te životinje.
+				<br><br>
+				Rok je za slanje fotografija <b>17. ožujka</b>, a šalješ ih na <a class="underline" href="mailto:stak@foi.hr">stak@foi.hr</a> s predmetom <em>Škljoc izvan okvira</em>. Ne zaboravi uključiti i kratak opis o tome kako si pristupio zadatku te što si želio postići svojim portretom.
 			</p>
 		</div>
 	{/if}
