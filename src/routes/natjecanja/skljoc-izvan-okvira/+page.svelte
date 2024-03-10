@@ -53,8 +53,31 @@
 			Prijavi se
 		</a> -->
 
-		<a href="/blog/skljoc-izvan-okvira-2023-rezultati" class="text-md font-semibold underline underline-offset-4 decoration-dotted decoration-violet-600 dark:decoration-violet-300 hover:text-violet-600 dark:hover:text-violet-300 hover:decoration-solid transition-colors">Natjecanje je završilo, hvala svima koji su se prijavili!</a>
+		<!--<a href="/blog/skljoc-izvan-okvira-2023-rezultati" class="text-md font-semibold underline underline-offset-4 decoration-dotted decoration-violet-600 dark:decoration-violet-300 hover:text-violet-600 dark:hover:text-violet-300 hover:decoration-solid transition-colors">Natjecanje je završilo, hvala svima koji su se prijavili!</a>-->
 	</div>
+</section>
+
+<section class="flex flex-col mx-10 md:mx-20 xl:mx-auto my-20 lg:my-32 lg:max-w-screen-md xl:max-w-screen-sm">
+	<h2 class="font-headline text-5xl font-semibold text-violet-500 dark:text-violet-200 tracking-tighter mb-10">Najava nove sezone!</h2>
+	<small class="-mt-7 mb-10 text-gray-800 dark:text-gray-400 uppercase">ožujak 2024.</small>
+
+	<p class="text-justify">
+		Škljoc izvan okvira, fotografsko natjecanje koje potiče tvoju maštu, kreativnost i originalnost, ove sezone dolazi s novim izazovima!
+		<br><br>
+		Tvoje fotografske vještine bit će testirane zadatcima koji će te potaknuti da istražiš emocije, pokrete, boje te da nam pokažeš svoju jedinstvenu viziju svijeta.
+		<br><br>
+		<span class="underline">Naredna tri ponedjeljka</span> izići će po jedan zadatak. Na tebi je da uzmeš fotić i okineš nekoliko fotografija. Pošalji nam dvije najbolje fotografije, ispričaj priču koja stoji iza njih u 50 riječi, predstavi nam se kako bismo znali tko stoji iza umjetničkog djela i osmisli pseudonim koji će te pratiti do kraja natjecanja.
+		<br><br>
+		Ove sezone tvoje fotografije ne ocjenjuje samo žiri, već i studenti koji nas prate na društvenim mrežama. Nakon svakog zadatka na Instagramu ćemo objaviti radove natjecatelja, a lajkove ćemo uzeti u obzir pri bodovanju.
+		<br><br>
+		Tvoj trud i kreativnost neće proći neopaženo. Najbolje natjecatelje čekaju vrijedne nagrade.
+		<br><br>
+		Fotografije primamo na e-mail <a class="underline" href="mailto:stak@foi.hr">stak@foi.hr</a> s predmetom <em>Škljoc izvan okvira</em>. Prvi zadatak dolazi u <span class="font-semibold">ponedjeljak, 11. ožujka 2024.</span>
+		<br><br>
+		Jedino što ti sada preostaje jest pažljivo pratiti objave u narednim tjednima i baciti se na fotkanje.
+		<br><br>
+		Sretno! 📸
+	</p>
 </section>
 
 <section class="flex flex-col mx-10 md:mx-20 xl:mx-auto my-20 lg:my-32 lg:max-w-screen-md xl:max-w-screen-sm">
@@ -78,15 +101,7 @@
 	{#if t1Visible}
 		<div class="pb-8 border-b border-gray-500 dark:border-zinc-600" transition:slide>
 			<p>
-				<span class="text-md font-medium">Pjesma „Ja sem Varaždinec“</span>
-				<br /> <br />
-				Fotografijom prikaži što za tebe predstavlja Varaždin. Ljepotu grada može predstavljati arhitektura, ali i ljudi koji ga čine tako posebnim. Zabavi se i razmišljaj izvan okvira!
-				<br /> <br />
-				Pošalji nam samo jednu najbolju fotografiju, ispričaj nam priču u 50 riječi i, ono najvažnije, predstavi se kako bismo znali tko stoji iza umjetničkog djela.
-				<br />
-				Ne zaboravi pritom napomenuti i na kojoj si godini i smjeru.
-				<br /> <br />
-				Za sve to imaš jedan tjedan, odnosno do izlaska novog zadatka 20. 3. 2023.
+				...dolazi u ponedjeljak, <span class="font-semibold">11. ožujka 2024.</span>
 			</p>
 		</div>
 	{/if}
@@ -107,15 +122,11 @@
 	</button>
 
 	{#if t2Visible}
-		<p class="pb-8 border-b border-gray-500 dark:border-zinc-600" transition:slide>
-			<span class="text-md font-medium">Pjesma „7 Years”</span>
-			<br /> <br />
-			Novi tjedan, novi zadatak. Ovoga smo tjedna za tebe odabrali pjesmu „7 Years” izvođača Lukasa Grahama koja govori o djetinjstvu i odrastanju. Tvoj je zadatak pofotkati trenutak koji te asocira na djetinjstvo ili neku aktivnost koju si radio/la kao dijete.
-			<br /> <br />
-			Pravila su ista kao i prošli tjedan, pošalji nam jednu fotografiju, predstavi se i ispričaj nam priču iza te fotografije u 50 riječi. Ne zaboravi pritom napomenuti na kojoj si godini i smjeru.
-			<br /> <br />
-			Za sve to imaš tjedan dana, odnosno do izlaska sljedećeg zadatka 27. 3. 2023.
-		</p>
+		<div class="pb-8 border-b border-gray-500 dark:border-zinc-600" transition:slide>
+			<p>
+				...dolazi u ponedjeljak, <span class="font-semibold">18. ožujka 2024.</span>
+			</p>
+		</div>
 	{/if}
 
 	<button
@@ -134,14 +145,10 @@
 	</button>
 
 	{#if t3Visible}
-		<p class="pb-8 border-b border-gray-500 dark:border-zinc-600" transition:slide>
-			Pjesma „Fast Car”
-			<br /> <br />
-			Tvoj je zadatak ovoga tjedna fotkati long-exposure fotografiju. Drugim riječima, uhvati bilo koji objekt u prirodi ili osobu u pokretu. Ne moraš se nužno držati tematike zadane pjesme, zato pusti malo mašti na volju. 
-			<br /> <br />
-			Sva su pravila ostala ista kao i u prethodna dva zadatka. Pošalji nam jednu fotografiju, predstavi se, napiši način kako si uhvatio/la trenutak te ideju iza te fotografije u 50 riječi. Ne zaboravi pritom napomenuti na kojoj si godini i smjeru.
-			<br /> <br />
-			Za sve to imaš tjedan dana, odnosno do 3. 4. 2023.
-		</p>
+		<div class="pb-8 border-b border-gray-500 dark:border-zinc-600" transition:slide>
+			<p>
+				...dolazi u ponedjeljak, <span class="font-semibold">25. ožujka 2024.</span>
+			</p>
+		</div>
 	{/if}
 </section>
