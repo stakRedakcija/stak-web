@@ -7,7 +7,7 @@ imageSource: '<a href="https://meettheslavs.com/slavic-paganism/">Web</a>'
 layout: blog
 featured: false
 categories:
-	- 'fun'
+  - 'fun'
 ---
 
 Većina se ljudi sa sjetom vraća u period osnovne škole, razdoblje u kojem je svijet još uvijek nepoznat i zanimljiv, a vrijeme sporo. Jedno od ljepših sjećanja koje nosim sa sobom iz osnovne škole fascinacija je grčkom mitologijom potaknuta djelima Gustava Schwaba te onih silnih sati provedenih nad knjigama o Zeusu, Ateni, Apolonu, nimfama, ostalim bogovima i polubogovima, odnosom među njima i stvaranjem svijeta na način toliko kreativan da je teško ne zapitati se kako su ili bolje, zašto su ljudi u prošlosti objašnjavali svijet baš na takav način – kroz priče koje su iznimno fantastične, a na razne načine povezane i smislene, kao sitne niti utkane u poimanje svijeta naših predaka. S obzirom na to da je od slavenske mitologije ostalo malo povijesnih izvora u odnosnu na grčku ili nordijsku, ne preostaje mi drugo nego da je istražim barem u temeljnim crtama.

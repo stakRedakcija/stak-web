@@ -7,7 +7,7 @@ imageSource: 'St@k'
 layout: blog
 featured: true
 categories:
-	- 'intervju'
+  - 'intervju'
 ---
 
 Od listopada 2023. godine dekansku palicu Fakulteta organizacije i informatike preuzima prof. dr. sc. Marina Klačmer Čalopa. Svoj [prvi intervju za St@k](https://stak.foi.hr/casopisi/7) dala je davne 2007. godine, a što se otad promijenilo i kako se snalazi u novoj ulozi na Fakultetu, pročitajte u intervjuu koji slijedi.

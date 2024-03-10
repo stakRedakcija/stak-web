@@ -7,7 +7,7 @@ imageSource: '<a href="https://unsplash.com/@ohamko">Matúš Kovačovský</a>, <
 layout: blog
 featured: false
 categories:
-	- 'fun'
+  - 'fun'
 ---
 
 Već ranije smo se upoznali s MBTI tipovima osobnosti, a u ovom ćemo članku obraditi jednu varijaciju MBTI-ja koja dolazi iz Jungove teorije ličnosti. Uvidjelo se da neki tipovi osobnosti po MBTI-ju dijele neke zajedničke osobine koje se pojavljuju u različitim okolnostima i intenzitetima. Te se zajedničke osobine zovu kognitivne funkcije, a o njima ćemo nešto više reći u nastavku.

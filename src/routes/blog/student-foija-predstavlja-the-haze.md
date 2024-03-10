@@ -7,7 +7,7 @@ imageSource: 'The Haze'
 layout: blog
 featured: true
 categories:
-	- 'intervju'
+  - 'intervju'
 ---
 
 <script>

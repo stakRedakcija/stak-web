@@ -7,7 +7,7 @@ imageSource: 'St@k'
 layout: blog
 featured: false
 categories:
-	- 'natjecanja'
+  - 'natjecanja'
 ---
 
 Kako bismo probudili kreativca u tebi, idealno je vrijeme za Škljoc izvan okvira, fotografsko natjecanje koje nema puno pravila i ne zahtijeva puno vremena – ove godine s novom tematikom!

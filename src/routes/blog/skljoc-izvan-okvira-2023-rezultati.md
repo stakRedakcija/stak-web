@@ -7,7 +7,7 @@ imageSource: 'St@k'
 layout: blog
 featured: false
 categories:
-	- 'natjecanja'
+  - 'natjecanja'
 ---
 
 <script>
