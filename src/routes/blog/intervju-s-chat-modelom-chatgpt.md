@@ -7,7 +7,7 @@ imageSource: '<a href="https://www.klippa.com/en/blog/information/what-is-chatgp
 layout: blog
 featured: true
 categories:
-	- 'tech'
+  - 'tech'
 ---
 
 Prva ideja za susret s ChatGPT-om bila je ta da sam napiše članak o sebi, ali to ne bi bilo toliko zabavno kao stvarni intervju s još jednim dosegom umjetne inteligencije iz tvornice OpenAI-a. Stoga ćemo zajedno pokušati pobliže upoznati ovog agenta za razgovor, saznati više o njegovim namjerama te mogućnosti da pokori svijet svojim odgovorima. 
