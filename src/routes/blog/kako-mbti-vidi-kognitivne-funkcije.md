@@ -5,7 +5,7 @@ date: 2023-03-10
 image: /clanci-slike/2023/kako-mbti-vidi-kognitivne-funkcije.jpg
 imageSource: '<a href="https://unsplash.com/@ohamko">Matúš Kovačovský</a>, <a href="https://unsplash.com/photos/eIvLuyDjCQI">Unsplash</a>'
 layout: blog
-featured: true
+featured: false
 categories:
 	- 'fun'
 ---
