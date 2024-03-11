@@ -57,13 +57,13 @@
 		<br><br>
 		Tvoje fotografske vještine bit će testirane zadatcima koji će te potaknuti da istražiš emocije, pokrete, boje te da nam pokažeš svoju jedinstvenu viziju svijeta.
 		<br><br>
-		<span class="underline">Naredna tri ponedjeljka</span> izići će po jedan zadatak. Na tebi je da uzmeš fotić i okineš nekoliko fotografija. Pošalji nam dvije najbolje fotografije, ispričaj priču koja stoji iza njih u 50 riječi, predstavi nam se kako bismo znali tko stoji iza umjetničkog djela i osmisli pseudonim koji će te pratiti do kraja natjecanja.
+		<span class="underline">Naredna tri utorka</span> izići će po jedan zadatak. Na tebi je da uzmeš fotić i okineš nekoliko fotografija. Pošalji nam dvije najbolje fotografije, ispričaj priču koja stoji iza njih u 50 riječi, predstavi nam se kako bismo znali tko stoji iza umjetničkog djela i osmisli pseudonim koji će te pratiti do kraja natjecanja.
 		<br><br>
 		Ove sezone tvoje fotografije ne ocjenjuje samo žiri, već i studenti koji nas prate na društvenim mrežama. Nakon svakog zadatka na Instagramu ćemo objaviti radove natjecatelja, a lajkove ćemo uzeti u obzir pri bodovanju.
 		<br><br>
 		Tvoj trud i kreativnost neće proći neopaženo. Najbolje natjecatelje čekaju vrijedne nagrade.
 		<br><br>
-		Fotografije primamo na e-mail <a class="underline" href="mailto:stak@foi.hr">stak@foi.hr</a> s predmetom <em>Škljoc izvan okvira</em>. Prvi zadatak dolazi u <span class="font-semibold">ponedjeljak, 11. ožujka 2024.</span>
+		Fotografije primamo na e-mail <a class="underline" href="mailto:stak@foi.hr">stak@foi.hr</a> s predmetom <em>Škljoc izvan okvira</em>. Prvi zadatak dolazi u <span class="font-semibold">utorak, 12. ožujka 2024.</span>
 		<br><br>
 		Jedino što ti sada preostaje jest pažljivo pratiti objave u narednim tjednima i baciti se na fotkanje.
 		<br><br>
@@ -119,7 +119,7 @@
 	{#if t2Visible}
 		<div class="pb-8 border-b border-gray-500 dark:border-zinc-600" transition:slide>
 			<p>
-				...dolazi u ponedjeljak, <span class="font-semibold">18. ožujka 2024.</span>
+				...dolazi u utorak, <span class="font-semibold">19. ožujka 2024.</span>
 			</p>
 		</div>
 	{/if}
@@ -142,7 +142,7 @@
 	{#if t3Visible}
 		<div class="pb-8 border-b border-gray-500 dark:border-zinc-600" transition:slide>
 			<p>
-				...dolazi u ponedjeljak, <span class="font-semibold">25. ožujka 2024.</span>
+				...dolazi u utorak, <span class="font-semibold">26. ožujka 2024.</span>
 			</p>
 		</div>
 	{/if}
