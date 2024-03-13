@@ -1,14 +1,11 @@
 <script>
 	import LargeSocialIcon from '$lib/components/LargeSocialIcon.svelte'
 	import { getRandomInt } from '$lib/utils/index'
-	import { onMount } from 'svelte'
-	import members from './clanovi.json'
 	import socialLinks from './socialLinks.json'
 	import contactInfo from './contactInfo.json'
 
 	export let data
 
-	let isMobile = true
 	/** Xmas 2023 visuals (carousel)
 	 *
 	 *  import { Slidy } from '@slidy/svelte'
@@ -23,10 +20,6 @@
 	 * 		loop: true
 	 * 	}
 	 */
-
-	onMount(() => {
-		isMobile = window.innerWidth < 800
-	})
 </script>
 
 <svelte:head>
@@ -71,57 +64,11 @@
 			</li>
 		{/each}
 	</ul>
-</section>
 
-<section id="o-nama" class="mx-10 mt-20 md:m-20 mb-0 md:mb-0">
-	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">O nama</h2>
-
-	<div class="flex flex-col lg:flex-row gap-14 lg:gap-20 xl:mx-auto my-20 lg:my-24 w-[80vw] xl:w-max">
-		<div class="flex flex-col gap-4 items-start justify-center max-w-md text-justify">
-			<p>
-				Studentski časopis Fakulteta organizacije i informatike u Varaždinu nazvan ST@K - <b>ST</b>udentska <b>AK</b>tivnost nastao je kao pokret studenata s ciljem povećanja broja aktivnosti na
-				Fakultetu te uspostavljanja dijaloga između studenata Fakulteta i drugih entiteta koji sačinjavaju studentski život.
-			</p>
-
-			<p>
-				St@k trenutno broji tridesetak aktivnih članova podijeljenih u nekoliko sekcija: community manageri, dizajneri, film crew, fotografi, lektori, novinari i web developeri.
-			</p>
-
-			<p>
-				Osim što mu je glavni zadatak izrada semestralnog časopisa, St@k je uveo velik broj <i>online</i> aktivnosti kako bi više animirao studente FOI-ja, poput raznih
-				<a href="/natjecanja">natjecanja</a> i radionica (za članove redakcije i sve zainteresirane).
-			</p>
-		</div>
-
-		<picture>
-			<source srcset="/images/o-nama/the-crew.webp" type="image/webp">
-			<img
-				class="border-8 aspect-video border-white dark:border-black shadow-xl shadow-zinc-400 dark:shadow-black/50 rounded object-cover w-full max-w-sm md:max-w-md lg:max-w-xl rotate-6 md:ml-auto"
-				src="/images/o-nama/the-crew.jpg"
-				alt="Grupa fotografa s fotoaparatima"
-				loading="lazy"
-			/>
-		</picture>
-	</div>
-
-	<div class="flex flex-col lg:flex-row-reverse gap-14 lg:gap-20 xl:mx-auto my-20 lg:my-24 w-[80vw] xl:w-max">
-		<div class="flex flex-col gap-4 items-start justify-center max-w-md text-justify">
-			<p>
-				Zbrojivši sve, St@k se može opisati kao dobrovoljna udruga koja uključuje studente svih smjerova FOI-ja s nultim pragom tolerancije na bilo koji oblik diskriminacije. Cilj Redakcije je dati
-				prostor svojim članovima da se profesionalno usavrše, izraze i pridonesu kvaliteti svojeg studiranja kroz brojne aktivnosti koje St@k priređuje te u konačnici prošire svoje horizonte i
-				olakšaju si put prema pronalasku karijere koja ih čeka nakon studija.
-			</p>
-		</div>
-
-		<picture>
-			<source srcset="/images/o-nama/the-crew-2.webp" type="image/webp">
-			<img
-				class="border-8 aspect-[3/2] border-white dark:border-black shadow-xl shadow-zinc-400 dark:shadow-black/50 rounded object-cover w-full max-w-sm md:max-w-md lg:max-w-xl -rotate-6 md:ml-auto"
-				src="/images/o-nama/the-crew-2.jpg"
-				alt="Grupa fotografa s fotoaparatima"
-				loading="lazy"
-			/>
-		</picture>
+	<div class="flex justify-center mx-auto max-w-md text-justify sm:mt-4 md:mt-8 lg:mt-16">
+		<a class="px-6 rounded-lg flex text-lg font-headline font-semibold hover:underline transition text-center max-sm:mt-8 sm:mt-4 lg:mt-8" href="/blog">
+			Pročitaj više...
+		</a>
 	</div>
 </section>
 
@@ -141,39 +88,6 @@
 	<div class="flex flex-wrap items-center xl:justify-center gap-10 xl:mx-auto max-w-lg">
 		<p class="xl:text-center">U razgovoru s vašim omiljenim profesorima saznajte više o tome što rade na Fakultetu, u slobodno vrijeme i koliko su vješti u rješavanju izazova!</p>
 		<LargeSocialIcon data={contactInfo.podcast} />
-	</div>
-</section>
-
-<section id="meet-the-crew" class="mx-10 mt-20 md:m-20 mb-0">
-	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Meet the crew</h2>
-
-	<div class="flex flex-wrap gap-x-24 gap-y-16 justify-center pt-4 md:pt-8">
-		{#each members as { name, role, bio, photoUrl, photoUrlWebp, imgRot: mobileImgRot, txtRot: mobileTxtRot, trOrigX: mobileTrOrigX, trOrigY: mobileTrOrigY, trX: mobileTrX, trY: mobileTrY, rot: mobileRot, bgCutout: mobileBgCutout, borderRadius: mobileBorderRadius }, i (i)}
-			{@const imgRot = isMobile ? mobileImgRot : getRandomInt(-4, 4)}
-			{@const txtRot = isMobile ? mobileTxtRot : getRandomInt(-1, 1)}
-			{@const trOrigX = isMobile ? mobileTrOrigX : getRandomInt(0, 100)}
-			{@const trOrigY = isMobile ? mobileTrOrigY : getRandomInt(0, 100)}
-			{@const trX = isMobile ? mobileTrX : getRandomInt(-8, 8)}
-			{@const trY = isMobile ? mobileTrY : getRandomInt(-8, 8)}
-			{@const rot = isMobile ? mobileRot : getRandomInt(-5, 5)}
-			{@const bgCutout = isMobile ? mobileBgCutout : getRandomInt(3, 11)}
-			{@const borderRadius = isMobile ? mobileBorderRadius : getRandomInt(80, 150) / 100}
-
-			<div class="relative" style:transform={`translateX(${trX}px) translateY(${trY}px) rotate(${rot}deg)`} style:transform-origin={`${trOrigX}% ${trOrigY}%`}>
-				<picture>
-					<source srcset={photoUrlWebp} type="image/webp">
-					<img class="bg-black w-20 h-24 rounded object-cover absolute z-10 -left-2 top-2.5 sm:-left-9 sm:top-4 shadow shadow-zinc-900/25" src={photoUrl} alt={name} style:transform={`rotate(${imgRot}deg)`} loading="lazy" />
-				</picture>
-				<div class="bg-gradient-to-tr from-white/0 to-white/40 bg-blend-lighten w-20 h-24 rounded shadow-inner shadow-black/10 absolute z-20 -left-2 top-2.5 sm:-left-9 sm:top-4" style:transform={`rotate(${imgRot}deg)`} />
-				<div class="drop-shadow w-80 sm:w-96 h-full">
-					<div class="torn-paper-xl-{bgCutout} polaroid-bg-2 p-8" style:border-radius={`${borderRadius}rem`}>
-						<p class="ml-14 sm:ml-8 font-handwriting text-2xl text-zinc-800 dark:text-red-300 leading-tight tracking-tight" style:transform={`rotate(${txtRot}deg)`}>{@html name}</p>
-						<p class="ml-14 sm:ml-8 text-sm font-headline text-zinc-500 dark:text-zinc-400" style:transform={`rotate(${txtRot}deg)`}>{@html role}</p>
-						<p class="text-xs mt-9 sm:mt-7 text-zinc-800 dark:text-red-50 text-justify">{@html bio}</p>
-					</div>
-				</div>
-			</div>
-		{/each}
 	</div>
 </section>
 

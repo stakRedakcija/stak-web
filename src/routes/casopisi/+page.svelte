@@ -1,5 +1,5 @@
 <script>
-	import magazinesInfo from './casopisi.json'
+	import magazinesInfo from '../casopisi.json'
 
 	const magazines = magazinesInfo.map((magazineInfo) => ({
 		...magazineInfo,
