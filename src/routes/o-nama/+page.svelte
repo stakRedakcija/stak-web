@@ -2,25 +2,24 @@
 	import members from '../clanovi.json'
 	import casopisi from '../casopisi.json'
 	import {getRandomInt} from '$lib/utils/index'
-	import {onMount} from 'svelte'
 	import {ArrowsRightLeft} from '@inqling/svelte-icons/heroicon-24-solid'
-
-	const casopisiAsc = casopisi.reverse()
-
 	import {
 		Timeline,
 		TimelineItem,
 		TimelineSeparator,
 		TimelineDot,
 		TimelineConnector,
-		TimelineContent, TimelineOppositeContent
+		TimelineContent,
+		TimelineOppositeContent
 	} from 'svelte-vertical-timeline'
 
-	let isMobile = true
-	onMount(() => {
-		isMobile = window.innerWidth < 800
-	})
+	const casopisiAsc = casopisi.reverse()
+
+	let innerWidth = 0
+	$: isMobile = innerWidth < 800
 </script>
+
+<svelte:window bind:innerWidth />
 
 <svelte:head>
 	<title>O nama - St@k</title>
