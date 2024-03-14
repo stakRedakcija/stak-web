@@ -13,8 +13,6 @@
 		TimelineOppositeContent
 	} from 'svelte-vertical-timeline'
 
-	const casopisiAsc = casopisi.reverse()
-
 	let innerWidth = 0
 	$: isMobile = innerWidth < 800
 </script>
@@ -108,15 +106,15 @@
 
 	<div class="xl:mx-auto my-20 lg:my-24 max-w-xl">
 		<Timeline position="left">
-			{#each casopisiAsc as casopis, i}
+			{#each [...casopisi].reverse() as { id, time, editor }, i}
 				<TimelineItem>
 					<TimelineOppositeContent slot="opposite-content">
-						<a href="{'/casopisi/' + casopis.id}" target="_blank">{(casopis.id >= 10 ? 'St@k ' : 'Studentski list ') + casopis.id}</a>
+						<a class="hover:underline hover:underline-offset-4" href="{'/casopisi/' + id}" target="_blank">{(id >= 10 ? 'St@k ' : 'Studentski list ') + id}</a>
 						<br>
-						<i>{casopis.editor}</i>
+						<i>{editor}</i>
 					</TimelineOppositeContent>
 					<TimelineSeparator>
-						{#if i === 0 || casopisiAsc[i].editor !== casopisiAsc[i - 1].editor }
+						{#if i === 0 || casopisi[casopisi.length - i].editor !== casopisi[casopisi.length - i - 1].editor }
 							<Bookmark class="text-red-800 dark:text-red-200" />
 						{:else}
 							<Stop class="text-red-800 dark:text-red-200" />
@@ -124,7 +122,7 @@
 						<TimelineConnector />
 					</TimelineSeparator>
 					<TimelineContent>
-						<p>{casopis.time}</p>
+						<p>{time}</p>
 					</TimelineContent>
 				</TimelineItem>
 			{/each}
