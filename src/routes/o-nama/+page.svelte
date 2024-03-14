@@ -2,12 +2,12 @@
 	import members from '../clanovi.json'
 	import casopisi from '../casopisi.json'
 	import {getRandomInt} from '$lib/utils/index'
-	import {ArrowsRightLeft} from '@inqling/svelte-icons/heroicon-24-solid'
+	import {Bookmark} from '@inqling/svelte-icons/heroicon-24-solid'
+	import {Stop} from '@inqling/svelte-icons/heroicon-24-outline'
 	import {
 		Timeline,
 		TimelineItem,
 		TimelineSeparator,
-		TimelineDot,
 		TimelineConnector,
 		TimelineContent,
 		TimelineOppositeContent
@@ -111,13 +111,15 @@
 			{#each casopisiAsc as casopis, i}
 				<TimelineItem>
 					<TimelineOppositeContent slot="opposite-content">
-						<a href="{'/casopisi/' + casopis.id}" target="_blank">{(casopis.id >= 10 ? 'St@k ' : 'Studentski list ') + casopis.id + ' (' + casopis.editor + ')'}</a>
+						<a href="{'/casopisi/' + casopis.id}" target="_blank">{(casopis.id >= 10 ? 'St@k ' : 'Studentski list ') + casopis.id}</a>
+						<br>
+						<i>{casopis.editor}</i>
 					</TimelineOppositeContent>
 					<TimelineSeparator>
-						{#if i > 0 && casopisiAsc[i].editor !== casopisiAsc[i - 1].editor }
-							<ArrowsRightLeft style="color: #991B1B;" />
+						{#if i === 0 || casopisiAsc[i].editor !== casopisiAsc[i - 1].editor }
+							<Bookmark class="text-red-800 dark:text-red-200" />
 						{:else}
-							<TimelineDot style={(i === 0 || casopisiAsc[i].editor !== casopisiAsc[i - 1].editor) ? 'background-color: #991B1B;' : ''} />
+							<Stop class="text-red-800 dark:text-red-200" />
 						{/if}
 						<TimelineConnector />
 					</TimelineSeparator>
