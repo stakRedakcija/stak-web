@@ -1,4 +1,4 @@
-import casopisi from '../casopisi.json'
+import casopisi from '../../casopisi.json'
 import { error } from '@sveltejs/kit'
 
 export const load = async ({ params }) => {

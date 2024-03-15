@@ -62,4 +62,8 @@
 	.theme-magazines {
 		@apply text-slate-100 bg-gradient-to-tl from-zinc-900 to-gray-900;
 	}
+
+	.theme-about {
+		@apply text-slate-900 dark:text-slate-50 bg-rose-200 dark:bg-black/90;
+	}
 </style>
