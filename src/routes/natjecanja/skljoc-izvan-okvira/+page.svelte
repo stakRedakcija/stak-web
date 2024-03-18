@@ -2,8 +2,8 @@
 	import { ArrowDown, ArrowLeft } from '@inqling/svelte-icons/heroicon-24-solid'
 	import { slide } from 'svelte/transition'
 
-	let t1Visible = true
-	let t2Visible = false
+	let t1Visible = false
+	let t2Visible = true
 	let t3Visible = false
 </script>
 
@@ -119,7 +119,15 @@
 	{#if t2Visible}
 		<div class="pb-8 border-b border-gray-500 dark:border-zinc-600" transition:slide>
 			<p>
-				...dolazi u utorak, <span class="font-semibold">19. ožujka 2024.</span>
+				<i>Long exposure</i>, odnosno duga/produljena ekspozicija, tehnika je kojom možemo naglasiti kretanje, živost, aktivnost, ali i biti kreativni na razne načine koristeći se kombinacijama statičnog i pokretnog. Ova tehnika nije jednostavna – zahtijeva dosta planiranja, nešto iskustva fotografiranja, mirnu ruku (ili dobar stativ), a definitivno i malo sreće u odabiru pravog trenutka.
+				<br><br>
+				Ideja je jednostavna: mirnom kamerom, produljenom ekspozicijom (barem nekoliko sekundi) i dobrim odabirom subjekta dobiva se slika gdje je glavni element „zamrznut” u pokretu. Sve okolo što je statično, također ostaje oštro, ali bilo što u pokretu dobije „tragove” iza sebe, naglašavajući pokret.
+				<br><br>
+				Fotografija bi trebala predstavljati tvoj grad, neko omiljeno mjesto u tom gradu ili nešto slično. Česti motivi ovakve fotografije jesu ljudi na trgovima, automobili na ulici noću ili zvijezde, ali kreativnost će definitivno biti nagrađena.
+				<br><br>
+				Jedan savjet za kraj &mdash; izbjegavaj jače osvijetljena mjesta jer će nakon nekoliko sekundi ekspozicije ostati samo jedna velika „mrlja” svjetlosti.
+				<br><br>
+				Svoje fotografije pošalji do <b>24. ožujka</b> na <a class="underline" href="mailto:stak@foi.hr">stak@foi.hr</a> s predmetom <em>Škljoc izvan okvira</em>. Uz fotografiju priloži i kratak opis fotografije, koji je bio njezin cilj te svoja iskustva tijekom fotografiranja. Ako imaš kakav <i>pro tip</i>, slobodno ga podijeli s nama!
 			</p>
 		</div>
 	{/if}
