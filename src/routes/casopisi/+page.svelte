@@ -25,7 +25,9 @@
             <h2 class="text-4xl font-headline font-bold tracking-tighter text-emerald-400">{@html latestMagazine.title}</h2>
             <p class="text-xs mt-1 text-slate-400">{latestMagazine.time}</p>
 
-            <p class="mt-4">{@html latestMagazine.summary}</p>
+            {#if latestMagazine.summary}
+                <p class="mt-4">{@html latestMagazine.summary}</p>
+            {/if}
 
             <a class="px-4 py-1 rounded-md mt-8 flex shadow-md text-lg font-headline font-semibold bg-slate-800 hover:bg-emerald-400 text-emerald-50 hover:text-black hover:shadow-lg shadow-black/25 hover:shadow-emerald-900 transition"
                href={latestMagazine.url}>Prolistaj </a>

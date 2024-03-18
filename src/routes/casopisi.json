@@ -1,13 +1,18 @@
 [
 	{
+		"id": 28,
+		"time": "veljača 2024.",
+		"editor": "Anja Peharda"
+	},
+	{
 		"id": 27,
-		"time": "zima 2023.",
+		"time": "ljeto 2023.",
 		"summary": "Novi broj St@ka je tu! Saznajte zašto ljudi padaju OPM, kako industrija koristi dronove, što se događa u glazbi i još mnogo toga.",
 		"editor": "Ana Horvat"
 	},
 	{
 		"id": 26,
-		"time": "zima 2023.",
+		"time": "siječanj 2023.",
 		"summary": "Novi broj St@ka je tu! Saznajte što je novo, tko je nova urednica i nemojte preskočiti novu sekciju 😉",
 		"editor": "Ana Horvat"
 	},
@@ -19,7 +24,7 @@
 	},
 	{
 		"id": 24,
-		"time": "zima 2022.",
+		"time": "zima 2021.",
 		"editor": "Magdalena Đud"
 	},
 	{
