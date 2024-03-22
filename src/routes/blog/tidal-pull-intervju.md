@@ -54,7 +54,7 @@ Petra Divković ima glavni kreativni put, a mi konačne proizvode samo pregledam
 
 **Vi ste bend svjetskog zvuka, a domaćeg jezika. Zašto ste se odlučili na tu kreativnu odluku i što mislite o velikom broju domaćih bendova koji pjevaju na engleskom jeziku?**
 
-**Stefan:** Svatko ima svoj pogled na ovu temu: nama je super pjevati na hrvatskom jeziku i volimo biti dosta lokalni po tom aspektu. Mogli bismo pjevati na engleskom jeziku, ali to nam zna biti nekako grubo za uši. Više volimo čuti domaće na domaćem. Osim toga, svi smo odrasli na hrvatskom jeziku te nam je zato dosta osoban.
+**_Stefan_:** Svatko ima svoj pogled na ovu temu: nama je super pjevati na hrvatskom jeziku i volimo biti dosta lokalni po tom aspektu. Mogli bismo pjevati na engleskom jeziku, ali to nam zna biti nekako grubo za uši. Više volimo čuti domaće na domaćem. Osim toga, svi smo odrasli na hrvatskom jeziku te nam je zato dosta osoban.
 
 **_Ivan_:** U prošlom bendu, iz kojeg dolaze tri člana naše postave, od početka se pisalo na hrvatskom jeziku jer smo mislili da je to logično. S obzirom na to da nam je tad bilo logično pisati na hrvatskom, nikada se nismo odlučili prebaciti na engleski ili neki drugi jezik. Mislimo da je dugo postojala iluzija da će se bend probiti i postati uspješan samo ako pjeva na engleskom jeziku, što ne mora biti istina. Drago mi je vidjeti da se sve više hrvatskih bendova okreće pjevanju na hrvatskom jeziku.
 
