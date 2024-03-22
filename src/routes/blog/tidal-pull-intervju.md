@@ -40,23 +40,23 @@ Petra Divković ima glavni kreativni put, a mi konačne proizvode samo pregledam
 
 **Pitao bih tko vas glazbeno inspirira, ali vaše Spotify _playliste_ govore puno o bendovima koji su utjecali na vas. Zato vas pitam: Tko je došao na ideju takve _playliste_ i kako? Jer ideja je super!**
 
-**Stefan:** Ivan se sjetio, kao i za sve u bendu!
+**_Stefan_:** Ivan se sjetio, kao i za sve u bendu!
 
-**Ivan:** Volim vidjeti da bend koji slušam preporučuje neke glazbenike koji su njima dobri i dragi. Takav pristup interakcije s publikom daje puno osobnosti bendu te publika tako otkriva novu glazbu, podržava scenu itd. Također, sami članovi benda uspijevaju pronaći nove glazbenike i povećavaju si kreativne kapacitete te dobivaju nove ideje i inspiracije kada znaju što utječe na njihove kolege iz benda. Inače, razni domaći bendovi i glazbenici prišli su nam s istim pitanjem i rekli da im se sviđa ta ideja!
+**_Ivan_:** Volim vidjeti da bend koji slušam preporučuje neke glazbenike koji su njima dobri i dragi. Takav pristup interakcije s publikom daje puno osobnosti bendu te publika tako otkriva novu glazbu, podržava scenu itd. Također, sami članovi benda uspijevaju pronaći nove glazbenike i povećavaju si kreativne kapacitete te dobivaju nove ideje i inspiracije kada znaju što utječe na njihove kolege iz benda. Inače, razni domaći bendovi i glazbenici prišli su nam s istim pitanjem i rekli da im se sviđa ta ideja!
 
 **Poveznica na _playliste_:** https://links.tidal-pull.com/@playliste
 
 **Osim utjecaja _post-punk_, _prog rock_, _indie_ i emo glazbe, imate li utjecaje iz nekih drugih medija (film, književnost, umjetnost i dr.)?**
 
-**Ivan:** Svi mi imamo određene utjecaje iz raznih medija, ali teško je procijeniti koliki su oni. _Krenimo, da se možemo vratiti_ inače je ime pjesme Jeffa Tweedyja prevedeno s engleskog jezika; tu vidimo da svakako ima utjecaja iz raznih medija. Inače sam veliki fan grupe The Gaslight Anthem koja ima foru da upotrebljava puno referenci u svojim pjesmama, tako da mi je _cool_ ostavljanje raznih tragova u pjesmama. Evo, nitko nije primijetio, ali u našoj _Dobro jutro, Jenny Lewis_ u drugom stihu ima referenci na puno pjesama. Takvo ostavljanje referenci daje mi određenu razinu zadovoljstva.
+**_Ivan_:** Svi mi imamo određene utjecaje iz raznih medija, ali teško je procijeniti koliki su oni. _Krenimo, da se možemo vratiti_ inače je ime pjesme Jeffa Tweedyja prevedeno s engleskog jezika; tu vidimo da svakako ima utjecaja iz raznih medija. Inače sam veliki fan grupe The Gaslight Anthem koja ima foru da upotrebljava puno referenci u svojim pjesmama, tako da mi je _cool_ ostavljanje raznih tragova u pjesmama. Evo, nitko nije primijetio, ali u našoj _Dobro jutro, Jenny Lewis_ u drugom stihu ima referenci na puno pjesama. Takvo ostavljanje referenci daje mi određenu razinu zadovoljstva.
 
-**Stefan:** Osim u glazbi, imamo razne utjecaje i u videospotovima za naše pjesme. Spot za pjesmu _Glas 42_ snimali smo isključivo na lokacijama prijašnjih spotova, tako da tehnički referenciramo same sebe.
+**_Stefan_:** Osim u glazbi, imamo razne utjecaje i u videospotovima za naše pjesme. Spot za pjesmu _Glas 42_ snimali smo isključivo na lokacijama prijašnjih spotova, tako da tehnički referenciramo same sebe.
 
 **Vi ste bend svjetskog zvuka, a domaćeg jezika. Zašto ste se odlučili na tu kreativnu odluku i što mislite o velikom broju domaćih bendova koji pjevaju na engleskom jeziku?**
 
 **Stefan:** Svatko ima svoj pogled na ovu temu: nama je super pjevati na hrvatskom jeziku i volimo biti dosta lokalni po tom aspektu. Mogli bismo pjevati na engleskom jeziku, ali to nam zna biti nekako grubo za uši. Više volimo čuti domaće na domaćem. Osim toga, svi smo odrasli na hrvatskom jeziku te nam je zato dosta osoban.
 
-**Ivan:** U prošlom bendu, iz kojeg dolaze tri člana naše postave, od početka se pisalo na hrvatskom jeziku jer smo mislili da je to logično. S obzirom na to da nam je tad bilo logično pisati na hrvatskom, nikada se nismo odlučili prebaciti na engleski ili neki drugi jezik. Mislimo da je dugo postojala iluzija da će se bend probiti i postati uspješan samo ako pjeva na engleskom jeziku, što ne mora biti istina. Drago mi je vidjeti da se sve više hrvatskih bendova okreće pjevanju na hrvatskom jeziku.
+**_Ivan_:** U prošlom bendu, iz kojeg dolaze tri člana naše postave, od početka se pisalo na hrvatskom jeziku jer smo mislili da je to logično. S obzirom na to da nam je tad bilo logično pisati na hrvatskom, nikada se nismo odlučili prebaciti na engleski ili neki drugi jezik. Mislimo da je dugo postojala iluzija da će se bend probiti i postati uspješan samo ako pjeva na engleskom jeziku, što ne mora biti istina. Drago mi je vidjeti da se sve više hrvatskih bendova okreće pjevanju na hrvatskom jeziku.
 
 **Uzimajući u obzir domaću glazbenu scenu i glazbenike, koji su vaši favoriti i koje biste preporučili čitateljima?**
 
@@ -68,9 +68,9 @@ Da, naravno, ali zaključili smo da to nije dobra ideja. Treba razmisliti o puno
 
 **Koja vam je najdraža stvar koja vam se dogodila zbog ovog benda (nova prijateljstva, kreativne prilike, interakcije s fanovima i sl.)?**
 
-**Ivan:** Tu ima puno za razmišljanje. Borna je super pogodio kad je rekao da je sviranje u bendu više od prijateljstva; postanete nešto iznad toga. Biti u bendu najbolja je stvar na svijetu. Meni puno znače prijateljstva s drugim bendovima i izvođačima. Osim prijateljstva i zajedništva, volim osjećaj koji dobijem od putovanja u druge gradove na svirke.
+**_Ivan_:** Tu ima puno za razmišljanje. Borna je super pogodio kad je rekao da je sviranje u bendu više od prijateljstva; postanete nešto iznad toga. Biti u bendu najbolja je stvar na svijetu. Meni puno znače prijateljstva s drugim bendovima i izvođačima. Osim prijateljstva i zajedništva, volim osjećaj koji dobijem od putovanja u druge gradove na svirke.
 
-**Stefan:** Prvo mi na pamet pada osjećaj koji sam imao kada smo svirali u klubu KSET. Iznenadilo me koliko je ljudi došlo čuti našu glazbu &mdash; jako je posebno i neočekivano da su došli samo radi vas. To je samo jedan mali dio iskustva sviranja u bendu; taj je osjećaj jako teško opisati u jednom odgovoru na intervjuu.
+**_Stefan_:** Prvo mi na pamet pada osjećaj koji sam imao kada smo svirali u klubu KSET. Iznenadilo me koliko je ljudi došlo čuti našu glazbu &mdash; jako je posebno i neočekivano da su došli samo radi vas. To je samo jedan mali dio iskustva sviranja u bendu; taj je osjećaj jako teško opisati u jednom odgovoru na intervjuu.
 
 **Imate li neke nove najave koje želite podijeliti s čitateljima?**
 
