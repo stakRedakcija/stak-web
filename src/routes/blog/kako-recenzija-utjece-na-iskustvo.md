@@ -1,0 +1,41 @@
+---
+title: Kako recenzija utječe na iskustvo
+author: Goran Bogatić Malešević
+date: 2024-03-23
+image: /clanci-slike/2024/kako-recenzija-utjece-na-iskustvo.jpg
+imageSource: 'St@k'
+layout: blog
+featured: true
+categories:
+  - 'kolumna'
+---
+
+**Recenzije su dobre?**
+
+Recenzija je zauzimanje stava o nekom sadržaju koji se prenosi pri čemu medij može biti bilo koji &mdash; razgovor, audiozapis, videozapis, tekst. Dalo bi se raspraviti o tome može li recenzija biti istog tipa kao sadržaj koji je recenziran, npr. film koji je recenzija za neki drugi film. Dobro, da ne filozofiramo previše o tome što je recenzija, prijeđimo na zanimljiviji dio članka.
+
+Počnimo s pričom o samoispunjujućem proročanstvu. Negdje u Americi, nebitno za potrebe priče, napravljeno je istraživanje nad učenicima osnovnih škola. Učenicima je dan test čiji su rezultat znanstvenici procijenili i dali učiteljima. Učenici su bili podijeljeni prema svojim potencijalima u tri skupine: nizak potencijal, srednji potencijal i visok potencijal za razvoj. Nakon što su rezultati dani učiteljima, bilježio se uspjeh učenika. Na kraju su godine učenici koji su imali visok potencijal za razvoj u prosjeku imali više ocjene. Sada nastaje problem jer su rezultati učenika bili lažni &mdash; test zapravo nije procijenio njihov potencijal za razvoj, već se htio dokazati utjecaj informacije na učitelja. Ne ulazim u dubinu s ovim istraživanjem, ali ono daje dobru podlogu za nastavak članka.
+
+Sad kada imamo metapodlogu i podlogu ovog potpuno besprijekornog istraživanja, možemo popričati o utjecaju recenzija u svijetu videoigara.
+
+Videoigre su medij za koji se, što smo stariji, traži više recenzija. Pod _stariji_ mislim na nas &mdash; potrošače sadržaja. Kako starimo, to imamo manje vremena za igranje igara i recenzije nam pomažu u tome da efikasnije iskoristimo vrijeme i novac. Igramo videoigre koje odgovaraju našim preferencijama, budžetu i vremenskim okvirima. Za razliku od toga, kad smo bili djeca, konzumirali bismo ono što bi nam roditelji kupili ili što bi naši prijatelji konzumirali. Sad bi se dalo reći da se uključujemo u sve manji broj žanrova i franšiza kako starimo, ali ostat ćemo u okviru teme.
+
+Podijelimo ovu raspravu na pet dijelova: iskustvo bez recenzije, tj. recenzija nakon završetka sadržaja; pozitivna recenzija o sadržaju, pri čemu i mi imamo pozitivan stav o sadržaju; negativna recenzija, gdje mi imamo pozitivan stav prema sadržaju; pozitivna recenzija o sadržaju, gdje mi imamo negativan stav o sadržaju te negativna recenzija, pri čemu i mi imamo negativan stav o sadržaju.
+
+Iskustvo bez recenzije najjednostavnije je objasniti. Naša su očekivanja i znanja jedine stvari koje utječu na odabir sadržaja koji želimo konzumirati. Postoje dvije varijante. Konzumiramo sadržaj koji nam je poznat i očekujemo ugodna iskustva. Meni bi to bilo kada igram _Resident Evil_ &mdash; bit ću uplašen, ali to je očekivano; uživam u tim malim neugodnostima, iščekujem to u takvim videoigrama. Igre slične našim preferiranim izborima isto su u ovoj kategoriji i s većinom ćemo imati pozitivna iskustva, kao i s preferiranom franšizom. No, zanimljivije je kada se bacamo u nešto potpuno novo. Ovdje je rizik od lošeg iskustva puno veći, no možda je to ono što želimo. Na kraju krajeva, tko ne riskira, ne profitira. U slučaju da ste u ovoj kategoriji igrača, možda imate problema s kockanjem, ali u potpunosti vas razumijem. Možda je sljedeća nova franšiza koju ćete obožavati jednu kupnju od vas. Da se vratimo na temu; recenzije koje slušamo nakon konzumacije sadržaja mogu povećati naše (ne)zadovoljstvo sadržajem, ali neće promijeniti naš stav i time možemo vidjeti odgovara li nam recenzent kao osoba od povjerenja za buduće preporuke sadržaja. Ako potrošač i recenzent imaju isti stav, to je znak povjerenja, a ako postoji razlika u stavovima, onda imamo manjak povjerenja i trebamo dalje tražiti osobu od povjerenja.
+
+Kada govorimo o pozitivnom stavu i pozitivnoj recenziji o sadržaju, govorimo o idealnoj kombinaciji. Kada imamo pozitivan stav o sadržaju, podsvjesno tražimo recenziju koja će se slagati s našim stavom. Kada nam se stavovi poklapaju, onda tu osobu smatramo osobom od povjerenja. Osim što je ta osoba osoba kojoj vjerujemo, ona nam može pomoći da zamijetimo još više detalja, što naše iskustvo konzumiranja čini posebnijim, boljim, ispunjenijim. Nema se ovdje što više dodati; ako ste našli takav sadržaj, uživajte u njemu! :D
+
+Dolazimo do <q>problema</q> kada je recenzija negativna, a naš stav pozitivan. Taj <q>problem</q> odnosi se na naš pristup sadržaju. Kao osoba ne želimo biti u krivu, neispravna stajališta i sl., stoga težimo tome da dokažemo da smo bili u pravu. Na neki način ovo može biti pozitivno za naše iskustvo jer ćemo samom željom za dokazivanjem tražiti sve dobre strane sadržaja koji konzumiramo i na taj uvrnuti način možemo doživjeti dublje razumijevanje za sadržaj. Naravno, moramo biti samokritični kako ne bismo došli u situaciju u kojoj branimo sadržaj koji je i nama neprihvatljiv samo kako bismo dokazali samome sebi da smo bili u pravu. Mislim, nema se smisla siliti kao dijete ili _gaslightati_ se, to su nam dovoljno radili bivši/e (tko te povrijedio).
+
+Zanimljiva je situacija kada čujemo kako je neki sadržaj odličan, a mi ga, kao potrošač, ne možemo smisliti. U ovom slučaju možemo reći kako smo jako zaintrigirani takvim izjavama. Neki bi potrošači samo odbacili takav sadržaj općenito, što je sasvim razumljivo, no malo nezrelo (npr. što ako se franšiza promijenila). S druge strane, imamo korisnike koji se propitkuju i postoji vjerojatnost da franšizi daju drugu priliku (buraz, zašto se daš izmanipulirati tako, drži se svojeg stava). Šalu na stranu, takav pristup ostavlja nam više otvorenih vrata za nova iskustva i, tko zna, možda baš ovdje nađete novi najbolji sadržaj za konzumaciju. Osobno sam se našao u ovoj kategoriji kada su u pitanju bile _Pokémon_ igrice. Iako možda nisam najzadovoljniji najnovijim nastavkom franšize, našao sam sadržaj i izazove koji mi odgovaraju u starijim nastavcima (od kojih je najpoznatiji izazov _Nuzlocke_).
+
+Negativna recenzija i negativan stav prema sadržaju dovodi nas do kraja slučajeva. Kada vidimo recenziju koja odgovara našim stavovima, ta nam osoba postaje osoba od povjerenja. Treba razumjeti kako recenzent može biti osoba koja samo želi zaraditi na vlaku mržnje (engl. _hate train_) pa zato objavljuje takav sadržaj. Naravno, ako smo sigurni u riječi recenzenta, to nas ne treba brinuti. Ovaj slučaj neće nas nagovoriti da konzumiramo sadržaj, ali bit će nam sigurna zona. Osim sigurne zone, može se reći kako se radi o tješenju i ne rezultira ničim pozitivnim ili produktivnim. Bolje je uzeti sitniš koji nam je ostao i pokušati se suočiti sa stavovima koji su suprotni našima (na racionalan i pristojan način &amp;lt;3).
+
+Slučajevi vezani uz recenziju gotovi su, prijeđimo sada na probleme.
+
+Praćenje trenda nije jedini problem na koji nailazimo, ali jest najčešći. Mi smo samo napredni majmuni i samim time želimo biti prihvaćeni. S takvim konformizmom i dekarakterizacijom možemo zaboraviti na potrebu za kritičkim razmišljanjem o sadržaju koji konzumiramo.
+
+Spojlanje sadržaja odnosi se na dobivanje informacija o misterijima sadržaja, no može se odnositi i na bilo koji dio sadržaja (Joel Miller umire u drugom dijelu igrice _The Last of Us_ (TLoU)). Takav problem smanjuje potrebu za tim sadržajem jer već znamo što će se dogoditi i u najgorem slučaju spojlanje može uništiti iskustvo cijelog sadržaja (npr. film u kojem se otkriva tko je ubojica). Na kraju krajeva, trebam li uopće konzumirati sadržaj ako znam što će se dogoditi? Ipak, treba razumjeti da postoji jedan dobar aspekt koji spojlanje sadržaja može napraviti: može nam pokazati neke tajne ili sitnice koje ne bismo primijetili u svojoj konzumaciji sadržaja, no ne računajte previše na ovu stranu.
+
+Što smo zapravo ovim tekstom htjeli postići? Želimo da potrošači ne uništavaju svoja iskustva recenzijama i da ostanu otvoreni novim sadržajima ili sadržajima kojima ne žele dati drugu priliku. Želimo vas motivirati da budete odlučni i iskusite ljepote koje sadržaj pruža. Želimo da uvidite apsurd u svojim postupcima. Želimo da se zabavite, a možete nam i javiti svoja iskustva.
