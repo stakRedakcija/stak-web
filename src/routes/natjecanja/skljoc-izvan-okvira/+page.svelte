@@ -3,8 +3,8 @@
 	import { slide } from 'svelte/transition'
 
 	let t1Visible = false
-	let t2Visible = true
-	let t3Visible = false
+	let t2Visible = false
+	let t3Visible = true
 </script>
 
 <svelte:head>
@@ -150,7 +150,15 @@
 	{#if t3Visible}
 		<div class="pb-8 border-b border-gray-500 dark:border-zinc-600" transition:slide>
 			<p>
-				...dolazi u utorak, <span class="font-semibold">26. ožujka 2024.</span>
+				Tražimo te da još jednom pustiš mašti na volju! Ovoga puta u potpunosti. Za zadnji zadatak Škljoca izvan okvira pružamo cijeli spektar mogućnosti oko toga što želiš fotografirati. Ipak, postoji jedan uvjet koji tvoja fotografija mora zadovoljiti.
+				<br><br>
+				Zamisli svoju omiljenu boju. Potom zamisli bilo koju stvar koja ima 50 nijansi upravo te najdraže boje. Postoji li neki objekt, osoba (možda više njih) ili možda neki događaj ili situacija koju možeš uhvatiti i koja sadrži puno nijansi te boje? Cilj ovog zadatka jest prikazati što više varijacija i nijansi svoje najdraže boje i pretočiti to u najkreativniju moguću fotografiju.
+				<br><br>
+				Ukratko rečeno, pokušaj da slika bude što više monokromatska. Imaj na umu da ti je dopušteno imati više boja na slici, no mora se načisto vidjeti ona dominantna, tebi najdraža. Dajemo ti vremena da razmisliš, vizualiziraš i, naposljetku, ovjekovječiš trenutak u jednoj jedinstvenoj fotografiji.
+				<br><br>
+				Kao dodatan bonus, dajemo ti dva tjedna do konačne predaje &mdash; do <b>7. travnja</b>. Iskoristi i uskrsni period kao dio zadatka ako želiš!
+				<br><br>
+				Procedura je ista &mdash; pošalji nam dvije fotografije na <a class="underline" href="mailto:stak@foi.hr">stak@foi.hr</a> s predmetom <em>Škljoc izvan okvira</em>, priloži zanimljiv opis i priču uz okinute fotografije i napiši nam zašto ti je upravo navedena boja najdraža!
 			</p>
 		</div>
 	{/if}
