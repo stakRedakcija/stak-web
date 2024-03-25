@@ -147,8 +147,8 @@
 
 			<div class="relative" style:transform={`translateX(${trX}px) translateY(${trY}px) rotate(${rot}deg)`} style:transform-origin={`${trOrigX}% ${trOrigY}%`}>
 				<picture>
-					<source srcset={'/clanovi/' + nameSlug + '.webp'} type="image/webp">
-					<img class="bg-black w-20 h-24 rounded object-cover absolute z-10 -left-2 top-2.5 sm:-left-9 sm:top-4 shadow shadow-zinc-900/25" src={'/clanovi/' + nameSlug + '.jpg'} alt={name} style:transform={`rotate(${imgRot}deg)`} loading="lazy" />
+					<source srcset={`/clanovi/${nameSlug}.webp`} type="image/webp">
+					<img class="bg-black w-20 h-24 rounded object-cover absolute z-10 -left-2 top-2.5 sm:-left-9 sm:top-4 shadow shadow-zinc-900/25" src={`/clanovi/${nameSlug}.jpg`} alt={name} style:transform={`rotate(${imgRot}deg)`} loading="lazy" />
 				</picture>
 				<div class="bg-gradient-to-tr from-white/0 to-white/40 bg-blend-lighten w-20 h-24 rounded shadow-inner shadow-black/10 absolute z-20 -left-2 top-2.5 sm:-left-9 sm:top-4" style:transform={`rotate(${imgRot}deg)`} />
 				<div class="drop-shadow w-80 sm:w-96 h-full">
