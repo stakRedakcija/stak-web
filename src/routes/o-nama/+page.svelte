@@ -134,7 +134,7 @@
 	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Meet the crew</h2>
 
 	<div class="flex flex-wrap gap-x-24 gap-y-16 justify-center pt-4 md:pt-8">
-		{#each members as { name, role, bio, photoUrl, photoUrlWebp, imgRot: mobileImgRot, txtRot: mobileTxtRot, trOrigX: mobileTrOrigX, trOrigY: mobileTrOrigY, trX: mobileTrX, trY: mobileTrY, rot: mobileRot, bgCutout: mobileBgCutout, borderRadius: mobileBorderRadius }, i (i)}
+		{#each members as { name, nameSlug, role, bio, imgRot: mobileImgRot, txtRot: mobileTxtRot, trOrigX: mobileTrOrigX, trOrigY: mobileTrOrigY, trX: mobileTrX, trY: mobileTrY, rot: mobileRot, bgCutout: mobileBgCutout, borderRadius: mobileBorderRadius }, i (i)}
 			{@const imgRot = isMobile ? mobileImgRot : getRandomInt(-4, 4)}
 			{@const txtRot = isMobile ? mobileTxtRot : getRandomInt(-1, 1)}
 			{@const trOrigX = isMobile ? mobileTrOrigX : getRandomInt(0, 100)}
@@ -147,8 +147,8 @@
 
 			<div class="relative" style:transform={`translateX(${trX}px) translateY(${trY}px) rotate(${rot}deg)`} style:transform-origin={`${trOrigX}% ${trOrigY}%`}>
 				<picture>
-					<source srcset={photoUrlWebp} type="image/webp">
-					<img class="bg-black w-20 h-24 rounded object-cover absolute z-10 -left-2 top-2.5 sm:-left-9 sm:top-4 shadow shadow-zinc-900/25" src={photoUrl} alt={name} style:transform={`rotate(${imgRot}deg)`} loading="lazy" />
+					<source srcset={`/clanovi/${nameSlug}.webp`} type="image/webp">
+					<img class="bg-black w-20 h-24 rounded object-cover absolute z-10 -left-2 top-2.5 sm:-left-9 sm:top-4 shadow shadow-zinc-900/25" src={`/clanovi/${nameSlug}.jpg`} alt={name} style:transform={`rotate(${imgRot}deg)`} loading="lazy" />
 				</picture>
 				<div class="bg-gradient-to-tr from-white/0 to-white/40 bg-blend-lighten w-20 h-24 rounded shadow-inner shadow-black/10 absolute z-20 -left-2 top-2.5 sm:-left-9 sm:top-4" style:transform={`rotate(${imgRot}deg)`} />
 				<div class="drop-shadow w-80 sm:w-96 h-full">
