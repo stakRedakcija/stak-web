@@ -24,11 +24,11 @@ Na jednoj od objava na Instagramu imali smo grob koji je najavio smrt žanra _bi
 
 **Prisustvovanjem na vašem koncertu u klubu KSET primijetio sam uključivanje trube u vaše pjesme. Što vas je potaklo na tu kreativnu odluku i je li to najava odlaska u _midwest_ emo ili ska vode?**
 
-Ska sigurno ne. Odluka o uvođenju trube bila je spontana i pozvali smo kolegicu Dugu Bavoljak iz benda kaleido da nam se pridruži na koncertu. Te dvije pjesme koje su na koncertu izvedene uz trubu nalaze se na albumu, ali iz praktičnih razloga bez nje. Zbog problema s rasporedom snimanja i previše životnih obveza nismo se mogli dogovoriti za termin snimanja trube, pa je ona izbačena. Također, ona nije bila nužna u tim pjesmama, tako da same pjesme u konačnici nisu patile ni na koji način. Iako nema trube, jedan je od glazbenika koji će se naći na novome albumu pospano.
+Ska sigurno ne. Odluka o uvođenju trube bila je spontana i pozvali smo kolegicu Dugu Bavoljak iz benda kaleido da nam se pridruži na koncertu. Te dvije pjesme koje su na koncertu izvedene uz trubu nalaze se na albumu, ali iz praktičnih razloga bez nje. Zbog problema s rasporedom snimanja i previše životnih obveza nismo se mogli dogovoriti za termin snimanja trube, tako da se ona, nažalost, ne pojavljuje na albumu. Također, ona nije bila nužna u tim pjesmama, tako da same pjesme u konačnici nisu patile ni na koji način. Iako nema trube, jedan je od glazbenika koji će se naći na novome albumu pospano.
 
 **Vaš zvuk svježa je pojava na našoj sceni, a tekstovi su ispunjeni tugom i, do određene razine, usamljenošću. Međutim, vaš prvi album cijelo vrijeme nosi određeni gorko-slatki osjećaj. Tko je pisac pjesama i kako ide njihovo pisanje?**
 
-Ivan je manje-više pisao sve, osim pjesme _Dezen_ i polovice pjesme _Besmrtna_, dok je drugi album pisao isključivo on. Same se melodije primarno vrte oko Vilimovih ideja. Inače, Vilim često pjevuši razne melodije pa se puno toga može osmisliti i napraviti iz njegova pjevanja i ideja, tako da primarno slušamo njega i oko njega se grade pjesme. Jedna od pjesama na novom albumu _Kad imamo mirne glave_ ima čak i _spoken word_ dijelove. Pri samom pisanju povremeno se koristimo i tehnikama američkog glazbenika Jeffa Tweedyja jer su se one pokazale kao izrazito kreativne.
+Ivan je manje-više pisao sve, osim pjesme _Dezen_ i polovice pjesme _Besmrtna_, dok je sve pjesme na drugome albumu pisao on uz koautore. Same se melodije primarno vrte oko Vilimovih ideja. Inače, Vilim često pjevuši razne melodije pa se puno toga može osmisliti i napraviti iz njegova pjevanja i ideja, tako da primarno slušamo njega i oko njega se grade pjesme. Jedna od pjesama na novom albumu _Kad imamo mirne glave_ ima čak i _spoken word_ dijelove. Pri samom pisanju povremeno se koristimo i tehnikama američkog glazbenika Jeffa Tweedyja jer su se one pokazale kao izrazito kreativne.
 
 **_Uvod u promatranje cvijeća pri punoj brzini_ specifično je ime za album. Kako je to ime nastalo i koje je njegovo značenje?**
 
@@ -48,7 +48,7 @@ Petra Divković ima glavni kreativni put, a mi konačne proizvode samo pregledam
 
 **Osim utjecaja _post-punk_, _prog rock_, _indie_ i emo glazbe, imate li utjecaje iz nekih drugih medija (film, književnost, umjetnost i dr.)?**
 
-**_Ivan_:** Svi mi imamo određene utjecaje iz raznih medija, ali teško je procijeniti koliki su oni. _Krenimo, da se možemo vratiti_ inače je ime pjesme Jeffa Tweedyja prevedeno s engleskog jezika; tu vidimo da svakako ima utjecaja iz raznih medija. Inače sam veliki fan grupe The Gaslight Anthem koja ima foru da upotrebljava puno referenci u svojim pjesmama, tako da mi je _cool_ ostavljanje raznih tragova u pjesmama. Evo, nitko nije primijetio, ali u našoj _Dobro jutro, Jenny Lewis_ u drugom stihu ima referenci na puno pjesama. Takvo ostavljanje referenci daje mi određenu razinu zadovoljstva.
+**_Ivan_:** Svi mi imamo određene utjecaje iz raznih medija, ali teško je procijeniti koliki su oni. _Krenimo, da se možemo vratiti_ inače je ime knjige _Let’s Go (So We Can Get Back)_ Jeffa Tweedyja prevedeno s engleskog jezika; tu vidimo da svakako ima utjecaja iz raznih medija. Inače sam veliki fan grupe The Gaslight Anthem koja ima foru da upotrebljava puno referenci u svojim pjesmama, tako da mi je _cool_ ostavljanje raznih tragova u pjesmama. Evo, nitko nije primijetio, ali u našoj _Dobro jutro, Jenny Lewis_ u drugom stihu ima referenci na puno pjesama. Takvo ostavljanje referenci daje mi određenu razinu zadovoljstva.
 
 **_Stefan_:** Osim u glazbi, imamo razne utjecaje i u videospotovima za naše pjesme. Spot za pjesmu _Glas 42_ snimali smo isključivo na lokacijama prijašnjih spotova, tako da tehnički referenciramo same sebe.
 
@@ -74,6 +74,6 @@ Da, naravno, ali zaključili smo da to nije dobra ideja. Treba razmisliti o puno
 
 **Imate li neke nove najave koje želite podijeliti s čitateljima?**
 
-Borna nas je, nažalost, napustio, ali zato imamo novog člana. On je Filip Barac &mdash; stvarno super dečko i jako simpatičan. Za kraj idu pozdravi Borni u Irsku.
+Borna je, nažalost, napustio bend, ali zato imamo novog člana. On je Filip Barac &mdash; stvarno super dečko i jako simpatičan. Za kraj idu pozdravi Borni u Irsku.
 
 Hvala Ivani Šilić za fotografiju!
