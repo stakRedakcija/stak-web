@@ -7,7 +7,7 @@
 </script>
 
 <div class="block w-[70%] text-justify font-light text-base" transition:slide>
-    <h1 class="font-light mb-2">{title}</h1>
+    <h2 class="font-light mb-2 mt-1 text-left">{title}</h2>
     <q class="text-white font-sans">{@html quote}</q>
     <p class="text-right my-4 italic font-handwriting">&mdash;{author}</p>
 </div>
