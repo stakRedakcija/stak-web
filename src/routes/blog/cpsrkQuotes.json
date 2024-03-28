@@ -1,0 +1,37 @@
+[
+  {
+    "title": "O praksi na PDS IPS",
+    "quote": "Proveo sam pet dana u poduzeću Emil Frey Digital gdje smo mogli vidjeti način na koji poduzeće funkcionira. Upoznali smo se s ulogama kao što su SCRUM, QA, <i>backend</i> i <i>frontend</i> te s poslovima koje radi <i>product owner</i>.",
+    "author": "T.M., student"
+  },
+  {
+    "title": "O radionicama poslodavaca",
+    "quote": "Sudjelovao sam na radionici o modeliranju podataka u Neo4j sustavu za upravljanje bazama podataka koju je organizirao CPSRK s poduzećem Serengeti. Ova mi je radionica bila značajna jer me zainteresirala za sustave za upravljanje bazama podataka. Osim ove radionice, sudjelovao sam na <i>hackathonu</i> u Sloveniji za koji nam je CPSRK pokrio putne troškove.",
+    "author": "D.S., student"
+  },
+  {
+    "title": "O sufinanciranju aktivnosti",
+    "quote": "Jedna od najpoznatijih informatičkih i programerskih konferencija koju organizira Infobip već je drugu godinu održana u Zadru, a ovog je puta CPSRK omogućio četiri mjesta za studente FOI-ja. Konferencija studentima nudi šansu za uvid u izvanfakultetske aktivnosti, idealno za one željne iskustva i napretka u programiranju te razvoju vlastitih biznisa.",
+    "author": "I.B., student"
+  },
+  {
+    "title": "O radionicama poslodavaca",
+    "quote": "Tijekom 12. Tjedna karijera i u suradnji s CPSRK-om i Privrednom bankom Zagreb organizirana je radionica o poslovanju tog poduzeća. Održana je radionica o Customer Service Portalu te o tehnologijama kojima se koristi u PBZ-u. Također, objasnili su nam važnost umrežavanja s poslodavcima te moguću stručnu praksu, suradnju, ali i mogućnost zaposlenja.",
+    "author": "E.J., studentica"
+  },
+  {
+    "title": "O praksi na PDS IPS",
+    "quote": "Sudjelovala sam na praksi za studente prijediplomskog studija. Pet sam dana s kolegama dolazila u Ekobit te smo obradili područja upravljanja ljudskim resursima, poslovne analize i dizajna testiranja softvera, a nakon toga prešli smo na <i>development</i>. Ova mi je praksa pomogla da pronađem svoje područje interesa, što mlađim studentima zna biti komplicirano.",
+    "author": "K.Š., studentica"
+  },
+  {
+    "title": "O mogućnostima prakse",
+    "quote": "Uz pomoć CPSRK-a prijavila sam se za studentski posao Python/C# developera u poduzeću SICK Mobilisis. Programiram aplikacije, radim na TDC-E uređaju, programiram <i>backend</i>, pišem dokumentacije i sudjelujem u različitim projektima poput edukacije za nove uređaje i rad s umjetnom inteligencijom. Studentski sam rad započela u sedmom mjesecu te on još traje.",
+    "author": "E.K., studentica"
+  },
+  {
+    "title": "O radionicama poslodavaca",
+    "quote": "Uz pomoć CPSRK-a pratila sam L'Oréalova <i>online</i> predavanja na kojima je bilo riječi o AR-u i VR-u. Govorilo se o tome kako je poduzeće implementiralo te sustave u svoj rad te kako im je to posebno pomoglo u doba COVID-a, kada su se prebacili iz realnog u virtualni svijet (šminkali su likove u igricama).",
+    "author": "M.K., studentica"
+  }
+]
