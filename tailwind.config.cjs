@@ -3,7 +3,7 @@ const forms = require('@tailwindcss/forms')
 const fluidTypography = require('tailwindcss-fluid-type')
 
 const config = {
-	content: ['./src/**/*.{html,js,svelte,ts}'],
+	content: ['./src/**/*.{html,js,svelte,ts,md}'],
 
 	corePlugins: {
 		fontSize: false
