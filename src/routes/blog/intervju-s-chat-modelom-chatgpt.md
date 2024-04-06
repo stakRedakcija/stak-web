@@ -5,7 +5,7 @@ date: 2023-03-11
 image: /clanci-slike/2023/intervju-s-chat-modelom-chatgpt.jpg
 imageSource: '<a href="https://www.klippa.com/en/blog/information/what-is-chatgpt/">Web</a>'
 layout: blog
-featured: true
+featured: false
 categories:
   - 'tech'
 ---
