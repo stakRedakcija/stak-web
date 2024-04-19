@@ -5,7 +5,7 @@ date: 2023-03-15
 image: /clanci-slike/2023/the-haze/student-foija-predstavlja-the-haze.jpg
 imageSource: 'The Haze'
 layout: blog
-featured: true
+featured: false
 categories:
   - 'intervju'
 ---
