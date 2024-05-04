@@ -57,6 +57,10 @@
             <a class="navbar-link navbar-link-{theme}" class:active={currentUrl.startsWith('/o-nama')}
                href="/o-nama">O nama</a>
         </li>
+        <li>
+            <a class="navbar-link navbar-link-{theme}" class:active={currentUrl.startsWith('/impresum')}
+               href="/impresum">Impresum</a>
+        </li>
     </ul>
 
     <div class="flex gap-5">
@@ -111,6 +115,8 @@
                    class:active={currentUrl.startsWith('/natjecanja')} href="/natjecanja">Natjecanja</a></li>
             <li><a on:click={() => mobileMenuOpen = false} class="wide-title navbar-link navbar-link-{theme}"
                    class:active={currentUrl.startsWith('/o-nama')} href="/o-nama">O nama</a></li>
+            <li><a on:click={() => mobileMenuOpen = false} class="wide-title navbar-link navbar-link-{theme}"
+                   class:active={currentUrl.startsWith('/impresum')} href="/impresum">Impresum</a></li>
         </ul>
 
         <div class="flex flex-wrap gap-x-4 gap-y-1 md:gap-1 w-7/12 mt-auto">

@@ -77,8 +77,8 @@
 	</div>
 </section>
 
-<section id="impresum" class="mx-10 mt-20 md:m-20 mb-0 md:mb-0">
-	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Impresum</h2>
+<section id="kronologija" class="mx-10 mt-20 md:m-20 mb-0 md:mb-0">
+	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Kronologija</h2>
 
 	<div class="xl:mx-auto my-20 lg:my-24 w-[90vw] max-w-xl">
 		<p class="text-justify max-sm:mr-10">
@@ -101,7 +101,7 @@
 	</div>
 </section>
 
-<section id="impresum" class="mx-10 mt-20 md:m-20 mb-0 md:mb-0">
+<section id="izdanja-casopisa" class="mx-10 mt-20 md:m-20 mb-0 md:mb-0">
 	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Izdanja časopisa</h2>
 
 	<div class="xl:mx-auto my-20 lg:my-24 max-w-xl">
