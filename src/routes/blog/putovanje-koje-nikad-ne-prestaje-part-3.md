@@ -4,7 +4,7 @@ author: Ana Horvat
 date: 2023-10-02
 image: /clanci-slike/2023/putovanje-koje-nikad-ne-prestaje-part-3.jpg
 layout: blog
-featured: true
+featured: false
 categories:
   - 'kolumna'
 ---
