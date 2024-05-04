@@ -8,8 +8,7 @@
 
 <a style="font-stretch: 150%; font-weight: 280;" class="text-base flex items-center gap-2 mt-10 mb-6 mx-10 md:mx-20"
    href="/casopisi">
-    <ArrowLeft class="text-emerald-400 w-5 h-5"/>
-    Časopisi</a>
+    <ArrowLeft class="text-emerald-400 w-5 h-5"/>Arhiva časopisa</a>
 
 <h1 class="wide-title text-9xl font-headline tracking-tighter m-10 md:m-20 mb-0 md:mb-0">Stak {izdanje}</h1>
 

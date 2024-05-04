@@ -12,14 +12,18 @@
 </script>
 
 <svelte:head>
-    <title>Časopisi - St@k</title>
+    <title>Arhiva časopisa - St@k</title>
 </svelte:head>
 
-<h1 class="wide-title text-9xl font-headline tracking-tighter m-10 md:m-20 mb-0 md:mb-0">Časopisi</h1>
+<h1 class="wide-title text-9xl font-headline tracking-tighter m-10 md:m-20 mb-0 md:mb-0">Arhiva časopisa</h1>
 
 <div class="w-full flex max-xl:flex-col gap-40 p-10 md:p-20">
     <div class="w-80 md:w-auto md:max-w-2xl xl:w-80 shrink-0 xl:sticky xl:top-20 xl:self-start xl:ml-2 flex flex-col md:flex-row xl:flex-col max-xl:mx-auto gap-0 md:gap-8 xl:gap-0">
-        <img class="rounded-2xl shadow-2xl shadow-zinc-700 max-w-xs" src={latestMagazine.imgCover} alt="Naslovnica {latestMagazine.title}"/>
+        <div>
+            <a class="h-96 max-xl:items-center" href={latestMagazine.url}>
+                <img class="rounded-2xl shadow-2xl shadow-zinc-700 max-w-xs" src={latestMagazine.imgCover} alt="Naslovnica {latestMagazine.title}"/>
+            </a>
+        </div>
 
         <div class="mt-6 flex flex-col items-start">
             <h2 class="text-4xl font-headline font-bold tracking-tighter text-emerald-400">{@html latestMagazine.title}</h2>
