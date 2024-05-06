@@ -34,6 +34,7 @@
 		<a class="stretchy-footer-link" class:active={currentUrl.startsWith('/casopisi')} href="/casopisi">Časopisi</a>
 		<a class="stretchy-footer-link" class:active={currentUrl.startsWith('/natjecanja')} href="/natjecanja">Natjecanja</a>
 		<a class="stretchy-footer-link" class:active={currentUrl.startsWith('/o-nama')} href="/o-nama">O nama</a>
+		<a class="stretchy-footer-link" class:active={currentUrl.startsWith('/impresum')} href="/impresum">Impresum</a>
 	</nav>
 
 	<div class="md:ml-auto flex flex-wrap items-center justify-end gap-x-4 md:gap-x-6 gap-y-1 md:gap-1 w-max md:w-48 lg:w-max">

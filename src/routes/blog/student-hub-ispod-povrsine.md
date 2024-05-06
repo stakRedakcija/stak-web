@@ -4,7 +4,8 @@ author: Anja Peharda
 date: 2024-04-06
 image: /clanci-slike/2024/student-hub-ispod-povrsine.png
 layout: blog
-featured: true
+featured: false
+sponsored: true
 categories:
   - 'kolumna'
 ---

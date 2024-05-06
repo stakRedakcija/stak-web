@@ -15,7 +15,8 @@
 		'/blog': 'blog',
 		'/casopisi': 'magazine',
 		'/natjecanja': 'competitive',
-		'/o-nama': 'about'
+		'/o-nama': 'about',
+		'/impresum': 'impresum'
 	}
 </script>
 
@@ -34,6 +35,7 @@
 	class:bg-blend-lighten={theme === 'competitive'}
 	class:dark:bg-blend-overlay={theme === 'competitive'}
 	class:theme-about={theme === 'about'}
+	class:theme-impresum={theme === 'impresum'}
 >
 	<Navbar {isLoggedIn} {theme} hasThemeToggle={!currentRoute.includes('/casopisi')} />
 
@@ -65,5 +67,9 @@
 
 	.theme-about {
 		@apply text-slate-900 dark:text-slate-50 bg-rose-200 dark:bg-black/90;
+	}
+
+	.theme-impresum {
+		@apply text-slate-900 dark:text-slate-50 bg-gray-100 dark:bg-black/90;
 	}
 </style>
