@@ -1,6 +1,6 @@
 ---
 title: Impresum
-date: 2024-05-04
+date: 2024-05-06
 ---
 
 <ins><strong>ST@K - ST</strong>udentska <strong>AK</strong>tivnost</ins>
