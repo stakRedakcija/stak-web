@@ -17,7 +17,7 @@
     <Tabs>
         <TabList>
             <Tab>Naše objave</Tab>
-            <Tab>Sponzorirano</Tab>
+            <Tab>Promocije</Tab>
         </TabList>
         <TabPanel>
             <ul class="flex flex-wrap justify-center gap-10 md:gap-14 lg:gap-20 mx-auto px-10 md:px-20 pt-20 pb-40 max-w-[100rem]">
