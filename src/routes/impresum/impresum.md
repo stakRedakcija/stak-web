@@ -1,23 +1,14 @@
 ---
 title: Impresum
-date: 2024-05-06
+date: 2024-05-13
 ---
 
-<ins><strong>ST@K - ST</strong>udentska <strong>AK</strong>tivnost</ins>
+<ins><strong>ST@K</strong>: studentski list Fakulteta organizacije i informatike</ins>
 
-Časopis studenata Fakulteta organizacije i informatike u Varaždinu izlazi dva puta godišnje u tiskanom i elektroničkom obliku.
+Časopis studenata Fakulteta organizacije i informatike u Varaždinu izlazi dva puta godišnje u tiskanom i elektroničkom
+obliku.
 
 <table class="text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-    <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-        <tr>
-            <th scope="col" class="px-6 py-3">
-                Uloga
-            </th>
-            <th scope="col" class="px-6 py-3">
-                Članovi
-            </th>
-        </tr>
-    </thead>
     <tbody>
         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
             <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
@@ -33,6 +24,14 @@ date: 2024-05-06
             </th>
             <td class="px-6 py-4">
                 Ana Horvat
+            </td>
+        </tr>
+        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
+                Uredništvo
+            </th>
+            <td class="px-6 py-4">
+                Anamarija Dominiković, Matea Kucljak, Andreas Leja, Tomislav Milec, Antonija Munjeković, David Slavik, Tin Tomašić
             </td>
         </tr>
         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -67,18 +66,40 @@ date: 2024-05-06
                 Tin Tomašić
             </td>
         </tr>
+        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
+                Mrežno mjesto
+            </th>
+            <td class="px-6 py-4">
+                <a href="https://stak.foi.hr/impresum">https://stak.foi.hr/</a>
+            </td>
+        </tr>
+        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
+                Kontakt
+            </th>
+            <td class="px-6 py-4">
+                <a href="mailto:stak@foi.hr">stak@foi.hr</a>
+            </td>
+        </tr>
+        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
+                Nakladnik
+            </th>
+            <td class="px-6 py-4">
+                Sveučilište u Zagrebu<br>
+                Fakultet organizacije i informatike<br>
+                Pavlinska ulica 2<br>
+                42000 Varaždin
+            </td>
+        </tr>
+        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
+                Za nakladnika
+            </th>
+            <td class="px-6 py-4">
+                prof. dr. sc. Marina Klačmer Čalopa
+            </td>
+        </tr>
     </tbody>
 </table>
-
-**Mrežno mjesto**: https://stak.foi.hr/<br>
-**Kontakt**: stak@foi.hr<br>
-
-<ins><strong>Nakladnik</strong></ins><br>
-Sveučilište u Zagrebu<br>
-Fakultet organizacije i informatike<br>
-Pavlinska ulica 2<br>
-42000 Varaždin<br>
-<br>
-<ins><strong>Za nakladnika</strong></ins><br>
-prof. dr. sc. Marina Klačmer Čalopa
-<br>
