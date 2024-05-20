@@ -16,6 +16,7 @@
 </svelte:head>
 
 <h1 class="wide-title text-9xl font-headline tracking-tighter m-10 md:m-20 mb-0 md:mb-0">Arhiva časopisa</h1>
+<h2 class="wide-title text-xl font-headline tracking-tighter mx-10 md:mx-20 mt-5 mb-0 md:mb-0">studentski list Fakulteta organizacije i informatike</h2>
 
 <div class="w-full flex max-xl:flex-col gap-40 p-10 md:p-20">
     <div class="w-80 md:w-auto md:max-w-2xl xl:w-80 shrink-0 xl:sticky xl:top-20 xl:self-start xl:ml-2 flex flex-col md:flex-row xl:flex-col max-xl:mx-auto gap-0 md:gap-8 xl:gap-0">
