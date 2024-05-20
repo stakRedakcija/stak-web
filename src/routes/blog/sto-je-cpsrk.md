@@ -73,6 +73,7 @@ categories:
 <br><br>
 <b class="text-xl">Povezani članci</b>
 <ul>
+    <li><a href="/blog/cpsrk-financiranje-aktivnosti">Kako do sredstava za željene aktivnosti?</a></li>
     <li><a href="/blog/workshop-days-2024">Workshop days 2024.</a></li>
 </ul>
 
