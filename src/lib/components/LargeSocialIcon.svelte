@@ -1,8 +1,8 @@
 <script>
 	import { getRandomInt } from '$lib/utils/index'
 
-	import { Facebook, Twitter, Instagram, Youtube as YouTube, Issuu } from '@inqling/svelte-icons/simple-icons'
-	import { Envelope, ArrowTopRightOnSquare, GlobeAlt, Link } from '@inqling/svelte-icons/heroicon-24-solid'
+	import { Gmail, Facebook, Twitter, Instagram, Youtube as YouTube, Issuu } from '@inqling/svelte-icons/simple-icons'
+	import { ArrowTopRightOnSquare, GlobeAlt, Link } from '@inqling/svelte-icons/heroicon-24-solid'
 
 	export let data
 
@@ -25,7 +25,7 @@
             style:border-radius={`${getRandomInt(40, 90) / 100}rem`}
     >
         {#if type === 'mail'}
-            <Envelope class="social-icon-lg"/>
+            <Gmail class="social-icon-lg"/>
         {:else if type === 'facebook'}
             <Facebook class="social-icon-lg"/>
         {:else if type === 'twitter'}

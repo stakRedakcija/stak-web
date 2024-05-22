@@ -1,6 +1,5 @@
 <script>
-	import { Envelope } from '@inqling/svelte-icons/heroicon-24-solid'
-	import { Facebook, Twitter, Instagram, Youtube as YouTube, Issuu } from '@inqling/svelte-icons/simple-icons'
+	import { Gmail, Facebook, Twitter, Instagram, Youtube as YouTube, Issuu } from '@inqling/svelte-icons/simple-icons'
 
 	export let type
 	export let url
@@ -9,7 +8,7 @@
 
 <a class="group flex items-center justify-center social-icon-theme-{theme} border-[3px] border-transparent rounded-md hover:shadow-md p-1.5 md:p-2.5 transition" href={url}>
 	{#if type === 'mail'}
-		<Envelope class="social-icon" />
+		<Gmail class="social-icon" />
 	{:else if type === 'facebook'}
 		<Facebook class="social-icon" />
 	{:else if type === 'twitter'}
