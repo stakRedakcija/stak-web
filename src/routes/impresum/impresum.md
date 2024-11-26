@@ -31,7 +31,7 @@ obliku.
                 Uredništvo
             </th>
             <td class="px-6 py-4">
-                Anamarija Dominiković, Marija Bakale, Leon Bartolić, Goran Bogatić Malešević, Emilia Jelačić, Ema Jukić, Leo Fran, David Slavik, Klara Škaulj, Morana Žuro
+                Anamarija Dominiković, Matea Kucljak, Tomislav Milec, Antonija Munjeković, David Slavik, Tin Tomašić, Ivan Boščić, Mateo Čuvalo
             </td>
         </tr>
         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -47,7 +47,7 @@ obliku.
                 Fotografija
             </th>
             <td class="px-6 py-4">
-                Ivan Boščić, Ema Jukić, Tomislav, Milec, Rea Sobošćan, Anja Svetličić
+                Ivan Boščić, Ema Jukić, Tomislav Milec, Rea Sobošćan, Anja Svetličić
             </td>
         </tr>
         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -80,6 +80,14 @@ obliku.
             </th>
             <td class="px-6 py-4">
                 Tin Tomašić, Adam Marjanović
+            </td>
+        </tr>
+        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
+                Web administracija
+            </th>
+            <td class="px-6 py-4">
+                Tin Tomašić
             </td>
         </tr>
         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">

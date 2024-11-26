@@ -131,3 +131,4 @@ const fileExists = async (path) => await Bun.file(path).exists()
 const slugify = (str) => str.toLowerCase().split(' ').join('-')
 
 await main()
+
