@@ -1,6 +1,6 @@
 ---
 title: Impresum
-date: 2024-05-13
+date: 2024-12-01
 ---
 
 <ins><strong>ST@K</strong>: studentski list Fakulteta organizacije i informatike</ins>
@@ -31,7 +31,7 @@ obliku.
                 Uredništvo
             </th>
             <td class="px-6 py-4">
-                Anamarija Dominiković, Matea Kucljak, Andreas Leja, Tomislav Milec, Antonija Munjeković, David Slavik, Tin Tomašić
+                Anamarija Dominiković, Matea Kucljak, Tomislav Milec, Antonija Munjeković, David Slavik, Tin Tomašić, Ivan Boščić, Mateo Čuvalo
             </td>
         </tr>
         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -39,7 +39,15 @@ obliku.
                 Lektura i korektura
             </th>
             <td class="px-6 py-4">
-                Antonija Munjeković, Anamarija Dominiković, Elena Kržina, Emilia Jelačić, Laura Krišković, Leonardo Petran, Anja Peharda
+                Antonija Munjeković, Anamarija Dominiković, Emilia Jelačić, Laura Kriško, Leo Fran, Marta Pamuklić, Leonardo Petran 
+            </td>
+        </tr>
+        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
+                Fotografija
+            </th>
+            <td class="px-6 py-4">
+                Ivan Boščić, Ema Jukić, Tomislav Milec, Rea Sobošćan, Anja Svetličić
             </td>
         </tr>
         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -47,7 +55,23 @@ obliku.
                 Grafički dizajn
             </th>
             <td class="px-6 py-4">
-                David Slavik, Domagoj Babić, Marija Bekale, Kristijan Cepanec, Mateo Čuvalo, Leonarda Ferk, Petra Jakopović, Elena Kržina, Andreas Leja, Nina Obadić
+                David Slavik, Marija Bakale, Kristijan Cepanec, Mateo Čuvalo, Leonarda Ferk, Petra Jakopović, Nina Obadić, Marta Pamuklić, Petar Pavlić, Eva Petrović
+            </td>
+        </tr>
+        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
+                Film Crew
+            </th>
+            <td class="px-6 py-4">
+                Tomislav Milec, Luka Arbutina, Ivan Boščić, Kristijan Cepanec, Kaja Culjak, Eva Petrović
+            </td>
+        </tr>
+        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
+                Community Management
+            </th>
+            <td class="px-6 py-4">
+                Matea Kucljak, Marija Bakale, Leonarda Ferk, Eva Petrović, Klara Škaulj
             </td>
         </tr>
         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -55,7 +79,7 @@ obliku.
                 Web dizajn i programiranje
             </th>
             <td class="px-6 py-4">
-                Tin Tomašić
+                Tin Tomašić, Adam Marjanović
             </td>
         </tr>
         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
