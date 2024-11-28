@@ -1,6 +1,6 @@
 ---
 title: Impresum
-date: 2024-11-18
+date: 2024-12-01
 ---
 
 <ins><strong>ST@K</strong>: studentski list Fakulteta organizacije i informatike</ins>
