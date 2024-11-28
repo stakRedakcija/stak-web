@@ -115,9 +115,9 @@
 					</TimelineOppositeContent>
 					<TimelineSeparator>
 						{#if i === 0 || casopisi[casopisi.length - i].editor !== casopisi[casopisi.length - i - 1].editor }
-							<Bookmark class="text-red-800 dark:text-red-200" />
+							<Bookmark class="w-6 h-6 text-red-800 dark:text-red-200" />
 						{:else}
-							<Stop class="text-red-800 dark:text-red-200" />
+							<Stop class="w-6 h-6 text-red-800 dark:text-red-200" />
 						{/if}
 						<TimelineConnector />
 					</TimelineSeparator>
