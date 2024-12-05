@@ -1,6 +1,6 @@
 ---
 title: Impresum
-date: 2024-12-01
+date: 2024-12-09
 ---
 
 <ins><strong>ST@K</strong>: studentski list Fakulteta organizacije i informatike</ins>
@@ -20,18 +20,10 @@ obliku.
         </tr>
         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
             <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
-                Zamjenik urednika
-            </th>
-            <td class="px-6 py-4">
-                Ana Horvat
-            </td>
-        </tr>
-        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-            <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
                 Uredništvo
             </th>
             <td class="px-6 py-4">
-                Anamarija Dominiković, Matea Kucljak, Tomislav Milec, Antonija Munjeković, David Slavik, Tin Tomašić, Ivan Boščić, Mateo Čuvalo
+                Ivan Boščić, Mateo Čuvalo, Anamarija Dominiković, Matea Kucljak, Tomislav Milec, Antonija Munjeković, David Slavik, Tin Tomašić
             </td>
         </tr>
         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -39,7 +31,7 @@ obliku.
                 Lektura i korektura
             </th>
             <td class="px-6 py-4">
-                Antonija Munjeković, Anamarija Dominiković, Emilia Jelačić, Laura Kriško, Leo Fran, Marta Pamuklić, Leonardo Petran 
+                Antonija Munjeković, Anamarija Dominiković, Emilia Jelačić, Laura Krišković, Leo Fran Maltar Kovačić, Marta Pamuklić, Leonardo Petran, Anja Peharda
             </td>
         </tr>
         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -55,12 +47,12 @@ obliku.
                 Grafički dizajn
             </th>
             <td class="px-6 py-4">
-                David Slavik, Marija Bakale, Kristijan Cepanec, Mateo Čuvalo, Leonarda Ferk, Petra Jakopović, Nina Obadić, Marta Pamuklić, Petar Pavlić, Eva Petrović
+                David Slavik, Mateo Čuvalo, Marija Bekale, Kristijan Cepanec, Leonarda Ferk, Petra Jakopović, Nina Obadić, Marta Pamuklić, Petar Pavlić, Eva Petrović
             </td>
         </tr>
         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
             <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
-                Film Crew
+                Film crew
             </th>
             <td class="px-6 py-4">
                 Tomislav Milec, Luka Arbutina, Ivan Boščić, Kristijan Cepanec, Kaja Culjak, Eva Petrović
@@ -123,6 +115,16 @@ obliku.
             </th>
             <td class="px-6 py-4">
                 prof. dr. sc. Marina Klačmer Čalopa
+            </td>
+        </tr>
+        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white">
+                ISSN
+            </th>
+            <td class="px-6 py-4">
+                ISSN 3043-9671 (Online)
+                <br>
+                ISSN 2584-6280 (Tisak)
             </td>
         </tr>
     </tbody>
