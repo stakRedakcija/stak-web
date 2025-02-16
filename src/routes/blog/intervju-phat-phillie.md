@@ -7,7 +7,7 @@ imageSource: 'St@k'
 layout: blog
 featured: true
 categories:
-  - 'kolumna'
+  - 'intervju'
 ---
 
 <script>
