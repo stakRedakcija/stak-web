@@ -38,9 +38,9 @@ Moj je stariji bratić _breakao_, on mi je bio uzor. Kad sam ja njega vidio da b
 
 Znaš, Juga je bila zanimljiva, jedina zemlja iz Istočnog bloka koja je izdavala američki hip-hop na domaćem vinilu. 1981. izdana je prva _rap_\-ploča kod nas, i to u Srbiji, u Aleksandrovcu, u maloj diskografskoj kući Diskos. Izašli su Sugarhill Gang, Grandmaster Flash i The Sequence. A onda izlazi Sugarhill Gang na PGP-RTB. 1982., 1983. i 1984. izlaze ploče, onda Beastie Boys 1986., pa izlazi kod nas _Raising Hell_, treći album Run-DMC-ja, pa _Back from Hell_ 1988., Houdini 1987., Jazzy Jeff & The Fresh Prince, Mantronix, Bomb the Bass i LL Cool J (_I’m Bad_).
 
-**_David:_** Zanimljivo je da su neki od tih albuma koji su na dvije ploče nama došli tiskani na jednoj. Konkretno, radi se o PGP-RTB izdanju albuma _He's The DJ, I'm The Rapper_ dvojca Jazzy Jeff & The Fresh Prince. Nijedan hip-hop album prije njega nije bio izdan na dvije ploče. Čitateljice i čitatelji sigurno prepoznaju Fresh Princea (Will Smith) zbog serije <em>Princ s Bel Aira</em>! 
+**_David:_** Zanimljivo je da su neki od tih albuma koji su na dvjema pločama, nama došli tiskani na jednoj. Konkretno, radi se o PGP-RTB izdanju albuma _He's The DJ, I'm The Rapper_ dvojca Jazzy Jeff & The Fresh Prince. Nijedan hip-hop album prije njega nije bio izdan na dvije ploče. Čitateljice i čitatelji sigurno prepoznaju Fresh Princea (Will Smith) zbog serije <em>Princ iz Bel Aira</em>! 
 
-**_Filip:_** Tako je, taj album je bio izdan na duplom vinilu (A, B, C i D strane), a kod nas je objavljena samo A i B strana.
+**_Filip:_** Tako je, taj album bio je izdan na duplom vinilu (A, B, C i D strane), a kod nas je objavljena samo A i B strana.
 
 <ImageWithCaption
   images={[
@@ -86,13 +86,13 @@ Imam fotku iz 1991,. gdje nosim traper-jaknu i ljubičastu De La Soul majicu u N
 
 <ImageWithCaption caption='Phat Phillie u New Yorku (1991.)' imageUrl='/clanci-slike/2025/intervju-phat-phillie/phillie-new-york-1991.webp' />
 
-**Napomena (David):** Mislim da je jako važno napomenuti da su <a href="https://www.youtube.com/watch?v=phhfKy7YXLo" target="_blank">Public Enemy i Ice-T nastupali u Zagrebu</a> za vrijeme trajanja rata. Na toj turneji trebao je prisustvovati i 2Pac. Chuck D iz grupe Public Enemy pričao je o tom iskustvu u emisiji <a href="https://youtu.be/IGKMYBb1En0?feature=shared&t=1356" target="_blank"><em>Sway in the Morning</em></a> (vremenska oznaka 22:36).
+**Napomena (_David_):** Mislim da je jako važno napomenuti da su <a href="https://www.youtube.com/watch?v=phhfKy7YXLo" target="_blank">Public Enemy i Ice-T nastupali u Zagrebu</a> za vrijeme trajanja rata. Na toj turneji trebao je prisustvovati i 2Pac. Chuck D iz grupe Public Enemy pričao je o tom iskustvu u emisiji <a href="https://youtu.be/IGKMYBb1En0?feature=shared&t=1356" target="_blank"><em>Sway in the Morning</em></a> (vremenska oznaka 22:36).
 
 **_David:_** Jesi već za vrijeme boravka u Londonu stvarao tamo neke veze s ljudima i izvođačima? Navedi nam neke koncerte na kojima si tamo bio. Ako se ne varam, nedavno je OutKast objavio na društvenim mrežama <a href="https://www.instagram.com/p/Ck1h6KjOmdL/" target="_blank">fotke s koncerta iz Londona</a> koje si ti slikao.
 
 **_Filip:_** U Londonu sam upoznao svoje bitne prve kontakte: DJ 279, Cutmaster Swift s radiostanice Choice FM, DJ MK, u to doba mixtape DJ i prodavač ploča u jednom dućanu u Sohou, Roots Manuva, Afrika Bambaataa, sve izdavačke kuće… Prvi put gledao izvođače KRS-One, Fugees, Smoothe da Hustler, Trigger the Gambler, Jeru The Damaja, DJ Premier…
 
-<ImageWithCaption caption='Jedna od fotografija nastupa OutKasta u Londonu koju je Phillie fotografirao' imageUrl='/clanci-slike/2025/intervju-phat-phillie/phillie-outkast.webp' />
+<ImageWithCaption caption='Jedna od fotografija nastupa OutKasta u Londonu koju je Phillie fotografirao (1996.)' imageUrl='/clanci-slike/2025/intervju-phat-phillie/phillie-outkast.webp' />
 
 Da, ja sam slikao to. Slikao sam gdje god sam došao. OutKast je objavio moje fotke, to je bila promocija njihova albuma ATLiens za 200 – 300 ljudi. Gledao sam razne koncerte: Jay-Z, EPMD, Foxy Brown, Lost Boys, Helter Skelter... Gledao sam baš, baš puno koncerata, išao sam u klubove, izdavačke kuće, nagrabio sam dosta promoploča i vratio sam se u Zagreb dok cijelo to vrijeme Frx u Zagrebu i dalje vodi emisiju jednom tjedno, a ja se njemu telefonski javljam s najnovijim vijestima svakog utorka. I, tog se sjećam, nisam zvao s tetina telefona od doma jer je bilo dosta kasno, otprilike 1 iza ponoći, već bih se spustio do telefonske govornice ispred zgrade i odande zvao. Budući da je svaka telefonska govornica imala svoj broj, Frx bi me nazvao s radija iz Zagreba, a ti razgovori znali su biti po 30 – 40 minuta jer sam toliko toga htio reći.
 
@@ -100,11 +100,11 @@ Da, ja sam slikao to. Slikao sam gdje god sam došao. OutKast je objavio moje fo
 
 **_Filip:_** Plaćala je to Stojedinica. Bilo je novca tada. Uglavnom, vratio sam se iz Londona, gdje sam napravio odlične veze, započeo Zulu Nation s Bambaatom, te smo otišli smo kod javnog bilježnika napraviti dokument koji i dalje imam s njegovim potpisom.
 
-<ImageWithCaption caption='Sporazum kojim je Hrvatska postala članica pokreta Zulu Nation' imageUrl='/clanci-slike/2025/intervju-phat-phillie/zulu-nation-croatia.webp' />
+<ImageWithCaption caption='Sporazum kojim je Hrvatska postala članica pokreta Zulu Nation (1996.)' imageUrl='/clanci-slike/2025/intervju-phat-phillie/zulu-nation-croatia.webp' />
 
 **_David:_** Preduhitrio si me s pitanjem. Puno sam slušao cijelu Native Tongues ekipu, pisao sam o tome i u prijašnjim brojevima St@ka. Najviše sam slušao ATCQ te sam uz pomoć njih pohvatao što to Zulu Nation zapravo jest i donedavno nisam uopće bio svjestan da je Hrvatska bila članica tog pokreta.
 
-**_Filip:_** Bila je. Zulu Nation sada je u nekoj svojoj transformaciji. Transformirali su se nakon svih onih optužbi protiv Bambaate. I dalje funkcioniraju na vrlo niskoj razini. Zapravo, nisu se uspjeli uhvatiti ukoštac s vremenom, a ni s problematikom koja im se dogodila _in-house_. Godine 1996. vraćam se iz Engleske i 1997. Bizo i ja započinjemo svoju večer u Aquariusu. Bambaataa dolazi 1996. u Hrvatsku i svira u Aquariusu u veljači. Ta snimka bila je prva zapravo nakon izvođača Public Enemy i Ice-T u Domu sportova 1994. To nam je bio prvi veliki strani _event_, nama je to bilo „Wow, Bambaataa dolazi u Aquarius”, imam i to na VHS-u, i audio, i sve, to sam digitalizirao! HRT je snimao taj koncert s nekoliko kamera i ostavili su kasetu toga u Aquariusu, maznuo sam VHS _tape_ i _audiotape_, tako da je sve to ostalo kod mene sačuvano i digitalizirano.
+**_Filip:_** Bila je. Zulu Nation sada je u nekoj svojoj transformaciji. Transformirali su se nakon svih onih optužbi protiv Bambaate. I dalje funkcioniraju na vrlo niskoj razini. Zapravo, nisu se uspjeli uhvatiti ukoštac s vremenom, a ni s problematikom koja im se dogodila _in-house_. Godine 1996. vraćam se iz Engleske i 1997. Bizo i ja započinjemo svoju večer u Aquariusu. Bambaataa dolazi 1996. u Hrvatsku i <a href="https://soundcloud.com/dj-phat-phillie/afrika-bambaataa-time-zone-live-aquarius-zagreb-feb-20-1996?si=1cfaac80edf24d549ae432101311bd12" target="_blank">svira u Aquariusu u veljači</a>. Ta snimka bila je prva zapravo nakon izvođača Public Enemy i Ice-T u Domu sportova 1994. To nam je bio prvi veliki strani _event_, nama je to bilo „Wow, Bambaataa dolazi u Aquarius”, imam i to na VHS-u, i audio, i sve, to sam digitalizirao! HRT je snimao taj koncert s nekoliko kamera i ostavili su kasetu toga u Aquariusu, maznuo sam VHS _tape_ i _audiotape_, tako da je sve to ostalo kod mene sačuvano i digitalizirano.
 
 Uglavnom, u to doba kad je Zulu Nation bio jak, tamo 1996./97., 4 – 5 godina vodili smo taj naš ogranak u Hrvatskoj. Koristili smo se njihovim logotipom, bili u kontaktu s njima te je postojala korespondencija. Ja imam i dalje pisma koje su mi stizala iz Zulu Nation HQ-a. Bili smo dio tog hip-hop svijeta u doba kad je to bilo vruće i bitno.
 
@@ -114,7 +114,7 @@ Uglavnom, u to doba kad je Zulu Nation bio jak, tamo 1996./97., 4 – 5 godina v
 
 **_Filip:_** Moja teta Tanja Ivelja, odnosno Tania Velia, bila je glumica u Hollywoodu i pjevačica te je izdala ploče za Jugoton te u Španjolskoj. Glumila je u nekoliko hollywoodskih filmova, poput _Fiend of Dope Island_ i _Queen of Outer Space_, družila se sa Gregoryjem Peckom, Anthonyjem Quinnom, a postoji priča i s Frankom Sinatrom… Bila je zgodna zvijezda i svi su joj se upucavali, a ona je iskoristila svoj izgled i mozak te napravila vrlo solidnu karijeru u Americi. Zatim se vratila u Španjolsku, gdje je postala televizijska voditeljica, nakon čega je završila u Londonu. Ja zapravo nisam poznavao svoju pratetu. Međutim, ona se počela vraćati u Zagreb i javila se mojoj mami. Otišao sam ju posjetiti na sedam dana, a na kraju sam tamo ostao šest mjeseci i vratio se doma za Božić 1996.
 
-<ImageWithCaption caption='Tania Velia' imageUrl='/clanci-slike/2025/intervju-phat-phillie/tania-velia.webp' />
+<ImageWithCaption caption='Tania Velia, Philliejeva prateta' imageUrl='/clanci-slike/2025/intervju-phat-phillie/tania-velia.webp' />
 
 **_David:_** Budući da je tvoj otac član Zagrebačkih solista, sigurno si i od njega pokupio osjećaj za glazbu i ljubav prema njoj.
 
@@ -124,9 +124,9 @@ Uglavnom, u to doba kad je Zulu Nation bio jak, tamo 1996./97., 4 – 5 godina v
 
 **_Filip:_** Da, definitivno. Iskustva iz New Yorka 1991. ne toliko jer sam bio klinac i običan turist. Ono, uđeš u dućan s pločama, vidiš ekipu na cesti kako repa, _breaka_, malo slikaš i slično, ali nisam imao dovoljno godina da uđem u klub niti sam bio na radiju pa nisam imao neke aspiracije da upoznam ljude na sceni. Bilo mi je samo bitno da slušam malo njihove emisije na radiju.
 
-<ImageWithCaption caption='MF DOOM (R. I. P.) i Phat Phillie na Soundwave Festivalu u Tisnom 2013.' imageUrl='/clanci-slike/2025/intervju-phat-phillie/phillie-doom.webp' />
+<ImageWithCaption caption='MF DOOM (R. I. P.) i Phat Phillie na Soundwave Festivalu u Tisnom (2013.)' imageUrl='/clanci-slike/2025/intervju-phat-phillie/phillie-doom.webp' />
 
-**_David:_** Jesi ulovio Stretch Armstrong & Bobbito Show?
+**_David:_** Jesi ulovio _Stretch Armstrong & Bobbito Show_?
 
 **_Filip:_** Nisam, sjećam se da sam ulovio Red Alerta, i to iz Long Islanda. Bio sam baš na nekom kućnom tulumu u Americi. Znam da su vikendom obično bile _rap_\-emisije. To su bili ti _mic shows_ u kojima su bili Chill Out, Red Alert, Marley Marl i Mr. Magic… Dakle, i u to su doba bili poznati Pete Rock, Marley Marl (_In Control_) i drugi. Bilo je različitih emisija koje sam slušao. I, da, najbitnija stvar koja mi se dogodila u Americi 1991. jest ta da sam u _shopping mallu_ Smith Haven Mall upoznao PMD-a iz EPMD-a. On je bio iz tog kvarta i, jednom kad su on i K-Solo išli kupovati tenisice, bio sam u istom dućanu pa sam im se javio.
 
@@ -164,15 +164,17 @@ Lagano sam već nešto stavljao na svoj Instagram, recimo, svjedočio sam <a hre
 
 Radio sam i festival Fresh Island 10 godina... U puno sam projekata sudjelovao i, kad se neke stvari prirodno ugase, onda gledaš na to kao _it was meant to be_. Evo, sada, od 2022., nakon Fresh Islanda, nakon korone, skroz sam se bacio u neke svoje individualne projekte. To su i dalje Blackout Hip-Hop _website_, to su _90’s Tapes_, projekt koji radim za berlinsku etiketu gdje tražimo i ponovno izdajemo manje tražene albume iz 90-ih godina 20. stoljeća, klasike, ali ne Nas, Jay-Z, Wu-Tang, već nešto poput Re-Live, Madskills, Al’ Tariq, za prave fanove. Izdajemo limitirano na ploči, CD-u i kaseti, i to od 300, 500 do 700 kopija. Za njih sam sigurno napravio već 30 projekata te sam A&R. Takvi projekti stalno dolaze, klasici stalno izlaze i jako mi je draga ta suradnja jer sam uspio na tim klasičnim albumima sada dobiti i svoje ime koje piše na njima – Phat Phillie kao A&R. Javljao sam se i nekim prijateljima, donio sam im novac i ponovno izdao njihove ploče u Americi; OC, Madskills, Al' Tariq i dosta drugih. Neke sam tek upoznao – tako da radim puno zanimljivih stvari.
 
-<ImageWithCaption caption="90's Tapes reizdanje albuma <em>God Connections</em> repera Al' Tariqa" imageUrl='/clanci-slike/2025/intervju-phat-phillie/90stapes-altariq.webp' />
+<ImageWithCaption caption="90's Tapes reizdanje albuma <em>God Connections</em> repera Al' Tariqa (2013.)" imageUrl='/clanci-slike/2025/intervju-phat-phillie/90stapes-altariq.webp' />
 
 Međutim, nemaju svi istu ljubav prema hip-hopu, znaš. Nekome to ispari, meni ne. Evo, prošle nam je godine došao i Ice-T 16. lipnja na Šalatu i proslavili smo točno 30 godina prvog njegova dolaska u Zagreb 1994. Našao sam i fotografa Davora Kalaicu, koji je radio za Večernji List u to doba, i pitao sam ga može li naći fotke s tog koncerta. Našao je dva ili tri negativa koje nije dao Večernjem listu, uokvirili smo fotku iz Doma sportova i <a href="https://www.youtube.com/shorts/W-m7z3D-Rm4" target="_blank">poklonili ju Ice-T-ju u Zagrebu.</a>
 
-<ImageWithCaption caption="Phat Phillie, njegova djeca i Ice-T nakon koncerta grupe <em>Body Count</em> na Šalati u Zagrebu (2024.)" imageUrl='/clanci-slike/2025/intervju-phat-phillie/phillie-ice-t-2024.webp' />
+<ImageWithCaption caption="Phat Phillie, njegova djeca i Ice-T nakon koncerta grupe Body Count na Šalati u Zagrebu (2024.)" imageUrl='/clanci-slike/2025/intervju-phat-phillie/phillie-ice-t-2024.webp' />
 
 Meni žena kaže: „Čovječe, tebi mozak radi non-stop.” Ja se svaki dan budim s novim idejama i onda ih zabilježim i pokušam ih realizirati. Istovremeno sam muž, u sretnom braku i otac dvoje djece, Malena i Toma, 13 i 11 godina. Svaki dan kuham za njih, idem na plac, nabavljam hranu, gledam _online_ kuhare i pokušavam kreirati neka jela. Nikad ne kuham strogo po receptima, već iz osjećaja. Volim pomagati ljudima. Uglavnom, mogu ti reći da ne spavam. Šetam i vježbam malo da duže živim. Ja sam izuzetno sretan kako se stvari razvijaju, ali to je zato što ih ja nisam puštao. Da sam pustio stvari, ne bi bilo ništa od toga. Bitno je njegovati hip-hop kao kulturu.
 
-Završili smo i projekt _She Raps_, EU projekt koji smo prijavili prije dvije godine i osvojili smo ga. To je projekt za edukaciju, motivaciju i _upliftment_ ženskih MC-jeva u Belgiji, Francuskoj, Portugalu i na Balkanu. Blackout Hip-Hop, moja udruga, bila je zadužena za vođenje tog projekta i imali smo prijave za djevojke od 21. svibnja do 12. lipnja 2024. godine. Početkom srpnja imali smo 12 dana raznih radionica u United Pop akademiji u Radničkoj u Zagrebu. Doveli smo osam najboljih djevojaka s Balkana, imali smo i žiri koji je izabrao dvije najbolje koje će ići u Europu. Snimit će i zajedničku pjesmu u Zagrebu s jednim od naših producenata, tako da je vrlo zanimljiv taj She Raps projekt.
+Završili smo i _She Raps_, EU projekt koji smo prijavili prije dvije godine i osvojili smo ga. To je projekt za edukaciju, motivaciju i _upliftment_ ženskih MC-jeva u Belgiji, Francuskoj, Portugalu i na Balkanu. Moja udruga Blackout Hip-Hop bila je zadužena za vođenje tog projekta i imali smo prijave za djevojke od 21. svibnja do 12. lipnja 2024. godine. Početkom srpnja imali smo 12 dana raznih radionica u United Pop akademiji u Radničkoj u Zagrebu. Doveli smo osam najboljih djevojaka s Balkana, imali smo i žiri koji je izabrao dvije najbolje koje će ići u Europu. Snimit će i zajedničku pjesmu u Zagrebu s jednim od naših producenata, tako da je vrlo zanimljiv taj _She Raps_ projekt.
+
+**Napomena (_David_):** Čestitamo pobjednicama Eli Džejn i Sahareyi!
 
 <ImageWithCaption caption='Logotip <em>She Raps</em> projekta' imageUrl='/clanci-slike/2025/intervju-phat-phillie/phillie-she-raps.webp' />
 
@@ -182,7 +184,7 @@ Završili smo i projekt _She Raps_, EU projekt koji smo prijavili prije dvije go
 
 Osim tih projekata, napravio sam i kompilaciju _Zagreb Rap Demo_, zagrebački _rap_ od 1985. do 1992. Za Dallas izdajem početkom ove godine jer je prvi _rap_\-demo koji sam našao iz 1985. godine, pa ćemo tim povodom, 40 godina kasnije, izdati nikada objavljene _rap_\-materijale iz Zagreba od 1985. do 1992., gdje je jedna od stvari Master Keops iz 1987. Prva se stvar iz 1987. u Hrvatskoj zove _Number One_ i naći će se na mojoj kompilaciji koja će izaći na kaseti, na vinilu, na Spotifyu i na digitalnim platformama.
 
-<ImageWithCaption caption='Phillie predstavlja ploču <em>Zagreb Rap Demo</em> u emisiji <em>Kod nas doma</em> na programu HRT' imageUrl='/clanci-slike/2025/intervju-phat-phillie/phillie-zagreb-rap-demo.webp' />
+<ImageWithCaption caption='Phillie predstavlja ploču <em>Zagreb Rap Demo</em> u emisiji <em>Kod nas doma</em> na programu HRT (2025.)' imageUrl='/clanci-slike/2025/intervju-phat-phillie/phillie-zagreb-rap-demo.webp' />
 
 Tako da ne znam što bih ti rekao. Mislim da imam više planova od Plenkovića [smijeh]. I sve je vezano uz hip-hop. Imam stvarno različite projekte i moram dnevno izdvojiti sat – dva za svaki. Evo, upravo radim prezentaciju, dogovorio sam se s Mađarskim kulturnim centrom da od veljače do ožujka 2025. godine napravimo izložbu _Memory Lane – 40 godina hip-hopa_ u Zagrebu. Zagreb je proslavio prošle godine 40 godina otkad je Slavin Balen u eteru; 31. srpnja 1984. obilježavamo kao dan kad je Zagreb dobio svoju prvu rap-emisiju na radiju. Na mađarskom Institutu Liszt (Europski trg, Zagreb) napravit ćemo izložbu moje memorabilije na prvom katu, na drugi kat dovest ćemo koautore i kolekcionare DJ-a GYöReMiXa i Krisztiana Kindlera jer poveznica mora biti s Mađarskom, a velika mi je želja iz New Yorka dovesti Stretcha Armstronga, odnosno Adriana Bartosa jer on ima mađarske korijene.
 
@@ -200,7 +202,7 @@ Tako da ne znam što bih ti rekao. Mislim da imam više planova od Plenkovića [
 
 **_David:_** Da, Preach the Rič, to je isto jedan od novijih hip-hop projekata u regiji. Reci nam nešto o njemu.
 
-**_Filip:_** Preach the Rič projekt je koji su 2023. započeli Vedran Meniga iz Pozitivnog ritma, vlasnik Pločnika, DVA OSAM i dućana s pločama PDV, i grupa Hram, koja je zaživjela u Šibeniku. To je bilo sve lokalnog karaktera: Smoke, Frenkie, Kontra, Odie, TDK ekipa, ja… Uglavnom, hrvatska ekipa, osim Smokea i Frenkieja, da bismo 2024. godine digli stepenicu. Ponudio sam ekipi Arrested Development, mislim da je to možda dobra grupa za Šibenik jer nije striktno hip-hop, oni su više kao Afro, grupa koja je devedesetih imala nekoliko globalnih hitova: _Tennessee_, _People Everyday_, _Mr. Wendal_; i osvojili su i nekoliko Grammyja. Također su nam došli Valid i DJ Head iz Detroita. Valid je MC našeg porijekla, poveznica s našom regijom, Mihajlo Perić – on je jako aktivan na sceni Detroita, baš u _undergroundu_, ima i veliko poštovanja od tamošnje afroameričke zajednice, a njegov je suradnik DJ Head, jedan od prvih Eminemovih suradnika. Nedavno je Valid završio i na <a href="https://www.youtube.com/watch?v=UkZudZnezRU&embeds_referring_euri=https%3A%2F%2Fblackouthiphop.com%2F&source_ve_path=MjM4NTE" target="_blank">videu za Detroit Tigers</a>, to je njihov bejzbolski tim. Promovirali su nove dresove u tom promotivnom videu: Valid i njegov partner Stretch Money repaju, a na kraju videa pojavi se Eminem. Zanimljive se stvari događaju u tom našem svijetu _underground_, kako bih rekao, _boom bap_, klasičnog hip-hopa.
+**_Filip:_** Preach the Rič projekt je koji su 2023. započeli Vedran Meniga iz Pozitivnog ritma, vlasnik Pločnika, DVA OSAM i dućana s pločama PDV, i grupa Hram, koja je zaživjela u Šibeniku. To je bilo sve lokalnog karaktera: Smoke, Frenkie, Kontra, Odie, TDK ekipa, ja… Uglavnom, hrvatska ekipa, osim Smokea i Frenkieja, da bismo 2024. godine digli stepenicu. Ponudio sam ekipi Arrested Development, mislim da je to možda dobra grupa za Šibenik jer nije striktno hip-hop, oni su više kao Afro, grupa koja je devedesetih imala nekoliko globalnih hitova: _Tennessee_, _People Everyday_, _Mr. Wendal_; i osvojili su i nekoliko Grammyja. Također su nam došli Valid i DJ Head iz Detroita. Valid je MC našeg porijekla, poveznica s našom regijom, Mihajlo Perić – on je jako aktivan na sceni Detroita, baš u _undergroundu_, ima i veliko poštovanja od tamošnje afroameričke zajednice, a njegov je suradnik DJ Head, jedan od prvih Eminemovih suradnika. Nedavno je Valid završio i na <a href="https://www.youtube.com/watch?v=UkZudZnezRU&embeds_referring_euri=https%3A%2F%2Fblackouthiphop.com%2F&source_ve_path=MjM4NTE" target="_blank">videu za Detroit Tigers</a>, to je njihov bejzbolski tim. Promovirali su nove dresove u tom promotivnom videu: Valid i njegov partner Stretch Money repaju, a <a href="https://youtu.be/UkZudZnezRU?feature=shared&t=182" target="_blank">na kraju videa pojavi se Eminem</a>. Zanimljive se stvari događaju u tom našem svijetu _underground_, kako bih rekao, _boom bap_, klasičnog hip-hopa.
 
 **_David:_** Koji su neki od najdragocjenijih primjera memorabilije koje posjeduješ? Jedan od njih mora biti komad papira na kojemu imaš zapisan telefonski broj Big L-a.
 
@@ -210,7 +212,7 @@ Tako da ne znam što bih ti rekao. Mislim da imam više planova od Plenkovića [
   images={[
     {
       url: "/clanci-slike/2025/intervju-phat-phillie/phat-phillie-big-l-plaketa.webp",
-      caption: "Plaketa za album <em>The Big Picture</em>"
+      caption: "Phillie s plaketom za album <em>The Big Picture</em>"
     },
     {
       url: "/clanci-slike/2025/intervju-phat-phillie/telefonski-broj-big-l.webp",
@@ -242,7 +244,7 @@ Osim toga, znaš, želim svakome da otkrije svoju strast. Ali na taj jedan dubin
 
 **_David_:** Još jednom velika hvala Phillieju na gostovanju. Svim zainteresiranim čitateljicama i čitateljima svakako preporučam da ga zaprate na društvenim mrežama, poslušaju emisije koje je digitalizirao i postavio na <a href="https://soundcloud.com/dj-phat-phillie" target="_blank">SoundCloud</a> te da bace oko na <a href="https://blackouthiphop.com/" target="_blank">Blackout Hip-Hop blog</a>.
 
-Pozivam čitatelje da posjete izložbu <a href="https://www.facebook.com/events/595657516242840/613036247838300" target="_blank"><em>Memory Lane – 40 godina hip-hopa</em></a>, koja će se održati od 25. veljače do 21. ožujka 2025. godine na Institutu Liszt, te pogledaju Philliejevu zavidnu memorabiliju povodom 40 godina hip-hopa! Ulaz je **besplatan!**
+Pozivam čitateljice i čitatelje da posjete izložbu <a href="https://www.facebook.com/events/595657516242840/613036247838300" target="_blank"><em>Memory Lane – 40 godina hip-hopa</em></a>, koja će se održati od 25. veljače do 21. ožujka 2025. godine na Institutu Liszt, te pogledaju Philliejevu zavidnu memorabiliju povodom 40 godina hip-hopa! Ulaz je **besplatan!**
 
 <ImageWithCaption
   linkUrl="https://www.facebook.com/events/595657516242840/613036247838300"
