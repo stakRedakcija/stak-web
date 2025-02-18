@@ -178,7 +178,7 @@ Završili smo i _She Raps_, EU projekt koji smo prijavili prije dvije godine i o
 
 <ImageWithCaption caption='Logotip <em>She Raps</em> projekta' imageUrl='/clanci-slike/2025/intervju-phat-phillie/phillie-she-raps.webp' />
 
-**_David:_** Čini mi se da mnogi ljudi možda nisu svjesni koliko je sjajnih reperica obilježilo zlatno doba hip-hopa. Umjetnice poput Queen Latifah, Lauryn Hill, Roxanne Shanté, Salt-N-Pepa i Bahamadije, koja je nedavno nastupala i u Čakovcu, dale su ogroman doprinos kulturi. Od novijih reperica tu su i Sa-Roc, Rapsody, ma previše ih je za nabrajanje, a ne želim nikoga izostaviti.
+**_David:_** Čini mi se da mnogi ljudi možda nisu svjesni koliko je sjajnih reperica obilježilo zlatno doba hip-hopa. Umjetnice poput Queen Latifah, Lauryn Hill, Roxanne Shanté, Lady of Rage, Salt-N-Pepa i Bahamadije, koja je nedavno nastupala i u Čakovcu, dale su ogroman doprinos kulturi. Od novijih reperica tu su i Sa-Roc, Rapsody, ma previše ih je za nabrajanje, a ne želim nikoga izostaviti.
 
 **_Filip:_** Tako je, da, ali samo 3 % ženskih MC-ja zastupljeno je na top-listama, to je nevjerojatno. Cilj projekta bio je osnažiti status ženskih MC-ja na našem području i pronaći dvije vrhunske da ih šaljemo dalje na usavršavanje. Mislim da je projekt baš dobrodošao, pogotovo u našoj zajednici koja je i dalje dosta tradicionalno orijentirana. Glavna ideja bila je da damo šansu nekome tko to zaslužuje. Tone Tuoro drag mi je suradnik, on je bio jedan od članova žirija.
 
