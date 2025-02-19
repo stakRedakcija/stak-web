@@ -31,7 +31,6 @@
 
     onMount(() => {
         ogDescription = extractOgDescription(content);
-        console.log('OG Description:', ogDescription);
     });
     
 </script>
