@@ -41,25 +41,31 @@
       showArrow = window.scrollY > scrollThreshold;
     };
   
+    // Only run this on the client side
     onMount(() => {
-      window.addEventListener('scroll', handleScroll);
+      if (typeof window !== 'undefined') {
+        window.addEventListener('scroll', handleScroll);
+      }
     });
   
     onDestroy(() => {
-      window.removeEventListener('scroll', handleScroll);
+      if (typeof window !== 'undefined') {
+        window.removeEventListener('scroll', handleScroll);
+      }
     });
   
     const scrollToTop = () => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      if (typeof window !== 'undefined') {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
     };
-  </script>
-  
-  {#if showArrow}
-    <button
-      on:click={scrollToTop}
-      transition:scale={{ duration: 300 }}
-      class={`fixed bottom-8 right-12 p-2 w-12 h-12 flex items-center justify-center rounded-full shadow-lg z-50 ${currentStyles.bg}`}>
-      <ArrowUp size="12" class={currentStyles.arrow} />
-    </button>
-  {/if}
-  
+</script>
+
+{#if showArrow}
+  <button
+    on:click={scrollToTop}
+    transition:scale={{ duration: 300 }}
+    class={`fixed bottom-8 right-12 p-2 w-12 h-12 flex items-center justify-center rounded-full shadow-lg z-50 ${currentStyles.bg}`}>
+    <ArrowUp size="12" class={currentStyles.arrow} />
+  </button>
+{/if}
