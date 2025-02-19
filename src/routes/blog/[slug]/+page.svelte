@@ -30,7 +30,7 @@
         </div>
 
         <div class="col-[1] row-[2] drop-shadow-2xl md:px-6 xl:px-0 md:translate-x-8 xl:translate-x-0 rotate-1 justify-self-end">
-            <div class="torn-paper-5 paper-bg px-6 py-8 my-12 md:px-14 md:py-10 max-w-2xl lg:max-w-4xl">
+            <div class="torn-paper-5 paper-bg px-6 py-8 mt-12 md:px-14 md:py-10 max-w-2xl lg:max-w-4xl">
                 <h1 class="wide-title text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-amber-600 dark:text-amber-100 mb-8 tracking-tight">{@html title}</h1>
                 <p class="font-handwriting text-amber-900 dark:text-amber-50 text-sm sm:text-base">{date} &bull; {author}</p>
             </div>
