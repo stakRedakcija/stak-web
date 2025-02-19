@@ -35,8 +35,8 @@
 
 <svelte:window bind:scrollY={scrollY}/>
 
-<nav class="{scrollY > 48 ? `navbar-${theme} max-sm:backdrop-blur-xl` : ''} navbar-fade flex justify-between p-10 max-sm:pb-24 max-sm:fixed max-sm:top-0 max-sm:left-0 max-sm:right-0 max-sm:z-40 transition">
-    <a class="logo-{theme} md:fixed top-6 md:border-b pb-1.5 pl-0.5 pr-8 -left-5 md:-rotate-90" href="/">
+<nav class="{scrollY > 48 ? `navbar-${theme} backdrop-blur-xl` : ''} navbar-fade flex justify-between p-10 max-sm:pb-24 max-sm:fixed max-sm:top-0 max-sm:left-0 max-sm:right-0 max-sm:z-40 transition">
+   <a class="logo-{theme} md:fixed top-6 md:border-b pb-1.5 pl-0.5 pr-8 -left-5 md:-rotate-90" href="/">
         <StakLogo class="h-10 w-[4.75rem]"/>
     </a>
 
@@ -184,10 +184,19 @@
         @apply underline pointer-events-none select-none;
     }
 
+    .navbar-fade {
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+    }
+
     @media (max-width: 640px) {
         .navbar-fade {
             -webkit-mask-image: linear-gradient(to bottom, black 0%, black 50%, transparent 100%);
             mask-image: linear-gradient(to bottom, black 0%, black 30%, rgb(0 0 0 / 0.6) 55%, transparent 100%);
         }
-    }
+        .navbar-fade.blur {
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+        }
+}
 </style>
