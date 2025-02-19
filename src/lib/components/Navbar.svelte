@@ -250,18 +250,11 @@
     }
 
     .navbar-fade {
-        backdrop-filter: blur(15px);
-        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(1rem);
     }
 
     @media (max-width: 640px) {
         .navbar-fade {
-            -webkit-mask-image: linear-gradient(
-                to bottom,
-                black 0%,
-                black 50%,
-                transparent 100%
-            );
             mask-image: linear-gradient(
                 to bottom,
                 black 0%,
@@ -269,10 +262,6 @@
                 rgb(0 0 0 / 0.6) 55%,
                 transparent 100%
             );
-        }
-        .navbar-fade.blur {
-            backdrop-filter: blur(15px);
-            -webkit-backdrop-filter: blur(15px);
         }
     }
 </style>
