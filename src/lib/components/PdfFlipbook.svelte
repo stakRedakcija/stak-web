@@ -21,7 +21,7 @@
 
             for (let pageNumber = 1; pageNumber <= numPages; pageNumber++) {
                 const page = await pdf.getPage(pageNumber);
-                const scale = 1.5;
+                const scale = 4.0;
                 const viewport = page.getViewport({ scale });
 
                 const canvas = document.createElement("canvas");
@@ -34,7 +34,7 @@
                     viewport: viewport,
                 }).promise;
 
-                const imgData = canvas.toDataURL("image/jpeg");
+                const imgData = canvas.toDataURL("image/png");
                 pages.push(imgData);
             }
 
@@ -42,9 +42,8 @@
             await tick();
 
             const pageFlip = new PageFlip(flipbookContainer, {
-                width: 550,
-                height: 733,
-                size: "stretch",
+                width: 620,
+                height: 877,
                 maxShadowOpacity: 0.5,
                 showCover: true,
                 mobileScrollSupport: true,
@@ -68,9 +67,3 @@
         </p>
     {/if}
 </div>
-
-<style>
-    .flipbook-container canvas {
-        background: red !important;
-    }
-</style>
