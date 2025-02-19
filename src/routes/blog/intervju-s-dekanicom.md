@@ -5,7 +5,7 @@ date: 2024-03-08
 image: /clanci-slike/2024/intervju-s-dekanicom.jpg
 imageSource: 'St@k'
 layout: blog
-featured: true
+featured: false
 categories:
   - 'intervju'
 ---

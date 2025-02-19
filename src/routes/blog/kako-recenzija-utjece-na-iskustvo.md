@@ -5,7 +5,7 @@ date: 2024-03-23
 image: /clanci-slike/2024/kako-recenzija-utjece-na-iskustvo.jpg
 imageSource: 'St@k'
 layout: blog
-featured: true
+featured: false
 categories:
   - 'kolumna'
 ---
