@@ -10,7 +10,7 @@ categories:
   - 'kolumna'
 ---
 
-Smatrajte ovo svojevrsnom parodijom na studiranje, ali smatrajte ovo i jednom velikom lekcijom, koliko kod parodično zvučalo.
+Smatrajte ovo svojevrsnom parodijom na studiranje, ali smatrajte ovo i jednom velikom lekcijom, koliko god parodično zvučalo.
 
 **Zašto FOI?**
 
