@@ -1,15 +1,21 @@
 <script>
 	import { ArrowLeft } from '@inqling/svelte-icons/heroicon-24-solid'
-
-	export let data
+	
+    export let data
 	const { content, author, date: rawDate, image, title, imageSource } = data
-
 	const dateData = new Date(rawDate)
 	const date = new Intl.DateTimeFormat('hr-HR', { dateStyle: 'long' }).format(dateData)
 </script>
 
 <svelte:head>
     <title>{title.replace(/(<([^>]+)>)/gi, '')} - St@k</title>
+    <meta property="og:title" content={title.replace(/(<([^>]+)>)/gi, '')} />
+    <meta property="og:description" content={data.ogDescription} />
+    <meta property="og:image" content={data.image} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content={`https://stak.foi.hr/blog/${data.slug}`} />
+    <meta property="og:type" content="article" />
 </svelte:head>
 
 <article class="p-10 md:p-20">
