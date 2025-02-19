@@ -16,7 +16,7 @@
 
 {#if images.length > 0}
   <div class="max-w-[56ch]">
-    <div class="flex flex-col sm:flex-row gap-4 {className}">
+    <div class="flex flex-col sm:flex-row sm:gap-0 {className}">
       {#each images as { url, caption }, index}
         <figure class="flex flex-col items-center" 
             style="transform: rotate({rotations[index]}deg);">
@@ -25,14 +25,14 @@
               <img 
                 src={url}
                 alt={caption}
-                class="max-w-full h-[28rem] w-auto object-cover rounded-xl dark:brightness-75 dark:saturate-[75%] border-8 border-white dark:border-zinc-200 shadow {imageClass}"
+                class="max-w-full w-full sm:h-[28rem] sm:w-auto object-cover rounded-xl dark:brightness-75 dark:saturate-[75%] border-8 border-white dark:border-zinc-200 shadow {imageClass}"
               />
             </a>
           {:else}
             <img 
               src={url}
               alt={caption}
-              class="max-w-full h-[28rem] w-auto object-cover rounded-xl dark:brightness-75 dark:saturate-[75%] border-8 border-white dark:border-zinc-200 shadow {imageClass}"
+              class="max-w-full w-full sm:h-[28rem] sm:w-auto object-cover rounded-xl dark:brightness-75 dark:saturate-[75%] border-8 border-white dark:border-zinc-200 shadow {imageClass}"
             />
           {/if}
           <figcaption class="text-sm text-stone-500 dark:text-zinc-400 text-center">
@@ -52,14 +52,14 @@
           <img 
             src={imageUrl}
             alt={caption}
-            class="max-w-full h-[28rem] w-auto object-cover rounded-xl dark:brightness-75 dark:saturate-[75%] border-8 border-white dark:border-zinc-200 shadow group-hover:border-amber-600 dark:group-hover:border-amber-100 transition-colors {imageClass}"
+            class="max-w-full w-full sm:h-[28rem] sm:w-auto object-cover rounded-xl dark:brightness-75 dark:saturate-[75%] border-8 border-white dark:border-zinc-200 shadow group-hover:border-amber-600 dark:group-hover:border-amber-100 transition-colors {imageClass}"
           />
         </a>
       {:else}
         <img 
           src={imageUrl}
           alt={caption}
-          class="max-w-full h-[28rem] w-auto object-cover rounded-xl dark:brightness-75 dark:saturate-[75%] border-8 border-white dark:border-zinc-200 shadow {imageClass}"
+          class="max-w-full w-full sm:h-[28rem] sm:w-auto object-cover rounded-xl dark:brightness-75 dark:saturate-[75%] border-8 border-white dark:border-zinc-200 shadow {imageClass}"
         />
       {/if}
       <figcaption class="text-sm text-stone-500 dark:text-zinc-400 text-center">
