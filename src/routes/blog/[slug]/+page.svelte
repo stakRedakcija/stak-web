@@ -1,48 +1,20 @@
 <script>
-    import { onMount, afterUpdate } from "svelte";
 	import { ArrowLeft } from '@inqling/svelte-icons/heroicon-24-solid'
 	
     export let data
 	const { content, author, date: rawDate, image, title, imageSource } = data
 	const dateData = new Date(rawDate)
 	const date = new Intl.DateTimeFormat('hr-HR', { dateStyle: 'long' }).format(dateData)
-    
-
-    let ogDescription = '';
-
-    function extractOgDescription(content) {
-        // don't know how much this screws up performance, lets leave it for now?
-        // extract 2 sentences for og:description meta tag when sharing on social media
-        
-        const div = document.createElement('div');
-        document.body.appendChild(div);
-
-        new content({ target: div });
-        const html = div.innerHTML;
-
-        document.body.removeChild(div);
-        const textContent = html.replace(/<[^>]+>/g, '');
-
-        const sentences = textContent.split(/(?<=[.!?])\s+/);
-        const ogSummary = sentences.slice(0, 2).join(' ');
-
-        return ogSummary;
-    }
-
-    onMount(() => {
-        ogDescription = extractOgDescription(content);
-    });
-    
 </script>
 
 <svelte:head>
     <title>{title.replace(/(<([^>]+)>)/gi, '')} - St@k</title>
     <meta property="og:title" content={title.replace(/(<([^>]+)>)/gi, '')} />
-    <meta property="og:description" content={ogDescription} />
+    <meta property="og:description" content={data.ogDescription} />
     <meta property="og:image" content={data.image} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:url" content={`https://yourwebsite.com/blog/${data.slug}`} />
+    <meta property="og:url" content={`https://stak.foi.hr/blog/${data.slug}`} />
     <meta property="og:type" content="article" />
 </svelte:head>
 
