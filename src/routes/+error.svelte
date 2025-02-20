@@ -14,7 +14,7 @@
       <h1
         class="wide-title text-6xl font-headline tracking-tighter text-red-600 dark:text-red-300"
       >
-        Greška 404.
+        Pogreška 404.
       </h1>
       <p
         class="wide-title text-4xl font-headline tracking-tighter mt-5 mb-10 text-grey-300 dark:text-grey-600"
