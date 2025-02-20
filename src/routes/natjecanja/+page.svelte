@@ -2,7 +2,7 @@
 	<title>Natjecanja - St@k</title>
 </svelte:head>
 
-<h1 class="wide-title text-9xl font-headline tracking-tighter m-10 md:m-20 mb-0 md:mb-0 text-violet-600 dark:text-violet-200">Natjecanja</h1>
+<h1 class="wide-title text-7xl md:text-9xl font-headline tracking-tighter m-10 md:m-20 mb-0 md:mb-0 text-violet-600 dark:text-violet-200">Natjecanja</h1>
 
 <section class="flex flex-col lg:flex-row mx-10 md:mx-20 gap-14 lg:gap-20 xl:mx-auto my-20 lg:my-32 w-[80vw] xl:w-max">
 	<picture>
@@ -15,7 +15,7 @@
 	</picture>	
 
 	<div class="flex flex-col gap-4 items-start justify-center max-w-md max-lg:ml-auto text-justify">
-		<h2 class="font-headline text-5xl font-semibold text-violet-500 dark:text-violet-200 tracking-tighter">Škljoc izvan okvira</h2>
+		<h2 class="font-headline text-4xl md:text-5xl font-semibold text-violet-500 dark:text-violet-200 tracking-tighter">Škljoc izvan okvira</h2>
 		<p>Škljoc izvan okvira fotografsko je natjecanje u kojemu se mogu okušati svi. Sve što je potrebno je posjedovati bilo koji oblik kamere i tonu kreativnosti.</p>
 
 		<p>
@@ -43,7 +43,7 @@
 	</picture>
 
 	<div class="flex flex-col gap-4 items-start justify-center max-w-md text-justify">
-		<h2 class="font-headline text-5xl font-semibold text-violet-500 dark:text-violet-200 tracking-tighter">2, 1, 0, kodiraj!</h2>
+		<h2 class="font-headline text-4xl md:text-5xl font-semibold text-violet-500 dark:text-violet-200 tracking-tighter">2, 1, 0, kodiraj!</h2>
 		<p>
 			Programersko natjecanje simboličnog naziva 2, 1, 0 kodiraj! jedan je od načina na koji bilo 
 			koji student FOI-ja može pokazati svoju kreativnost programerskog razmišljanja izvan okvira

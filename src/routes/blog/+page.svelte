@@ -10,7 +10,7 @@
     <title>Blog - St@k</title>
 </svelte:head>
 
-<h1 class="wide-title text-9xl font-headline tracking-tighter m-10 md:m-20 mb-0 md:mb-0 text-yellow-900 dark:text-yellow-200">
+<h1 class="wide-title text-7xl md:text-9xl font-headline tracking-tighter m-10 md:m-20 mb-0 md:mb-0 text-yellow-900 dark:text-yellow-200">
     Blog</h1>
 
 <nav class="ml-10 mr-10 md:ml-20 md:mr-20 mt-5 mb-0 md:mb-0">
