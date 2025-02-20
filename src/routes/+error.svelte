@@ -17,12 +17,12 @@
         Greška 404.
       </h1>
       <p
-        class="wide-title text-3xl font-headline tracking-tighter mt-5 mb-10 text-grey-300 dark:text-grey-600"
+        class="wide-title text-4xl font-headline tracking-tighter mt-5 mb-10 text-grey-300 dark:text-grey-600"
       >
         Oops! Ta stranica ne postoji.
       </p>
       <a
-        class="w-fit inline-flex mx-auto px-6 py-2 rounded-lg shadow-md text-lg font-headline font-semibold bg-red-600 dark:bg-black hover:bg-red-200 dark:hover:bg-red-400 text-grey-100 hover:text-red-50 dark:hover:text-black hover:shadow-lg shadow-red-200 dark:shadow-black/50 hover:shadow-red-400 dark:hover:shadow-red-900 transition"
+        class="w-fit inline-flex mx-auto px-6 py-2 rounded-lg shadow-md text-lg font-headline font-semibold bg-red-300 hover:bg-red-500 dark:bg-black hover:bg-red-200 dark:hover:bg-red-400 text-red-800 hover:text-white hover:text-red-50 dark:hover:text-black hover:shadow-lg shadow-red-200 dark:shadow-black/50 hover:shadow-red-400 dark:hover:shadow-red-900 transition"
         href="/"
       >
         Vrati me na početnu
