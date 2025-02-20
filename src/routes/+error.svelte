@@ -35,7 +35,7 @@
 </script>
 
 <svelte:head>
-  <title>404 - St@k</title>
+  <title>Pogreška 404 - St@k</title>
 </svelte:head>
 
 <main class="min-h-screen flex items-center justify-center">
