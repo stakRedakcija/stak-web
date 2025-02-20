@@ -8,9 +8,9 @@
 
 <main>
   <section
-    class="flex flex-col lg:flex-row mx-10 md:mx-20 gap-14 lg:gap-20 xl:mx-auto my-20 lg:my-32 w-[80vw] xl:w-max"
+    class="flex flex-col lg:flex-row mx-auto gap-14 lg:gap-20 my-20 lg:my-32 w-[80vw] xl:w-max"
   >
-    <div class="text-center">
+    <div>
       <h1
         class="wide-title text-6xl font-headline tracking-tighter text-red-600 dark:text-red-300"
       >
