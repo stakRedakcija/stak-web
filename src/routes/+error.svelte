@@ -2,21 +2,27 @@
   import { page } from "$app/stores";
 
   let theme = "default";
+  
+  const casopisiBase = "/casopisi/";
+  const blogBase = "/blog/";
+  const natjecanjaBase = "/natjecanja/";
+  const impresumBase = "/impresum/";
 
   $: {
     const path = $page.url.pathname;
-    if (path.startsWith("/casopisi")) {
+    if (path.startsWith(casopisiBase) && path.length > casopisiBase.length) {
       theme = "magazine";
-    } else if (path.startsWith("/blog")) {
+    } else if (path.startsWith(blogBase) && path.length > blogBase.length) {
       theme = "blog";
-    } else if (path.startsWith("/natjecanja")) {
+    } else if (path.startsWith(natjecanjaBase) && path.length > natjecanjaBase.length) {
       theme = "competitive";
-    } else if (path.startsWith("/impresum")) {
+    } else if (path.startsWith(impresumBase) && path.length > impresumBase.length) {
       theme = "impresum";
     } else {
       theme = "default";
     }
   }
+
 
   function getButtonThemes(theme) {
     switch (theme) {
