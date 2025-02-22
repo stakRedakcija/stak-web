@@ -5,7 +5,7 @@ date: 2024-03-22
 image: /clanci-slike/2024/tidal-pull.jpg
 imageSource: 'Ivana Šilić'
 layout: blog
-featured: true
+featured: false
 categories:
   - 'intervju'
 excerpt: 'Saznajte više o bendu Tidal Pull kroz Jurjev intervju.'
