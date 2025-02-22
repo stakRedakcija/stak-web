@@ -1,17 +1,17 @@
 <script>
-	import "../app.postcss";
-	import Navbar from "$lib/components/Navbar.svelte";
-	import Footer from "$lib/components/Footer.svelte";
-	import { fly } from "svelte/transition";
-	import { page } from "$app/stores";
-	import socialLinks from "./socialLinks.json";
-
+	import '../app.postcss';
+	import Navbar from '$lib/components/Navbar.svelte';
+	import Footer from '$lib/components/Footer.svelte';
+	import BackToTop from '$lib/components/BackToTop.svelte';
+	import { fly } from 'svelte/transition';
+	import { page } from '$app/stores';
+	import socialLinks from './socialLinks.json';
+  
 	export let data;
 	$: isLoggedIn = data.isLoggedIn;
 	$: currentRoute = $page.url.pathname;
-	$: theme =
-		routeThemes[`/${currentRoute.slice(1).split("/")?.[0]}`] || "default";
-
+	$: theme = routeThemes[`/${currentRoute.slice(1).split('/')?.[0]}`] || 'default';
+  
 	const routeThemes = {
 		"/blog": "blog",
 		"/casopisi": "magazine",
@@ -77,32 +77,36 @@
 			<slot />
 		</div>
 	{/key}
-
+  
 	<Footer {theme} {socialLinks} />
-</div>
-
-<style global lang="postcss">
+  
+	<!-- Include the back-to-top button with theme-based styling -->
+	<BackToTop {theme} />
+  </div>
+  
+  <style global lang="postcss">
 	.theme-default {
-		@apply text-slate-900 dark:text-white bg-red-100 dark:bg-black/90;
+	  @apply text-slate-900 dark:text-white bg-red-100 dark:bg-black/90;
 	}
-
+  
 	.theme-blog {
-		@apply text-slate-900 dark:text-slate-50 bg-amber-100 dark:bg-zinc-900;
+	  @apply text-slate-900 dark:text-slate-50 bg-amber-100 dark:bg-zinc-900;
 	}
-
+  
 	.theme-competitive {
-		@apply text-slate-900 dark:text-violet-50 bg-violet-100 dark:bg-black/90;
+	  @apply text-slate-900 dark:text-violet-50 bg-violet-100 dark:bg-black/90;
 	}
-
+  
 	.theme-magazines {
-		@apply text-slate-100 bg-gradient-to-tl from-zinc-900 to-gray-900;
+	  @apply text-slate-100 bg-gradient-to-tl from-zinc-900 to-gray-900;
 	}
-
+  
 	.theme-about {
-		@apply text-slate-900 dark:text-slate-50 bg-rose-200 dark:bg-black/90;
+	  @apply text-slate-900 dark:text-slate-50 bg-rose-200 dark:bg-black/90;
 	}
-
+  
 	.theme-impresum {
-		@apply text-slate-900 dark:text-slate-50 bg-gray-100 dark:bg-black/90;
+	  @apply text-slate-900 dark:text-slate-50 bg-gray-100 dark:bg-black/90;
 	}
-</style>
+  </style>
+  
