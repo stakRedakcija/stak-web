@@ -115,7 +115,7 @@
             </button>
         {/if}
 
-        <button class="sms:hidden" on:click={() => (mobileMenuOpen = true)}>
+        <button class="sm:hidden" on:click={() => (mobileMenuOpen = true)}>
             <Bars3 class="w-8 h-8" />
         </button>
     </div>
