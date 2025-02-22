@@ -23,10 +23,10 @@
 	<title>O nama - St@k</title>
 </svelte:head>
 
-<h1 class="wide-title text-9xl font-headline tracking-tighter m-10 md:m-20 mb-0 md:mb-0 text-yellow-900 dark:text-yellow-200">O nama</h1>
+<h1 class="wide-title text-7xl md:text-9xl font-headline tracking-tighter m-10 md:m-20 mb-0 md:mb-0 text-yellow-900 dark:text-yellow-200">O nama</h1>
 
 <section id="o-nama" class="mx-10 mt-20 md:m-20 mb-0 md:mb-0">
-	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Tko? Što?</h2>
+	<h2 class="wide-title text-5xl md:text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Tko? Što?</h2>
 
 	<div class="flex flex-col lg:flex-row gap-14 lg:gap-20 xl:mx-auto my-20 lg:my-24 w-[80vw] xl:w-max">
 		<div class="flex flex-col gap-4 items-start justify-center max-w-md text-justify">
@@ -78,7 +78,7 @@
 </section>
 
 <section id="kronologija" class="mx-10 mt-20 md:m-20 mb-0 md:mb-0">
-	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Kronologija</h2>
+	<h2 class="wide-title text-5xl md:text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Kronologija</h2>
 
 	<div class="xl:mx-auto my-20 lg:my-24 w-[90vw] max-w-xl">
 		<p class="text-justify max-sm:mr-10">
@@ -102,7 +102,7 @@
 </section>
 
 <section id="izdanja-casopisa" class="mx-10 mt-20 md:m-20 mb-0 md:mb-0">
-	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Izdanja časopisa</h2>
+	<h2 class="wide-title text-5xl md:text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Izdanja časopisa</h2>
 
 	<div class="xl:mx-auto my-20 lg:my-24 max-w-xl">
 		<Timeline position="left">
@@ -131,7 +131,7 @@
 </section>
 
 <section id="meet-the-crew" class="mx-10 mt-20 md:m-20 mb-0">
-	<h2 class="wide-title text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Meet the crew</h2>
+	<h2 class="wide-title text-5xl md:text-7xl font-headline tracking-tighter mb-8 text-red-800 dark:text-red-200 xl:text-center">Meet the crew</h2>
 
 	<div class="flex flex-wrap gap-x-24 gap-y-16 justify-center pt-4 md:pt-8">
 		{#each members as { name, nameSlug, role, bio, imgRot: mobileImgRot, txtRot: mobileTxtRot, trOrigX: mobileTrOrigX, trOrigY: mobileTrOrigY, trX: mobileTrX, trY: mobileTrY, rot: mobileRot, bgCutout: mobileBgCutout, borderRadius: mobileBorderRadius }, i (i)}
