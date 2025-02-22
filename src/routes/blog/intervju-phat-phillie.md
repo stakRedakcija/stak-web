@@ -1,7 +1,7 @@
 ---
 title: 'Intervju: Phat Phillie'
 author: 'David Slavik'
-date: 2025-02-10
+date: 2025-02-21
 image: /clanci-slike/2025/intervju-phat-phillie/phillie-intervju-fotka-naslovnica.webp
 imageSource: 'St@k'
 layout: blog
