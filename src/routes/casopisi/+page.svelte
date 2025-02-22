@@ -15,7 +15,7 @@
     <title>Arhiva časopisa - St@k</title>
 </svelte:head>
 
-<h1 class="wide-title text-9xl font-headline tracking-tighter m-10 md:m-20 mb-0 md:mb-0">Arhiva časopisa</h1>
+<h1 class="wide-title text-7xl md:text-9xl font-headline tracking-tighter m-10 md:m-20 mb-0 md:mb-0">Arhiva časopisa</h1>
 <h2 class="wide-title text-xl font-headline tracking-tighter mx-10 md:mx-20 mt-5 mb-0 md:mb-0">studentski list Fakulteta organizacije i informatike</h2>
 
 <div class="w-full flex max-xl:flex-col gap-40 p-10 md:p-20">

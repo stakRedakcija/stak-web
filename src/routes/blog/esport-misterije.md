@@ -1,7 +1,7 @@
 ---
 title: 'Esport misterije'
 author: 'Goran Bogatić Malešević'
-date: 2024-05-26'
+date: 2024-05-26
 image: '/clanci-slike/2024/esport-misterije.webp'
 imageSource: 'St@k'
 layout: blog

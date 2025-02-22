@@ -1,15 +1,19 @@
 <script>
-	import { ArrowLeft } from '@inqling/svelte-icons/heroicon-24-solid'
-
-	export let data
-	const { content, author, date: rawDate, image, title, imageSource } = data
-
-	const dateData = new Date(rawDate)
-	const date = new Intl.DateTimeFormat('hr-HR', { dateStyle: 'long' }).format(dateData)
+    import { ArrowLeft } from '@inqling/svelte-icons/heroicon-24-solid'
+    
+    export let data
+    const { content, author, date: rawDate, image, title, imageSource } = data
+    const dateData = new Date(rawDate)
+    const date = new Intl.DateTimeFormat('hr-HR', { dateStyle: 'long' }).format(dateData)
 </script>
 
 <svelte:head>
     <title>{title.replace(/(<([^>]+)>)/gi, '')} - St@k</title>
+    <meta property="og:title" content={`${title.replace(/(<([^>]+)>)/gi, '')}`} />
+    <meta property="og:description" content={data.ogDescription} />
+    <meta property="og:image" content={data.image} />
+    <meta property="og:url" content={`https://stak.foi.hr/blog/${data.slug}`} />
+    <meta property="og:type" content="article" />
 </svelte:head>
 
 <article class="p-10 md:p-20">
@@ -24,13 +28,12 @@
         </div>
 
         <div class="col-[1] row-[2] drop-shadow-2xl md:px-6 xl:px-0 md:translate-x-8 xl:translate-x-0 rotate-1 justify-self-end">
-            <div class="torn-paper-5 paper-bg px-6 py-8 md:px-14 md:py-10 max-w-2xl lg:max-w-4xl">
-                <h1 class="wide-title text-5xl lg:text-7xl text-amber-600 dark:text-amber-100 mb-8 tracking-tight">{@html title}</h1>
-                <p class="font-handwriting text-amber-900 dark:text-amber-50 text-lg">{date} &bull; {author}</p>
+            <div class="torn-paper-5 paper-bg px-6 py-8 md:mt-12 mt-16 md:px-14 md:py-10 max-w-2xl lg:max-w-4xl">
+                <h1 class="wide-title text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-amber-600 dark:text-amber-100 mb-2 md:mb-8 tracking-tight">{@html title}</h1>
+                <p class="font-handwriting text-amber-900 dark:text-amber-50 text-sm sm:text-base">{date} &bull; {author}</p>
             </div>
         </div>
     </div>
-
 
     <div class="article-content mx-auto prose prose-headings:max-w-[56ch] prose-p:max-w-[56ch] text-prose text-justify text-zinc-900 dark:text-white dark:prose-invert prose-blockquote:not-italic prose-blockquote:font-handwriting prose-blockquote:border-amber-600 dark:prose-blockquote:border-amber-900">
         <svelte:component this={content}/>
