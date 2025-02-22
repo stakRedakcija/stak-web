@@ -8,6 +8,7 @@ layout: blog
 featured: true
 categories:
   - 'intervju'
+excerpt: 'Čast nam je ugostiti domaćeg DJ-a, radijskog voditelja i hip-hop aktivista Filipa Ivelju, koji je karijeru izgradio kao Phat Phillie. U ovom intervjuu dotaknuli smo se nekih njegovih projekata te zanimljivih poveznica naše regije i svijeta hip-hop kulture.'
 ---
 
 <script>

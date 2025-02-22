@@ -105,18 +105,18 @@
             <button on:click={toggleTheme}>
                 {#if isDark}
                     <div in:slide>
-                        <Moon />
+                        <Moon/>
                     </div>
                 {:else}
                     <div in:slide>
-                        <Sun />
+                        <Sun/>
                     </div>
                 {/if}
             </button>
         {/if}
 
-        <button class="sm:hidden" on:click={() => (mobileMenuOpen = true)}>
-            <Bars3 />
+        <button class="sms:hidden" on:click={() => (mobileMenuOpen = true)}>
+            <Bars3 class="w-8 h-8" />
         </button>
     </div>
 </nav>
@@ -130,14 +130,14 @@
         <div class="flex justify-between mb-10">
             <a
                 on:click={() => (mobileMenuOpen = false)}
-                class="logo-{theme} md:fixed top-6 md:border-b pb-1.5 pl-0.5 pr-8 -left-5 md:-rotate-90"
+                class="logo-{theme} md:fixed top-6 md:border-b pb-1.5 pl-0.5 md:pr-8 -left-5 md:-rotate-90"
                 href="/"
             >
-                <StakLogo class="h-10 w-min" />
+                <StakLogo class="h-10 w-auto" />
             </a>
 
             <button class="sm:hidden" on:click={() => (mobileMenuOpen = false)}>
-                <XMark />
+                <XMark class="w-8 h-8"/>
             </button>
         </div>
 
@@ -257,7 +257,7 @@
         .navbar-fade {
             mask-image: linear-gradient(
                 to bottom,
-                black 0%,
+                black 40%,
                 black 30%,
                 rgb(0 0 0 / 0.6) 55%,
                 transparent 100%

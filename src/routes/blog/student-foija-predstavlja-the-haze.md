@@ -8,6 +8,7 @@ layout: blog
 featured: false
 categories:
   - 'intervju'
+excerpt: 'Saznajte više o mladom koprivničkom bendu The Haze kroz intervju s Patrikom Lovrekom.'
 ---
 
 <script>

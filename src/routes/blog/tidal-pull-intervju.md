@@ -8,6 +8,7 @@ layout: blog
 featured: true
 categories:
   - 'intervju'
+excerpt: 'Saznajte više o bendu Tidal Pull kroz Jurjev intervju.'
 ---
 
 **Linktree**: https://linktr.ee/tidalpull
