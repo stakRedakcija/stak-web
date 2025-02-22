@@ -8,6 +8,7 @@ layout: blog
 featured: false
 categories:
   - 'fun'
+excerpt: 'Nećete vjerovati da su ovih 22 stvari stare koliko i FOI!'
 ---
 
 <script>
